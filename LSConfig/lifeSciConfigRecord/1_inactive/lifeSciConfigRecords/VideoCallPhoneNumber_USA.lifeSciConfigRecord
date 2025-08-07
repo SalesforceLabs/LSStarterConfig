@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LifeSciConfigRecord xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldValues>
+        <dataType>PHONE</dataType>
+        <fieldName>PhoneNumber</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <phoneValue>777-777-7777</phoneValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>TEXT</dataType>
+        <fieldName>Country</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <textValue>USA</textValue>
+    </fieldValues>
+    <lifeSciConfigCategory>VideoCallPhoneNumber</lifeSciConfigCategory>
+    <masterLabel>USA Test Phone Number</masterLabel>
+</LifeSciConfigRecord>

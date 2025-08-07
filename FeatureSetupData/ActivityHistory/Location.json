@@ -1,0 +1,14 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Location",
+                "referenceId": "ActivityHistoryLocationRef1"
+            },
+            "Name": "ActivityHistory Sample Warehouse",
+            "LocationType": "Warehouse",
+            "IsInventoryLocation": true,
+            "ExternalReference": "AH-WH-001"
+        }
+    ]
+} 

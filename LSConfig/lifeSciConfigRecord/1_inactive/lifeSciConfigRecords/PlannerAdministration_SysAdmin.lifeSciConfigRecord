@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LifeSciConfigRecord xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldValues>
+        <dataType>TEXT</dataType>
+        <fieldName>TimeFormat</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <textValue>h:mm a</textValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>TEXT</dataType>
+        <fieldName>StartTime</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <textValue>06:00</textValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>INTEGER</dataType>
+        <fieldName>DayDuration</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <integerValue>10</integerValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>TEXT</dataType>
+        <fieldName>FirstDayOfTheWeek</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <textValue>Sunday</textValue>
+    </fieldValues>
+     <fieldValues>
+        <dataType>TEXT</dataType>
+        <fieldName>DisplayColleaguesCallsField</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <textValue>Name</textValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>BOOLEAN</dataType>
+        <fieldName>IsRoutesEnabled</fieldName>
+        <hasBooleanValue>true</hasBooleanValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>BOOLEAN</dataType>
+        <fieldName>RoutesSharingEnabled</fieldName>
+        <hasBooleanValue>true</hasBooleanValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>BOOLEAN</dataType>
+        <fieldName>RoutesByMultipleDays</fieldName>
+        <hasBooleanValue>true</hasBooleanValue>
+    </fieldValues>
+    <isActive>false</isActive>
+    <isOrgLevel>false</isOrgLevel>
+    <assignments>
+        <assignedTo>System Administrator</assignedTo>
+        <assignmentLevel>Profile</assignmentLevel>
+    </assignments>
+    <lifeSciConfigCategory>PlannerAdministration</lifeSciConfigCategory>
+    <masterLabel>PlannerAdministration_SysAdmin</masterLabel>
+</LifeSciConfigRecord>

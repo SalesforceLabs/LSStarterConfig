@@ -1,0 +1,24 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "ProductItem",
+        "referenceId": "ProductItemRef1"
+      },
+      "Product2Id": "@ActivityHistoryProduct2Ref1",
+      "LocationId": "@ActivityHistoryLocationRef1",
+      "QuantityOnHand": 25,
+      "QuantityUnitOfMeasure": "Each"
+    },
+    {
+      "attributes": {
+        "type": "ProductItem",
+        "referenceId": "ProductItemRef2"
+      },
+      "Product2Id": "@ActivityHistoryProduct2Ref2",
+      "LocationId": "@ActivityHistoryLocationRef1",
+      "QuantityOnHand": 30,
+      "QuantityUnitOfMeasure": "Each"
+    }
+  ]
+} 

@@ -1,0 +1,19 @@
+{
+  "records": [
+    {
+      "attributes": { "type": "Account", "referenceId": "KAMAccount1" },
+      "Name": "Mayo Clinic",
+      "Description": "Leading medical research and treatment center"
+    },
+    {
+      "attributes": { "type": "Account", "referenceId": "KAMAccount2" },
+      "Name": "Johns Hopkins Medicine",
+      "Description": "World-renowned academic medical center"
+    },
+    {
+      "attributes": { "type": "Account", "referenceId": "KAMAccount3" },
+      "Name": "Stanford Health Care",
+      "Description": "Innovative healthcare and research institution"
+    }
+  ]
+} 

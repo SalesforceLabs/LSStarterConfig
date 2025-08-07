@@ -1,0 +1,49 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "ContactPointAddress",
+                "referenceId": "ContactPointAddressRef1"
+            },
+            "Name": "ContactPointAddress1",
+            "ParentId" :"@AccountRef1",
+            "IsPrimary":true,
+            "IsActive": true,
+            "Street": "Test Street 1",
+            "PostalCode": "55116",
+            "CountryCode": "DE",
+            "Country": "Germany",
+            "City": "Germany 1"
+        },
+        {
+            "attributes": {
+                "type": "ContactPointAddress",
+                "referenceId": "ContactPointAddressRef2"
+            },
+            "Name": "ContactPointAddress2",
+            "ParentId" :"@AccountRef1",
+            "IsPrimary":true,
+            "IsActive": true,
+            "Street": "Test Street 2",
+            "PostalCode": "55117",
+            "CountryCode": "DE",
+            "Country": "Germany",
+            "City": "Germany 2"
+        },
+        {
+            "attributes": {
+                "type": "ContactPointAddress",
+                "referenceId": "ContactPointAddressRef3"
+            },
+            "Name": "ContactPointAddress3",
+            "ParentId" :"@AccountRef2",
+            "IsPrimary":true,
+            "IsActive": true,
+            "Street": "Test Street 3",
+            "PostalCode": "55118",
+            "CountryCode": "DE",
+            "Country": "Germany",
+            "City": "Germany 3"
+        }
+    ]
+}

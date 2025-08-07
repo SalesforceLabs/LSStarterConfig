@@ -1,0 +1,82 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "LifeSciStageAction",
+                "referenceId": "LifeSciStageActionRef1"
+            },
+            "Label": "Respond",
+            "Name": "MI Add Response",
+            "Parameters": "{\"componentConfiguration\":{\"name\":\"lsc4ce:inquiryAnswerModal\"}}",
+            "Type": "Component",
+            "SourceSystemIdentifier": "LifeSciStageActionRef1",
+            "LifeSciStageObjectId": "@LifeSciStageObjectRef1"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciStageAction",
+                "referenceId": "LifeSciStageActionRef2"
+            },
+            "Label": "Add Response Preference",
+            "Name": "MI Add Response Preference",
+            "Parameters": "{\"componentConfiguration\":{\"name\":\"lsc4ce:responsePreferenceSelector\"}}",
+            "Type": "Component",
+            "SourceSystemIdentifier": "LifeSciStageActionRef2",
+            "LifeSciStageObjectId": "@LifeSciStageObjectRef1"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciStageAction",
+                "referenceId": "LifeSciStageActionRef3"
+            },
+            "FieldApiName": "Case.Status",
+            "FieldValue": "Assigned",
+            "Label": "Assign to me",
+            "Name": "MI Assign To Me",
+            "Parameters": "{}",
+            "Type": "RecordUpdate",
+            "SourceSystemIdentifier": "LifeSciStageActionRef3",
+            "LifeSciStageObjectId": "@LifeSciStageObjectRef1"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciStageAction",
+                "referenceId": "LifeSciStageActionRef4"
+            },
+            "FieldApiName": "Case.Status",
+            "FieldValue": "Responded",
+            "Label": "Move Status to Responded",
+            "Name": "MI Respond",
+            "Parameters": "{}",
+            "Type": "RecordUpdate",
+            "SourceSystemIdentifier": "LifeSciStageActionRef4",
+            "LifeSciStageObjectId": "@LifeSciStageObjectRef1"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciStageAction",
+                "referenceId": "LifeSciStageActionRef5"
+            },
+            "FieldApiName": "Case.Status",
+            "FieldValue": "Submitted",
+            "Label": "Submit",
+            "Name": "MI Submit",
+            "Parameters": "{}",
+            "Type": "RecordUpdate",
+            "SourceSystemIdentifier": "LifeSciStageActionRef5",
+            "LifeSciStageObjectId": "@LifeSciStageObjectRef1"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciStageAction",
+                "referenceId": "LifeSciStageActionRef6"
+            },
+            "Label": "Add Signature",
+            "Name": "MI Add Signature Cmp",
+            "Parameters": "{\"componentConfiguration\":{\"name\":\"lsc4ce:inquirySignatureModal\",\"asynchronousValidation\":false,\"parameters\":{\"status\":\"Signed\",\"disclaimerText\":\"Disclaimer Text \"}}}",
+            "Type": "Component",
+            "SourceSystemIdentifier": "LifeSciStageActionRef6",
+            "LifeSciStageObjectId": "@LifeSciStageObjectRef1"
+        }
+    ]
+}

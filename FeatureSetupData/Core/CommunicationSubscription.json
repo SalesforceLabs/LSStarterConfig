@@ -1,0 +1,18 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "CommSubscription",
+                "referenceId": "CommunicationSubscriptionRef1"
+            },
+            "Name": "Cancer Medicine"
+        },
+        {
+            "attributes": {
+                "type": "CommSubscription",
+                "referenceId": "CommunicationSubscriptionRef2"
+            },
+            "Name": "Diabetes Medicine"
+        }
+    ]
+}

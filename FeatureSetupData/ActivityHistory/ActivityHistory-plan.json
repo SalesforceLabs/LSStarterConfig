@@ -1,0 +1,186 @@
+[
+    {
+        "sobject": "Account",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Account.json"
+        ]
+    },
+    {
+        "sobject": "ContactPointAddress",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "ContactPointAddress.json"
+        ]
+    },
+    {
+        "sobject": "Visit",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Visit.json"
+        ]
+    },
+    {
+        "sobject": "LifeScienceEmail",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "LifeScienceEmail.json"
+        ]
+    },
+    {
+        "sobject": "ProviderVisit",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "ProviderVisit.json"
+        ]
+    },
+    {
+        "sobject": "Product2",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Product2.json"
+        ]
+    },
+    {
+        "sobject": "Location",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Location.json"
+        ]
+    },
+    {
+        "sobject": "LifeSciMarketableProduct",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "LifeSciMarketableProduct.json"
+        ]
+    },
+    {
+        "sobject": "ProductItem",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "ProductItem.json"
+        ]
+    },
+    {
+        "sobject": "ProductDisbursement",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "ProductDisbursement.json"
+        ]
+    },
+    {
+        "sobject": "ProviderVisitProdDetailing",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "ProviderVisitProdDetailing.json"
+        ]
+    },
+    {
+        "sobject": "ProviderAffiliation",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "ProviderAffiliation.json"
+        ]
+    },
+    {
+        "sobject": "Case",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Case.json"
+        ]
+    },
+    {
+        "sobject": "Inquiry",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Inquiry.json"
+        ]
+    },
+    {
+        "sobject": "InquiryQuestion",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "InquiryQuestion.json"
+        ]
+    },
+    {
+        "sobject": "AssessmentTask",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "AssessmentTask.json"
+        ]
+    },
+    {
+        "sobject": "LifeSciEmailTemplate",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "LifeSciEmailTemplate.json"
+        ]
+    },
+    {
+        "sobject": "LifeSciEmailTmplSnapshot",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "LifeSciEmailTmplSnapshot.json"
+        ]
+    },
+    {
+        "sobject": "ContentVersion",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "ContentVersion.json"
+        ]
+    },
+    {
+        "sobject": "PresentationPage",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "PresentationPage.json"
+        ]
+    },
+    {
+        "sobject": "Presentation",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Presentation.json"
+        ]
+    },
+    {
+        "sobject": "PresentationLinkedPage",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "PresentationLinkedPage.json"
+        ]
+    },
+    {
+        "sobject": "PresentationForum",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "PresentationForum.json"
+        ]
+    }
+]

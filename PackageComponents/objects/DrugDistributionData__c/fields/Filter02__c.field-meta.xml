@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Filter02__c</fullName>
+    <description>The value used to filter the drug prescription sales data.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The value used to filter the drug prescription sales data.</inlineHelpText>
+    <label>Filter 02</label>
+    <length>100</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

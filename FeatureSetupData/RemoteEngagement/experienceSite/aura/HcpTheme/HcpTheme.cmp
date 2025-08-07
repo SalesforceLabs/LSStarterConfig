@@ -1,0 +1,26 @@
+<aura:component implements="forceCommunity:themeLayout" access="global" description="Sample Custom Theme Layout">
+    <aura:attribute name="search" type="Aura.Component[]" required="false"/>
+    <aura:attribute name="profileMenu" type="Aura.Component[]" required="false"/>
+    <aura:attribute name="navBar" type="Aura.Component[]" required="false"/>
+    <aura:attribute name="newHeader" type="Aura.Component[]" required="false"/>
+    <div>
+        <div class="searchRegion">
+            <!-- Search Publisher component --> 
+            {!v.search}
+        </div>
+        <div class="navigation slds-grid slds-var-p-around_medium" style="width: 100%;">
+            <div class="slds-col slds-size_1-of-1">
+                {!v.navBar}
+            </div>
+        </div>
+        <div class="profileMenuRegion slds-var-p-around_medium" style="display: flex; justify-content: flex-end;">
+            {!v.profileMenu}
+        </div>
+        <div class="newHeader">
+            {!v.newHeader}
+        </div>
+        <div class="mainContentArea">
+            {!v.body}
+        </div>
+    </div>
+</aura:component>

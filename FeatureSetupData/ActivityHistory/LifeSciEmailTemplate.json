@@ -1,0 +1,123 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "LifeSciEmailTemplate",
+                "referenceId": "LifeSciEmailTemplateRef1"
+            },
+            "Name": "Provider Visit Invitation Template",
+            "Description": "Email template for inviting healthcare providers to medical visits and product presentations",
+            "IsActive": true,
+            "EffectiveStartDate": "2024-01-01",
+            "EffectiveEndDate": "2024-12-31",
+            "HasSendConsentAcknowledgement": true,
+            "ShouldIgnoreEmailConsent": false,
+            "IsSubjectLineEditable": true,
+            "CanAttachiCalendarFile": true,
+            "IsDefaultAutoEmailTemplate": false,
+            "ProductId": "@LifeSciMarketableProductRef1",
+            "ReplyToType": "Sales Rep",
+            "SenderType": "Sales Rep",
+            "EmailInvitationActionType": "Create",
+            "EmailInvitationContextType": "ProviderVisit",
+            "AttachmentObjectType": "Account",
+            "SourceSystemName": "Email Template System",
+            "SourceSystemIdentifier": "ET-2024-001"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciEmailTemplate", 
+                "referenceId": "LifeSciEmailTemplateRef2"
+            },
+            "Name": "Product Information Follow-up Template",
+            "Description": "Follow-up email template for sharing detailed product information and clinical data",
+            "IsActive": true,
+            "EffectiveStartDate": "2024-01-01",
+            "EffectiveEndDate": "2024-12-31",
+            "HasSendConsentAcknowledgement": true,
+            "ShouldIgnoreEmailConsent": false,
+            "IsSubjectLineEditable": true,
+            "CanAttachiCalendarFile": false,
+            "IsDefaultAutoEmailTemplate": false,
+            "ProductId": "@LifeSciMarketableProductRef2",
+            "ReplyToType": "Sales Rep", 
+            "SenderType": "Sales Rep",
+            "ReplyToEmailAddress": "medinfo@pharmacompany.com",
+            "AttachmentObjectType": "Account;Product2",
+            "SourceSystemName": "Email Template System",
+            "SourceSystemIdentifier": "ET-2024-002"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciEmailTemplate",
+                "referenceId": "LifeSciEmailTemplateRef3"
+            },
+            "Name": "Appointment Cancellation Template",
+            "Description": "Email template for notifying healthcare providers about appointment cancellations",
+            "IsActive": true,
+            "EffectiveStartDate": "2024-01-01",
+            "EffectiveEndDate": "2024-12-31",
+            "HasSendConsentAcknowledgement": false,
+            "ShouldIgnoreEmailConsent": true,
+            "IsSubjectLineEditable": false,
+            "CanAttachiCalendarFile": true,
+            "IsDefaultAutoEmailTemplate": false,
+            "ProductId": "@LifeSciMarketableProductRef1",
+            "EmailInvitationActionType": "Cancel",
+            "EmailInvitationContextType": "ProviderVisit",
+            "ReplyToType": "Sales Rep",
+            "SenderType": "Sales Rep",
+            "AttachmentObjectType": "Account",
+            "SourceSystemName": "Email Template System",
+            "SourceSystemIdentifier": "ET-2024-003"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciEmailTemplate",
+                "referenceId": "LifeSciEmailTemplateRef4"
+            },
+            "Name": "Safety Information Alert Template",
+            "Description": "Email template for urgent safety communications and product alerts to healthcare providers",
+            "IsActive": true,
+            "EffectiveStartDate": "2024-01-01",
+            "EffectiveEndDate": "2024-12-31",
+            "HasSendConsentAcknowledgement": true,
+            "ShouldIgnoreEmailConsent": true,
+            "IsSubjectLineEditable": false,
+            "CanAttachiCalendarFile": false,
+            "IsDefaultAutoEmailTemplate": true,
+            "ProductId": "@ActivityHistoryProduct2Ref1",
+            "ReplyToType": "Predefined Email",
+            "SenderType": "Predefined Email",
+            "ReplyToEmailAddress": "safety@pharmacompany.com",
+            "SenderEmailFieldApiName": "PersonEmail",
+            "AttachmentObjectType": "Product2",
+            "SourceSystemName": "Safety Alert System",
+            "SourceSystemIdentifier": "ET-2024-004"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciEmailTemplate",
+                "referenceId": "LifeSciEmailTemplateRef5"
+            },
+            "Name": "Clinical Trial Information Template",
+            "Description": "Email template for sharing clinical trial opportunities and enrollment information",
+            "IsActive": true,
+            "EffectiveStartDate": "2024-01-01",
+            "EffectiveEndDate": "2024-12-31",
+            "HasSendConsentAcknowledgement": true,
+            "ShouldIgnoreEmailConsent": false,
+            "IsSubjectLineEditable": true,
+            "CanAttachiCalendarFile": false,
+            "IsDefaultAutoEmailTemplate": false,
+            "ProductId": "@ActivityHistoryProduct2Ref2",
+            "ReplyToType": "Sales Rep",
+            "SenderType": "Sales Rep", 
+            "EmailInvitationActionType": "Update",
+            "EmailInvitationContextType": "ProviderVisit",
+            "AttachmentObjectType": "Account;Product2",
+            "SourceSystemName": "Clinical Trials Portal",
+            "SourceSystemIdentifier": "ET-2024-005"
+        }
+    ]
+} 

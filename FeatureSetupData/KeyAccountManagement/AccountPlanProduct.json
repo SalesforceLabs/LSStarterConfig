@@ -1,0 +1,13 @@
+{
+  "records": [
+    { "attributes": { "type": "AccountPlanProduct", "referenceId": "KAMPlanProd1" }, "AccountPlanId": "@KAMPlan1", "ProductId": "@KAMProductA" },
+    { "attributes": { "type": "AccountPlanProduct", "referenceId": "KAMPlanProd2" }, "AccountPlanId": "@KAMPlan1", "ProductId": "@KAMProductB" },
+    { "attributes": { "type": "AccountPlanProduct", "referenceId": "KAMPlanProd3" }, "AccountPlanId": "@KAMPlan1", "ProductId": "@KAMProductC" },
+    { "attributes": { "type": "AccountPlanProduct", "referenceId": "KAMPlanProd4" }, "AccountPlanId": "@KAMPlan2", "ProductId": "@KAMProductA" },
+    { "attributes": { "type": "AccountPlanProduct", "referenceId": "KAMPlanProd5" }, "AccountPlanId": "@KAMPlan2", "ProductId": "@KAMProductB" },
+    { "attributes": { "type": "AccountPlanProduct", "referenceId": "KAMPlanProd6" }, "AccountPlanId": "@KAMPlan2", "ProductId": "@KAMProductC" },
+    { "attributes": { "type": "AccountPlanProduct", "referenceId": "KAMPlanProd7" }, "AccountPlanId": "@KAMPlan3", "ProductId": "@KAMProductA" },
+    { "attributes": { "type": "AccountPlanProduct", "referenceId": "KAMPlanProd8" }, "AccountPlanId": "@KAMPlan3", "ProductId": "@KAMProductB" },
+    { "attributes": { "type": "AccountPlanProduct", "referenceId": "KAMPlanProd9" }, "AccountPlanId": "@KAMPlan3", "ProductId": "@KAMProductC" }
+  ]
+} 

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MarketId__c</fullName>
+    <description>The identifier of the market that the drug sales distribution data is associated with.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The identifier of the market that the drug sales distribution data is associated with.</inlineHelpText>
+    <label>Market</label>
+    <referenceTo>LifeSciMarketableProduct</referenceTo>
+    <relationshipName>DrugDistribution_Market</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+    <unique>false</unique>
+</CustomField>

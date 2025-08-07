@@ -1,0 +1,64 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "InquiryQuestion",
+                "referenceId": "InquiryQuestionRef1"
+            },
+            "CaseId": "@CaseRef1",
+            "Question": "What are the potential drug interactions between our product and commonly prescribed diabetes medications such as metformin and insulin?",
+            "ResponseStatus": "NotResponded",
+            "Comment": "Specific focus on cardiovascular safety profile and glycemic control implications",
+            "SourceSystemName": "Medical Information Portal",
+            "SourceSystemIdentifier": "MIP-Q-001"
+        },
+        {
+            "attributes": {
+                "type": "InquiryQuestion",
+                "referenceId": "InquiryQuestionRef2"
+            },
+            "CaseId": "@CaseRef1",
+            "Question": "Are there specific dosage adjustments recommended for elderly patients with renal impairment?",
+            "ResponseStatus": "NotResponded",
+            "Comment": "Patient population: 65+ years with moderate chronic kidney disease",
+            "SourceSystemName": "Medical Information Portal",
+            "SourceSystemIdentifier": "MIP-Q-002"
+        },
+        {
+            "attributes": {
+                "type": "InquiryQuestion",
+                "referenceId": "InquiryQuestionRef3"
+            },
+            "CaseId": "@CaseRef2",
+            "Question": "How should the reported gastrointestinal symptoms be classified in terms of severity and relationship to the study drug?",
+            "ResponseStatus": "Responded",
+            "Comment": "Symptoms included nausea and mild abdominal discomfort, resolved within 48 hours",
+            "SourceSystemName": "Safety Database",
+            "SourceSystemIdentifier": "SDB-Q-045"
+        },
+        {
+            "attributes": {
+                "type": "InquiryQuestion",
+                "referenceId": "InquiryQuestionRef4"
+            },
+            "CaseId": "@CaseRef3",
+            "Question": "Can you provide the latest Phase III clinical trial results including primary and secondary endpoints?",
+            "ResponseStatus": "Responded",
+            "Comment": "Data needed for hospital formulary committee evaluation scheduled for next month",
+            "SourceSystemName": "Customer Portal",
+            "SourceSystemIdentifier": "CP-Q-012"
+        },
+        {
+            "attributes": {
+                "type": "InquiryQuestion",
+                "referenceId": "InquiryQuestionRef5"
+            },
+            "CaseId": "@CaseRef3",
+            "Question": "What are the absolute and relative contraindications for this medication in cardiac patients?",
+            "ResponseStatus": "Responded",
+            "Comment": "Specifically interested in patients with history of myocardial infarction or heart failure",
+            "SourceSystemName": "Customer Portal",
+            "SourceSystemIdentifier": "CP-Q-013"
+        }
+    ]
+} 

@@ -1,0 +1,30 @@
+<head>
+<title>       </title>
+
+<style type="text/css">
+.OCE_RichTextInputEditable {
+	border-style: solid;
+	border-color: red;
+	height: 120px;
+	padding: 15px;
+}
+
+.OCE_RichTextInput {
+	height: 120px;
+	padding: 15px;
+}
+</style>
+</head>
+<body bgcolor = "#ffffcc" text = "#000000">
+<body>
+Dear {{recipient.firstname}} {{recipient.lastname}},<br><br>
+{{sender.name}} rescheduled call with you on {{visit.PlannedVisitStartTime}}.<br><br>
+You can still access it using the same link:
+<a href="{{remotesession.url}}">{{remotesession.url}}</a> <br>
+<p>Please join the session
+and try to arrive 5 minutes before the session starts.</p>
+<p>Sincerely yours</p>
+<p>{{sender.name}}</p>
+
+</body>
+</html>

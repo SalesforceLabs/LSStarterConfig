@@ -1,0 +1,46 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "LifeSciEmailTemplate",
+                "referenceId": "LifeSciEmailTemplateRef1"
+            },
+            "Name": "Create Remote Engagement Email Template",
+            "CanAttachiCalendarFile": true,
+            "CurrencyIsoCode": "USD",
+            "EffectiveEndDate": "2027-01-01",
+            "EffectiveStartDate": "2025-01-01",
+            "EmailInvitationActionType": "Create",
+            "EmailInvitationContextType": "ProviderVisit",
+            "IsDefaultAutoEmailTemplate": true
+        },
+        {
+            "attributes": {
+                "type": "LifeSciEmailTemplate",
+                "referenceId": "LifeSciEmailTemplateRef2"
+            },
+            "Name": "Update Remote Engagement Email Template",
+            "CanAttachiCalendarFile": true,
+            "CurrencyIsoCode": "USD",
+            "EffectiveEndDate": "2027-01-01",
+            "EffectiveStartDate": "2025-01-01",
+            "EmailInvitationActionType": "Update",
+            "EmailInvitationContextType": "ProviderVisit",
+            "IsDefaultAutoEmailTemplate": true
+        },
+        {
+            "attributes": {
+                "type": "LifeSciEmailTemplate",
+                "referenceId": "LifeSciEmailTemplateRef3"
+            },
+            "Name": "Cancel Remote Engagement Email Template",
+            "CanAttachiCalendarFile": true,
+            "CurrencyIsoCode": "USD",
+            "EffectiveEndDate": "2027-01-01",
+            "EffectiveStartDate": "2025-01-01",
+            "EmailInvitationActionType": "Cancel",
+            "EmailInvitationContextType": "ProviderVisit",
+            "IsDefaultAutoEmailTemplate": true
+        }
+    ]
+}

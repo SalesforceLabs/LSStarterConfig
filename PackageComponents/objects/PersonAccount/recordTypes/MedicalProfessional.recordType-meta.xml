@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MedicalProfessional</fullName>
+    <active>true</active>
+    <description>Any medical professional providing healthcare services and capable of writing prescriptions, including MD, NP, DO, DPM, PA.</description>
+    <label>Medical Professional</label>
+</RecordType>

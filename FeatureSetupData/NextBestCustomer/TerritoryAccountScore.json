@@ -1,0 +1,169 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "TerritoryAccountScore",
+                "referenceId": "TerritoryAccountScoreRef1"
+            },
+            "AccountId": "$AccountRef577$",
+            "Rank": 1,
+            "ScoreExplainabilityInfo": "{\"scores\":{\"Activity Plan Goal\":30,\"Recently Visited\":30, \"# of interactions last 90 Days\": 20, \"Segment/Tier\":20,\"TRx\":20},\"metrics\":{\"Activity Plan Goal\":50,\"Recently Visited\":2, \"# of interactions last 90 Days\": 4, \"Segment/Tier\":1,\"TRx\":120}}",
+            "ScoreOriginName": null,
+            "SnoozeUntilDate": null,
+            "SourceSystemIdentifier": null,
+            "SourceSystemName": null,
+            "TerritoryId": "$Territory2Ref1$",
+            "TotalScore": 100
+        },
+        {
+            "attributes": {
+                "type": "TerritoryAccountScore",
+                "referenceId": "TerritoryAccountScoreRef2"
+            },
+            "AccountId": "$AccountRef578$",
+            "Rank": 2,
+            "ScoreExplainabilityInfo": "{\"scores\":{\"Activity Plan Goal\":30,\"Recently Visited\":25, \"# of interactions last 90 Days\": 25, \"Segment/Tier\":20,\"TRx\":15},\"metrics\":{\"Activity Plan Goal\":50,\"Recently Visited\":1, \"# of interactions last 90 Days\": 2, \"Segment/Tier\":1,\"TRx\":115}}",
+            "ScoreOriginName": null,
+            "SnoozeUntilDate": null,
+            "SourceSystemIdentifier": null,
+            "SourceSystemName": null,
+            "TerritoryId": "$Territory2Ref1$",
+            "TotalScore": 96
+        },
+        {
+            "attributes": {
+                "type": "TerritoryAccountScore",
+                "referenceId": "TerritoryAccountScoreRef3"
+            },
+            "AccountId": "$AccountRef579$",
+            "Rank": 3,
+            "ScoreExplainabilityInfo": "{\"scores\":{\"Activity Plan Goal\":25,\"Recently Visited\":20, \"# of interactions last 90 Days\": 20, \"Segment/Tier\":20, \"TRx\":15},\"metrics\":{\"Activity Plan Goal\":40,\"Recently Visited\":2, \"# of interactions last 90 Days\": 2, \"Segment/Tier\":1,\"TRx\":115}}",
+            "ScoreOriginName": null,
+            "SnoozeUntilDate": null,
+            "SourceSystemIdentifier": null,
+            "SourceSystemName": null,
+            "TerritoryId": "$Territory2Ref1$",
+            "TotalScore": 92
+        },
+        {
+            "attributes": {
+                "type": "TerritoryAccountScore",
+                "referenceId": "TerritoryAccountScoreRef4"
+            },
+            "AccountId": "$AccountRef580$",
+            "Rank": 4,
+            "ScoreExplainabilityInfo": "{\"scores\":{\"Activity Plan Goal\":20,\"Recently Visited\":20, \"# of interactions last 90 Days\": 20, \"Segment/Tier\":15, \"TRx\":10},\"metrics\":{\"Activity Plan Goal\":35,\"Recently Visited\":1, \"# of interactions last 90 Days\": 2, \"Segment/Tier\":2,\"TRx\":105}}",
+            "ScoreOriginName": null,
+            "SnoozeUntilDate": null,
+            "SourceSystemIdentifier": null,
+            "SourceSystemName": null,
+            "TerritoryId": "$Territory2Ref1$",
+            "TotalScore": 85
+        },
+        {
+            "attributes": {
+                "type": "TerritoryAccountScore",
+                "referenceId": "TerritoryAccountScoreRef5"
+            },
+            "AccountId": "$AccountRef581$",
+            "Rank": 5,
+            "ScoreExplainabilityInfo": "{\"scores\":{\"Activity Plan Goal\":20,\"Recently Visited\":20, \"# of interactions last 90 Days\": 15, \"Segment/Tier\":15, \"TRx\":10},\"metrics\":{\"Activity Plan Goal\":35,\"Recently Visited\":1, \"# of interactions last 90 Days\": 1, \"Segment/Tier\":2,\"TRx\":105}}",
+            "ScoreOriginName": null,
+            "SnoozeUntilDate": null,
+            "SourceSystemIdentifier": null,
+            "SourceSystemName": null,
+            "TerritoryId": "$Territory2Ref1$",
+            "TotalScore": 80
+        },
+        {
+            "attributes": {
+                "type": "TerritoryAccountScore",
+                "referenceId": "TerritoryAccountScoreRef6"
+            },
+            "AccountId": "$AccountRef582$",
+            "Rank": 6,
+            "ScoreExplainabilityInfo": "{\"scores\":{\"Activity Plan Goal\":20,\"Recently Visited\":20, \"# of interactions last 90 Days\": 13, \"Segment/Tier\":12, \"TRx\":5},\"metrics\":{\"Activity Plan Goal\":35,\"Recently Visited\":1, \"# of interactions last 90 Days\": 1, \"Segment/Tier\":2,\"TRx\":95}}",
+            "ScoreOriginName": null,
+            "SnoozeUntilDate": null,
+            "SourceSystemIdentifier": null,
+            "SourceSystemName": null,
+            "TerritoryId": "$Territory2Ref1$",
+            "TotalScore": 70
+        },
+        {
+            "attributes": {
+                "type": "TerritoryAccountScore",
+                "referenceId": "TerritoryAccountScoreRef7"
+            },
+            "AccountId": "$AccountRef583$",
+            "Rank": 7,
+            "ScoreExplainabilityInfo": "{\"scores\":{\"Activity Plan Goal\":18,\"Recently Visited\":18, \"# of interactions last 90 Days\": 13, \"Segment/Tier\":12, \"TRx\":5},\"metrics\":{\"Activity Plan Goal\":33,\"Recently Visited\":0, \"# of interactions last 90 Days\": 1, \"Segment/Tier\":2,\"TRx\":95}}",
+            "ScoreOriginName": null,
+            "SnoozeUntilDate": null,
+            "SourceSystemIdentifier": null,
+            "SourceSystemName": null,
+            "TerritoryId": "$Territory2Ref1$",
+            "TotalScore": 66
+        },
+        {
+            "attributes": {
+                "type": "TerritoryAccountScore",
+                "referenceId": "TerritoryAccountScoreRef8"
+            },
+            "AccountId": "$AccountRef584$",
+            "Rank": 8,
+            "ScoreExplainabilityInfo": "{\"scores\":{\"Activity Plan Goal\":17,\"Recently Visited\":18, \"# of interactions last 90 Days\": 13, \"Segment/Tier\":12, \"TRx\":5},\"metrics\":{\"Activity Plan Goal\":32,\"Recently Visited\":0, \"# of interactions last 90 Days\": 1, \"Segment/Tier\":2,\"TRx\":95}}",
+            "ScoreOriginName": null,
+            "SnoozeUntilDate": null,
+            "SourceSystemIdentifier": null,
+            "SourceSystemName": null,
+            "TerritoryId": "$Territory2Ref1$",
+            "TotalScore": 65
+        },
+        {
+            "attributes": {
+                "type": "TerritoryAccountScore",
+                "referenceId": "TerritoryAccountScoreRef9"
+            },
+            "AccountId": "$AccountRef585$",
+            "Rank": 9,
+            "ScoreExplainabilityInfo": "{\"scores\":{\"Activity Plan Goal\":17,\"Recently Visited\":18, \"# of interactions last 90 Days\": 10, \"Segment/Tier\":10, \"TRx\":5},\"metrics\":{\"Activity Plan Goal\":32,\"Recently Visited\":0, \"# of interactions last 90 Days\": 0, \"Segment/Tier\":2,\"TRx\":95}}",
+            "ScoreOriginName": null,
+            "SnoozeUntilDate": null,
+            "SourceSystemIdentifier": null,
+            "SourceSystemName": null,
+            "TerritoryId": "$Territory2Ref1$",
+            "TotalScore": 60
+        },
+        {
+            "attributes": {
+                "type": "TerritoryAccountScore",
+                "referenceId": "TerritoryAccountScoreRef10"
+            },
+            "AccountId": "$AccountRef586$",
+            "Rank": 10,
+            "ScoreExplainabilityInfo": "{\"scores\":{\"Activity Plan Goal\":17, \"Recently Visited\":18, \"# of interactions last 90 Days\": 10, \"Segment/Tier\":10, \"TRx\":4},\"metrics\":{\"Activity Plan Goal\":31,\"Recently Visited\":0, \"# of interactions last 90 Days\": 0, \"Segment/Tier\":2,\"TRx\":90}}",
+            "ScoreOriginName": null,
+            "SnoozeUntilDate": null,
+            "SourceSystemIdentifier": null,
+            "SourceSystemName": null,
+            "TerritoryId": "$Territory2Ref1$",
+            "TotalScore": 58
+        },
+        {
+            "attributes": {
+                "type": "TerritoryAccountScore",
+                "referenceId": "TerritoryAccountScoreRef11"
+            },
+            "AccountId": "$AccountRef587$",
+            "Rank": 11,
+            "ScoreExplainabilityInfo": "{\"scores\":{\"Activity Plan Goal\":16, \"Recently Visited\":18, \"# of interactions last 90 Days\": 10, \"Segment/Tier\":10, \"TRx\":4},\"metrics\":{\"Activity Plan Goal\":27,\"Recently Visited\":0, \"# of interactions last 90 Days\": 0, \"Segment/Tier\":2,\"TRx\":90}}",
+            "ScoreOriginName": null,
+            "SnoozeUntilDate": null,
+            "SourceSystemIdentifier": null,
+            "SourceSystemName": null,
+            "TerritoryId": "$Territory2Ref1$",
+            "TotalScore": 57
+        }
+    ]
+} 

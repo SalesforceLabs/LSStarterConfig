@@ -1,0 +1,84 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "ProviderSampleLimitTemplate",
+        "referenceId": "ProviderSampleLimitTemplateRef1"
+      },
+      "DeveloperName": "Belgium",
+      "DiscrepancyAlertType": "Error",
+      "IsActive": true,
+      "IsAdvanced": false,
+      "IsCloned": false,
+      "IsLawBased": true,
+      "MasterLabel": "Belgium",
+      "PriorityNumber": 1,
+      "RuleExpression": "[{\"operation\":\"RULE\",\"rule\":\"Belgium_SamplesYTD\"}]",
+      "RuleCondition": "[{\"rule\":\"Belgium_SamplesYTD\",\"label\":\"Samples per Calendar Year\",\"calculation\":\"SamplesPerYear\",\"strategy\":\"SKU\",\"quota\":8,\"period\":{\"type\":\"SampleLimitProductPeriod\",\"params\":{\"starts\":{\"enabled\":false},\"ends\":{\"enabled\":false}}}}]"
+    },
+    {
+      "attributes": {
+        "type": "ProviderSampleLimitTemplate",
+        "referenceId": "ProviderSampleLimitTemplateRef2"
+      },
+      "DeveloperName": "GenericTemplate",
+      "DiscrepancyAlertType": "Error",
+      "IsActive": true,
+      "IsAdvanced": false,
+      "IsCloned": false,
+      "IsLawBased": false,
+      "MasterLabel": "Generic Template",
+      "PriorityNumber": null,
+      "RuleExpression": "[{\"operation\":\"RULE\",\"rule\":\"PerCallLimit\"},{\"operation\":\"RULE\",\"rule\":\"PerPeriodLimit\"},{\"operation\":\"AND\"}]",
+      "RuleCondition": "[{\"rule\": \"PerPeriodLimit\", \"strategy\": \"SKU\", \"quota\": 10, \"name\": \"PerPeriodLimit\", \"label\": \"Maximum Quantity per Period\", \"calculation\": \"SamplesInPeriod\", \"period\": {\"type\": \"SampleLimitDateRangePeriod\", \"params\": {\"starts\": \"\", \"ends\": \"\"}}},{\"rule\": \"PerCallLimit\", \"strategy\": \"SKU\", \"quota\": 2, \"name\": \"PerCallLimit\", \"label\": \"Maximum Quantity per Visit\", \"calculation\": \"SamplesPerVisit\", \"period\": {\"type\": \"SampleLimitDateRangePeriod\", \"params\": {\"starts\": \"\", \"ends\": \"\"}}}]"
+    },
+    {
+      "attributes": {
+        "type": "ProviderSampleLimitTemplate",
+        "referenceId": "ProviderSampleLimitTemplateRef3"
+      },
+      "DeveloperName": "Netherlands",
+      "DiscrepancyAlertType": "Error",
+      "IsActive": true,
+      "IsAdvanced": false,
+      "IsCloned": false,
+      "IsLawBased": false,
+      "MasterLabel": "Netherlands",
+      "PriorityNumber": null,
+      "RuleExpression": "[{\"operation\": \"RULE\", \"rule\": \"Netherlands_SamplesYTD\"}, {\"operation\": \"RULE\", \"rule\": \"Netherlands_SamplesPerVisit\"}, {\"operation\": \"AND\", \"rule\": null}]",
+      "RuleCondition": "[{\"rule\":\"Netherlands_SamplesYTD\",\"label\":\"Maximum Quantity per Calendar Year\",\"calculation\":\"SamplesPerYear\",\"strategy\":\"SKU\",\"quota\":2,\"period\":{\"type\":\"SampleLimitProductPeriod\",\"params\":{\"starts\":{\"enabled\":false},\"ends\":{\"enabled\":false}}}},{\"rule\":\"Netherlands_SamplesPerVisit\",\"label\":\"Maximum Quantity per Visit\",\"calculation\":\"SamplesPerVisit\",\"strategy\":\"SKU\",\"quota\":2,\"period\":{\"type\":\"SampleLimitFirstDropPeriod\",\"params\":{\"interval\":24,\"intervalTime\":\"months\"}}}]"
+    },
+    {
+      "attributes": {
+        "type": "ProviderSampleLimitTemplate",
+        "referenceId": "ProviderSampleLimitTemplateRef4"
+      },
+      "DeveloperName": "Turkey",
+      "DiscrepancyAlertType": "Error",
+      "IsActive": true,
+      "IsAdvanced": false,
+      "IsCloned": false,
+      "IsLawBased": false,
+      "MasterLabel": "Turkey",
+      "PriorityNumber": null,
+      "RuleExpression": "[{\"operation\":\"RULE\",\"rule\":\"Turkey_SamplesRollingFirstYear\"},{\"operation\":\"RULE\",\"rule\":\"Turkey_SamplesRollingSecondYear\"},{\"operation\":\"OR\",\"rule\":null},{\"operation\":\"RULE\",\"rule\":\"Turkey_SamplesPerVisit\"},{\"operation\":\"AND\",\"rule\":null}]",
+      "RuleCondition": "[{\"rule\":\"Turkey_SamplesRollingFirstYear\",\"label\":\"Maximum Quantity for First Rolling Year\",\"calculation\":\"SamplesInPeriod\",\"strategy\":\"SKU\",\"quota\":4,\"period\":{\"type\":\"SampleLimitFirstDropPeriod\",\"params\":{\"interval\":12,\"intervalTime\":\"months\",\"offsetTime\":\"months\"}}},{\"rule\":\"Turkey_SamplesRollingSecondYear\",\"label\":\"Maximum Quantity for Second Rolling Year\",\"calculation\":\"SamplesInPeriod\",\"strategy\":\"SKU\",\"quota\":4,\"period\":{\"type\":\"SampleLimitFirstDropPeriod\",\"params\":{\"interval\":24,\"intervalTime\":\"months\",\"offsetTime\":\"months\"}}},{\"rule\":\"Turkey_SamplesPerVisit\",\"label\":\"Maximum Quantity per Visit\",\"calculation\":\"SamplesPerVisit\",\"strategy\":\"SKU\",\"quota\":4,\"period\":{\"type\":\"SampleLimitFirstDropPeriod\",\"params\":{\"interval\":24,\"intervalTime\":\"months\"}}}]"
+    },
+    {
+      "attributes": {
+        "type": "ProviderSampleLimitTemplate",
+        "referenceId": "ProviderSampleLimitTemplateRef5"
+      },
+      "DeveloperName": "GenericTemplateCloned",
+      "DiscrepancyAlertType": "Warning",
+      "IsActive": true,
+      "IsAdvanced": true,
+      "IsCloned": true,
+      "IsLawBased": false,
+      "MasterLabel": "Generic Template Cloned",
+      "PriorityNumber": 1,
+      "RuleExpression": "[{\"operation\":\"RULE\",\"rule\":\"PerCallLimit\"},{\"operation\":\"RULE\",\"rule\":\"PerPeriodLimit\"},{\"operation\":\"AND\"}]",
+      "RuleCondition": "[{\"rule\": \"PerPeriodLimit\", \"strategy\": \"SKU\", \"quota\": 10, \"name\": \"PerPeriodLimit\", \"label\": \"Maximum Quantity per Period\", \"calculation\": \"SamplesInPeriod\", \"period\": {\"type\": \"SampleLimitDateRangePeriod\", \"params\": {\"starts\": \"\", \"ends\": \"\"}}},{\"rule\": \"PerCallLimit\", \"strategy\": \"SKU\", \"quota\": 2, \"name\": \"PerCallLimit\", \"label\": \"Maximum Quantity per Visit\", \"calculation\": \"SamplesPerVisit\", \"period\": {\"type\": \"SampleLimitDateRangePeriod\", \"params\": {\"starts\": \"\", \"ends\": \"\"}}}]"
+    }
+  ]
+}

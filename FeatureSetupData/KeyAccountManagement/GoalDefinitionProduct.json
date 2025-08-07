@@ -1,0 +1,13 @@
+{
+  "records": [
+    { "attributes": { "type": "GoalDefinitionProduct", "referenceId": "KAMGoalProd1" }, "GoalDefinitionId": "@KAMGoal1", "ProductId": "@KAMProductA" },
+    { "attributes": { "type": "GoalDefinitionProduct", "referenceId": "KAMGoalProd2" }, "GoalDefinitionId": "@KAMGoal1", "ProductId": "@KAMProductB" },
+    { "attributes": { "type": "GoalDefinitionProduct", "referenceId": "KAMGoalProd3" }, "GoalDefinitionId": "@KAMGoal1", "ProductId": "@KAMProductC" },
+    { "attributes": { "type": "GoalDefinitionProduct", "referenceId": "KAMGoalProd4" }, "GoalDefinitionId": "@KAMGoal2", "ProductId": "@KAMProductA" },
+    { "attributes": { "type": "GoalDefinitionProduct", "referenceId": "KAMGoalProd5" }, "GoalDefinitionId": "@KAMGoal2", "ProductId": "@KAMProductB" },
+    { "attributes": { "type": "GoalDefinitionProduct", "referenceId": "KAMGoalProd6" }, "GoalDefinitionId": "@KAMGoal2", "ProductId": "@KAMProductC" },
+    { "attributes": { "type": "GoalDefinitionProduct", "referenceId": "KAMGoalProd7" }, "GoalDefinitionId": "@KAMGoal3", "ProductId": "@KAMProductA" },
+    { "attributes": { "type": "GoalDefinitionProduct", "referenceId": "KAMGoalProd8" }, "GoalDefinitionId": "@KAMGoal3", "ProductId": "@KAMProductB" },
+    { "attributes": { "type": "GoalDefinitionProduct", "referenceId": "KAMGoalProd9" }, "GoalDefinitionId": "@KAMGoal3", "ProductId": "@KAMProductC" }
+  ]
+} 

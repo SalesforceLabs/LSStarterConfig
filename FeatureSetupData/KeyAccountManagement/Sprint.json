@@ -1,0 +1,7 @@
+{
+  "records": [
+    { "attributes": { "type": "Sprint", "referenceId": "KAMSprint1" }, "Name": "Q1 2024 Oncology Sprint", "EffectiveStartDate": "2024-01-01", "EffectiveEndDate": "2024-03-31" },
+    { "attributes": { "type": "Sprint", "referenceId": "KAMSprint2" }, "Name": "Q2 2024 Research Sprint", "EffectiveStartDate": "2024-04-01", "EffectiveEndDate": "2024-06-30" },
+    { "attributes": { "type": "Sprint", "referenceId": "KAMSprint3" }, "Name": "Q3 2024 Outcomes Sprint", "EffectiveStartDate": "2024-07-01", "EffectiveEndDate": "2024-09-30" }
+  ]
+} 

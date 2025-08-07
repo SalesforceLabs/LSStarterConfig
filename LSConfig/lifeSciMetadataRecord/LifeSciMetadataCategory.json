@@ -1,0 +1,55 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "LifeSciMetadataCategory",
+                "referenceId": "AccountDynamicListConfigurationRef1"
+            },
+            "Name": "AccountDynamicListConfiguration",
+            "CategoryLabel": "Account Dynamic List Configuration",
+            "Category": "AccountDynamicListConfiguration",
+            "Type": "Hierarchical"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataCategory",
+                "referenceId": "AccountFilterConfigRef1"
+            },
+            "Name": "AccountFilterConfig",
+            "CategoryLabel": "Account Filter Config",
+            "Category": "AccountFilterConfig",
+            "Type": "List"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataCategory",
+                "referenceId": "AccountListActionsRef1"
+            },
+            "Name": "AccountListActions",
+            "CategoryLabel": "Account List Actions",
+            "Category": "AccountListActions",
+            "Type": "Hierarchical"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataCategory",
+                "referenceId": "ProviderVisitSettingsRef1"
+            },
+            "Name": "ProviderVisitSettings",
+            "CategoryLabel": "Provider Visit Settings",
+            "Category": "ProviderVisitSettings",
+            "Type": "Hierarchical"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataCategory",
+                "referenceId": "AccountSearchPreferencesRef1"
+            },
+            "Name": "AccountSearchPreferences",
+            "CategoryLabel": "Account Search Preferences",
+            "Category": "AccountSearchPreferences",
+            "Type": "Hierarchical"
+        }
+        
+    ]
+}

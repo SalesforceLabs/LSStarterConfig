@@ -1,0 +1,72 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "PresentationPage",
+                "referenceId": "PresentationPageRef1"
+            },
+            "Name": "Patients with arterial hypertension",
+            "Type": "ZIP",
+            "Status": "Active",
+            "ActivationDate": "2025-02-01T20:00:00.000+0000",
+            "DeactivationDate": "2025-12-31T20:00:00.000+0000"            
+        },
+        {
+            "attributes": {
+                "type": "PresentationPage",
+                "referenceId": "PresentationPageRef2"
+            },
+            "Name": "Risks and prevalence",
+            "Type": "ZIP",
+            "Status": "Active"
+        },
+        {
+            "attributes": {
+                "type": "PresentationPage",
+                "referenceId": "PresentationPageRef3"
+            },
+            "Name": "Graph",
+            "Type": "ZIP",
+            "Status": "Active"
+        },
+        {
+            "attributes": {
+                "type": "PresentationPage",
+                "referenceId": "PresentationPageRef4"
+            },
+            "Name": "Video",
+            "Type": "ZIP",
+            "Status": "Active"
+        },
+        {
+            "attributes": {
+                "type": "PresentationPage",
+                "referenceId": "PresentationPageRef5"
+            },
+            "Name": "LSC4CE Dev Guide Page 1",
+            "Type": "PDF",
+            "Status": "Active",
+            "PageNumber": "1"
+        },
+        {
+            "attributes": {
+                "type": "PresentationPage",
+                "referenceId": "PresentationPageRef6"
+            },
+            "Name": "LSC4CE Dev Guide Page 2",
+            "Type": "PDF",
+            "Status": "Active",
+            "PageNumber": "2"
+        },
+        {
+            "attributes": {
+                "type": "PresentationPage",
+                "referenceId": "PresentationPageRef7"
+            },
+            "Name": "LSC4CE Dev Guide Page 3",
+            "Type": "PDF",
+            "Status": "Active",
+            "PageNumber": "3"
+        }
+    ]
+}

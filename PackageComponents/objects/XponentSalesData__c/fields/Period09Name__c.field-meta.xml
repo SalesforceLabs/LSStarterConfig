@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Period09Name__c</fullName>
+    <description>The name of the sales data period 09.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The name of the sales data period 09.</inlineHelpText>
+    <label>Period 09 Name</label>
+    <length>100</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

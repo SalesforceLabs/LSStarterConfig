@@ -1,0 +1,58 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "ProviderVisitRqstSample",
+                "referenceId": "ProviderVisitRqstSampleRef1"
+            },
+            "ProviderVisitId": "@ProviderVisitRef1",
+            "ProductId": "$Product2Ref6$",
+            "RequestedQuantity": 1
+        },
+        {
+            "attributes": {
+                "type": "ProviderVisitRqstSample",
+                "referenceId": "ProviderVisitRqstSampleRef2"
+            },
+            "ProviderVisitId": "@ProviderVisitRef1",
+            "ProductId": "$Product2Ref13$",
+            "RequestedQuantity": 2
+        },
+        {
+            "attributes": {
+                "type": "ProviderVisitRqstSample",
+                "referenceId": "ProviderVisitRqstSampleRef3"
+            },
+            "ProviderVisitId": "@ProviderVisitRef2",
+            "ProductId": "$Product2Ref7$",
+            "RequestedQuantity": 1
+        },
+        {
+            "attributes": {
+                "type": "ProviderVisitRqstSample",
+                "referenceId": "ProviderVisitRqstSampleRef4"
+            },
+            "ProviderVisitId": "@ProviderVisitRef2",
+            "ProductId": "$Product2Ref9$",
+            "RequestedQuantity": 1
+        },
+        {
+            "attributes": {
+                "type": "ProviderVisitRqstSample",
+                "referenceId": "ProviderVisitRqstSampleRef5"
+            },
+            "ProviderVisitId": "@ProviderVisitRef3",
+            "ProductId": "$Product2Ref8$",
+            "RequestedQuantity": 1
+        },
+        {
+            "attributes": {
+                "type": "ProviderVisitRqstSample",
+                "referenceId": "ProviderVisitRqstSampleRef6"
+            },
+            "ProviderVisitId": "@ProviderVisitRef3",
+            "ProductId": "$Product2Ref14$",
+            "RequestedQuantity": 1
+        }
+    ]
+} 

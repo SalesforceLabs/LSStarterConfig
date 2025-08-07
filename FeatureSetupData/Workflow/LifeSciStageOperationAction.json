@@ -1,0 +1,70 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "LifeSciStageOperationAction",
+                "referenceId": "LifeSciStageOperationActionRef1"
+            },
+            "DisplayOrder": 2,
+            "SourceSystemIdentifier": "LifeSciStageOperationActionRef1",
+            "LifeSciStageActionId": "@LifeSciStageActionRef4",
+            "LifeSciStageOperationId": "@LifeSciStageOperationRef17",
+            "Name": "MI Respond"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciStageOperationAction",
+                "referenceId": "LifeSciStageOperationActionRef2"
+            },
+            "DisplayOrder": 1,
+            "SourceSystemIdentifier": "LifeSciStageOperationActionRef2",
+            "LifeSciStageActionId": "@LifeSciStageActionRef1",
+            "LifeSciStageOperationId": "@LifeSciStageOperationRef17",
+            "Name": "MI Add Response"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciStageOperationAction",
+                "referenceId": "LifeSciStageOperationActionRef3"
+            },
+            "DisplayOrder": 2,
+            "SourceSystemIdentifier": "LifeSciStageOperationActionRef3",
+            "LifeSciStageActionId": "@LifeSciStageActionRef6",
+            "LifeSciStageOperationId": "@LifeSciStageOperationRef1",
+            "Name": "MI Add Signature Cmp"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciStageOperationAction",
+                "referenceId": "LifeSciStageOperationActionRef4"
+            },
+            "DisplayOrder": 1,
+            "SourceSystemIdentifier": "LifeSciStageOperationActionRef4",
+            "LifeSciStageActionId": "@LifeSciStageActionRef2",
+            "LifeSciStageOperationId": "@LifeSciStageOperationRef1",
+            "Name": "MI Add Response Preference"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciStageOperationAction",
+                "referenceId": "LifeSciStageOperationActionRef5"
+            },
+            "DisplayOrder": 1,
+            "SourceSystemIdentifier": "LifeSciStageOperationActionRef5",
+            "LifeSciStageActionId": "@LifeSciStageActionRef5",
+            "LifeSciStageOperationId": "@LifeSciStageOperationRef8",
+            "Name": "MI Submit"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciStageOperationAction",
+                "referenceId": "LifeSciStageOperationActionRef6"
+            },
+            "DisplayOrder": 1,
+            "SourceSystemIdentifier": "LifeSciStageOperationActionRef6",
+            "LifeSciStageActionId": "@LifeSciStageActionRef3",
+            "LifeSciStageOperationId": "@LifeSciStageOperationRef5",
+            "Name": "MI Assign To Me"
+        }
+    ]
+}

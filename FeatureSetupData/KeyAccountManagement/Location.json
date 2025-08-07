@@ -1,0 +1,10 @@
+{
+  "records": [
+    {
+      "attributes": { "type": "Location", "referenceId": "KAMLocation1" },
+      "Name": "Main Inventory Warehouse",
+      "LocationType": "Warehouse",
+      "IsInventoryLocation": true
+    }
+  ]
+} 

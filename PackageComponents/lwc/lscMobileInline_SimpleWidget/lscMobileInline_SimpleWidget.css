@@ -1,0 +1,7 @@
+/* Custom container styling */
+.widget-container {
+    background-color: white;
+    border-radius: 1.5rem;
+    border: 1px solid #d8dde6;
+    box-shadow: none;
+}

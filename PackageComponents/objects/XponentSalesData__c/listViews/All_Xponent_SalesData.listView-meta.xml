@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Xponent_SalesData</fullName>
+    <columns>NAME</columns>
+    <columns>AccountId__c</columns>
+    <columns>BrandId__c</columns>
+    <columns>TerrGeoAssignmentRuleId__c</columns>
+    <columns>ChannelType__c</columns>
+    <columns>DataCaptureDate__c</columns>
+    <columns>PeriodType__c</columns>
+    <columns>MarketId__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All Xponent SalesData</label>
+</ListView>

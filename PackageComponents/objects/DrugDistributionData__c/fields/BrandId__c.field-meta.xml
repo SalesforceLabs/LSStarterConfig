@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BrandId__c</fullName>
+    <description>The identifier of the brand that the drug sales distribution data is captured for.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The id of the brand that the drug sales distribution data is captured for.</inlineHelpText>
+    <label>Brand</label>
+    <referenceTo>LifeSciMarketableProduct</referenceTo>
+    <relationshipName>DrugDistribution_Brand</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <unique>false</unique>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,24 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "ProviderAffiliation",
+                "referenceId": "ProviderAffiliationRef1"
+            },
+            "AccountId": "@AccountRef1",
+            "AffiliationType": "Soft",
+            "Role": "Admitting",
+            "RelatedAccountId": "@AccountRef2"
+        },
+        {
+            "attributes": {
+                "type": "ProviderAffiliation",
+                "referenceId": "ProviderAffiliationRef2"
+            },
+            "AccountId": "@AccountRef2",
+            "AffiliationType": "Soft",
+            "Role": "Default",
+            "RelatedAccountId": "@AccountRef1"
+        }
+    ]
+}

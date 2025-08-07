@@ -1,0 +1,31 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "LifeSciProductAcctRstrc",
+                "referenceId": "LifeSciProductAcctRstrcRef1"
+            },
+            "ProductId": "$LifeSciMarketableProductRef81$",
+            "AccountId": "$AccountRef879$",
+            "TerritoryId": "$Territory2Ref9$"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciProductAcctRstrc",
+                "referenceId": "LifeSciProductAcctRstrcRef2"
+            },
+            "ProductId": "$LifeSciMarketableProductRef82$",
+            "AccountId": "$AccountRef879$",
+            "TerritoryId": "$Territory2Ref9$"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciProductAcctRstrc",
+                "referenceId": "LifeSciProductAcctRstrcRef3"
+            },
+            "ProductId": "$LifeSciMarketableProductRef83$",
+            "AccountId": "$AccountRef879$",
+            "TerritoryId": "$Territory2Ref9$"
+        }
+    ]
+} 

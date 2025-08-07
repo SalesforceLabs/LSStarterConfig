@@ -1,0 +1,21 @@
+<template>
+    <lightning-card title="Lightning Web Component">
+    </lightning-card>
+    
+    <lightning-card title="Account Details" icon-name="standard:account">
+        <template if:true={account.data}>
+            <div class="slds-m-around_medium">
+                <p><b>Account Name:</b> {account.data.fields.Name.value}</p>
+                <p><b>Industry:</b> {account.data.fields.Industry.value}</p>
+                <p><b>Phone:</b> {account.data.fields.Phone.value}</p>
+                <p><b>Website:</b> {account.data.fields.Website.value}</p>
+            </div>
+        </template>
+
+        <template if:true={account.error}>
+            <div class="slds-m-around_medium">
+                <p>An error occurred while retrieving the account data.</p>
+            </div>
+        </template>
+    </lightning-card>
+</template>

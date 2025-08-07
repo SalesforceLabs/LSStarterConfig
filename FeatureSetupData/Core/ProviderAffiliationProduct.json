@@ -1,0 +1,28 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "ProviderAffiliationProduct",
+                "referenceId": "ProviderAffiliationProductRef1"
+            },
+            "ProviderAffiliationId": "@ProviderAffiliationRef1",
+            "ProductId": "@LifeSciMarketableProductRef1"
+        },
+        {
+            "attributes": {
+                "type": "ProviderAffiliationProduct",
+                "referenceId": "ProviderAffiliationProductRef2"
+            },
+            "ProviderAffiliationId": "@ProviderAffiliationRef2",
+            "ProductId": "@LifeSciMarketableProductRef2"
+        },
+        {
+            "attributes": {
+                "type": "ProviderAffiliationProduct",
+                "referenceId": "ProviderAffiliationProductRef3"
+            },
+            "ProviderAffiliationId": "@ProviderAffiliationRef3",
+            "ProductId": "@LifeSciMarketableProductRef3"
+        }
+    ]
+}

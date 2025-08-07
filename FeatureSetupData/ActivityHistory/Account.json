@@ -1,0 +1,32 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "ActivityHistoryAccountRef1"
+            },
+            "Name": "Primary Healthcare Center",
+            "Phone": "+1-555-123-4567",
+            "Website": "www.primaryhealthcare.com",
+            "Industry": "Healthcare",
+            "Type": "Customer",
+            "AnnualRevenue": 5000000,
+            "NumberOfEmployees": 50,
+            "Description": "Primary healthcare center with multiple specialties"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "ActivityHistoryAccountRef2"
+            },
+            "Name": "Secondary Medical Practice",
+            "Phone": "+1-555-987-6543",
+            "Website": "www.secondarymedical.com",
+            "Industry": "Healthcare",
+            "Type": "Customer",
+            "AnnualRevenue": 2500000,
+            "NumberOfEmployees": 25,
+            "Description": "Secondary medical practice specializing in family medicine"
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+[
+    {
+        "sobject": "Account",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Account.json"
+        ]
+    },
+    {
+        "sobject": "CareSpecialty",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "CareSpecialty.json"
+        ]
+    },
+    {
+        "sobject": "ContactPointAddress",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "ContactPointAddress.json"
+        ]
+    },
+    {
+        "sobject": "HealthcareProviderSpecialty",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "HealthcareProviderSpecialty.json"
+        ]
+    },
+    {
+        "sobject": "HealthcareProvider",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "HealthcareProvider.json"
+        ]
+    },
+    {
+        "sobject": "LifeSciCountry",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "LifeSciCountry.json"
+        ]
+    }
+]

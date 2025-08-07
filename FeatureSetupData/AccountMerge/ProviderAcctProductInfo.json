@@ -1,0 +1,20 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "ProviderAcctProductInfo",
+                "referenceId": "ProviderAcctProductInfoRef1"
+            },
+            "AccountId": "@AccountRef1",
+            "ProductId": "@LifeSciMarketableProductRef1"
+        },
+        {
+            "attributes": {
+                "type": "ProviderAcctProductInfo",
+                "referenceId": "ProviderAcctProductInfoRef2"
+            },
+            "AccountId": "@AccountRef2",
+            "ProductId": "@LifeSciMarketableProductRef2"
+        }
+    ]
+}

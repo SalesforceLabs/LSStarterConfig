@@ -1,0 +1,36 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "LifeSciStageObject",
+                "referenceId": "LifeSciStageObjectRef1"
+            },
+            "IsControlledByStagePath": true,
+            "Name": "Inquiry",
+            "ObjectName": "Inquiry",
+            "SourceSystemIdentifier": "LifeSciStageObjectRef1"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciStageObject",
+                "referenceId": "LifeSciStageObjectRef2"
+            },
+            "IsControlledByStagePath": true,
+            "Name": "InquiryQuestion_Inquiry",
+            "ObjectName": "InquiryQuestion",
+            "ParentObjRelaFieldName": "InquiryId",
+            "SourceSystemIdentifier": "LifeSciStageObjectRef2"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciStageObject",
+                "referenceId": "LifeSciStageObjectRef3"
+            },
+            "IsControlledByStagePath": true,
+            "Name": "InquiryQuestionAnswer_Inquiry",
+            "ObjectName": "InquiryQuestionAnswer",
+            "ParentObjRelaFieldName": "InquiryQuestionId",
+            "SourceSystemIdentifier": "LifeSciStageObjectRef3"
+        }
+    ]
+}

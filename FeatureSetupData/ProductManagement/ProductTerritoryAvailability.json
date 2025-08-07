@@ -1,0 +1,256 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "ProductTerritoryAvailability",
+                "referenceId": "ProductTerritoryAvailabilityRef1"
+            },
+            "ProductId": "$LifeSciMarketableProductRef54$",
+            "TerritoryId": "$Territory2Ref9$",
+            "AlignmentType": "Territory Inclusion",
+            "Purpose": "Visit",
+            "UsageType": "LifeSciences",
+            "Status": "Queued"
+        },
+        {
+            "attributes": {
+                "type": "ProductTerritoryAvailability",
+                "referenceId": "ProductTerritoryAvailabilityRef2"
+            },
+            "ProductId": "$LifeSciMarketableProductRef55$",
+            "TerritoryId": "$Territory2Ref9$",
+            "AlignmentType": "Territory Inclusion",
+            "Purpose": "Visit",
+            "UsageType": "LifeSciences",
+            "Status": "Queued"
+        },
+        {
+            "attributes": {
+                "type": "ProductTerritoryAvailability",
+                "referenceId": "ProductTerritoryAvailabilityRef3"
+            },
+            "ProductId": "$LifeSciMarketableProductRef56$",
+            "TerritoryId": "$Territory2Ref9$",
+            "AlignmentType": "Territory Inclusion",
+            "Purpose": "Visit",
+            "UsageType": "LifeSciences",
+            "Status": "Queued"
+        },
+        {
+            "attributes": {
+                "type": "ProductTerritoryAvailability",
+                "referenceId": "ProductTerritoryAvailabilityRef4"
+            },
+            "ProductId": "$LifeSciMarketableProductRef57$",
+            "TerritoryId": "$Territory2Ref9$",
+            "AlignmentType": "Territory Inclusion",
+            "Purpose": "Visit",
+            "UsageType": "LifeSciences",
+            "Status": "Queued"
+        },
+        {
+            "attributes": {
+                "type": "ProductTerritoryAvailability",
+                "referenceId": "ProductTerritoryAvailabilityRef5"
+            },
+            "ProductId": "$LifeSciMarketableProductRef54$",
+            "TerritoryId": "$Territory2Ref9$",
+            "AlignmentType": "Territory Inclusion",
+            "Purpose": "Visit",
+            "UsageType": "LifeSciences",
+            "Status": "Queued"
+        },
+        {
+            "attributes": {
+                "type": "ProductTerritoryAvailability",
+                "referenceId": "ProductTerritoryAvailabilityRef6"
+            },
+            "ProductId": "$LifeSciMarketableProductRef55$",
+            "TerritoryId": "$Territory2Ref9$",
+            "AlignmentType": "Territory Inclusion",
+            "Purpose": "Visit",
+            "UsageType": "LifeSciences",
+            "Status": "Queued"
+        },
+        {
+            "attributes": {
+                "type": "ProductTerritoryAvailability",
+                "referenceId": "ProductTerritoryAvailabilityRef7"
+            },
+            "ProductId": "$LifeSciMarketableProductRef56$",
+            "TerritoryId": "$Territory2Ref9$",
+            "AlignmentType": "Territory Inclusion",
+            "Purpose": "Visit",
+            "UsageType": "LifeSciences",
+            "Status": "Queued"
+        },
+        {
+            "attributes": {
+                "type": "ProductTerritoryAvailability",
+                "referenceId": "ProductTerritoryAvailabilityRef8"
+            },
+            "ProductId": "$LifeSciMarketableProductRef57$",
+            "TerritoryId": "$Territory2Ref9$",
+            "AlignmentType": "Territory Inclusion",
+            "Purpose": "Visit",
+            "UsageType": "LifeSciences",
+            "Status": "Queued"
+        },
+        {
+            "attributes": {
+                "type": "ProductTerritoryAvailability",
+                "referenceId": "ProductTerritoryAvailabilityRef9"
+            },
+            "ProductId": "$LifeSciMarketableProductRef77$",
+            "TerritoryId": "$Territory2Ref9$",
+            "AlignmentType": "Territory Inclusion",
+            "Purpose": "Visit",
+            "UsageType": "LifeSciences",
+            "Status": "Queued"
+        },
+        {
+            "attributes": {
+                "type": "ProductTerritoryAvailability",
+                "referenceId": "ProductTerritoryAvailabilityRef10"
+            },
+            "ProductId": "$LifeSciMarketableProductRef74$",
+            "TerritoryId": "$Territory2Ref9$",
+            "AlignmentType": "Territory Inclusion",
+            "Purpose": "Visit",
+            "UsageType": "LifeSciences",
+            "Status": "Queued"
+        },
+        {
+            "attributes": {
+                "type": "ProductTerritoryAvailability",
+                "referenceId": "ProductTerritoryAvailabilityRef11"
+            },
+            "ProductId": "$LifeSciMarketableProductRef78$",
+            "TerritoryId": "$Territory2Ref9$",
+            "AlignmentType": "Territory Inclusion",
+            "Purpose": "Visit",
+            "UsageType": "LifeSciences",
+            "Status": "Queued"
+        },
+        {
+            "attributes": {
+                "type": "ProductTerritoryAvailability",
+                "referenceId": "ProductTerritoryAvailabilityRef12"
+            },
+            "ProductId": "$LifeSciMarketableProductRef79$",
+            "TerritoryId": "$Territory2Ref9$",
+            "AlignmentType": "Territory Inclusion",
+            "Purpose": "Visit",
+            "UsageType": "LifeSciences",
+            "Status": "Queued"
+        },
+        {
+            "attributes": {
+                "type": "ProductTerritoryAvailability",
+                "referenceId": "ProductTerritoryAvailabilityRef13"
+            },
+            "ProductId": "$LifeSciMarketableProductRef80$",
+            "TerritoryId": "$Territory2Ref9$",
+            "AlignmentType": "Territory Inclusion",
+            "Purpose": "Visit",
+            "UsageType": "LifeSciences",
+            "Status": "Queued"
+        },
+        {
+            "attributes": {
+                "type": "ProductTerritoryAvailability",
+                "referenceId": "ProductTerritoryAvailabilityRef14"
+            },
+            "ProductId": "$LifeSciMarketableProductRef75$",
+            "TerritoryId": "$Territory2Ref9$",
+            "AlignmentType": "Territory Inclusion",
+            "Purpose": "Visit",
+            "UsageType": "LifeSciences",
+            "Status": "Queued"
+        },
+        {
+            "attributes": {
+                "type": "ProductTerritoryAvailability",
+                "referenceId": "ProductTerritoryAvailabilityRef15"
+            },
+            "ProductId": "$LifeSciMarketableProductRef76$",
+            "TerritoryId": "$Territory2Ref9$",
+            "AlignmentType": "Territory Inclusion",
+            "Purpose": "Visit",
+            "UsageType": "LifeSciences",
+            "Status": "Queued"
+        },
+        {
+            "attributes": {
+                "type": "ProductTerritoryAvailability",
+                "referenceId": "ProductTerritoryAvailabilityRef16"
+            },
+            "ProductId": "$LifeSciMarketableProductRef68$",
+            "TerritoryId": "$Territory2Ref9$",
+            "AlignmentType": "Territory Inclusion",
+            "Purpose": "Visit",
+            "UsageType": "LifeSciences",
+            "Status": "Queued"
+        },
+        {
+            "attributes": {
+                "type": "ProductTerritoryAvailability",
+                "referenceId": "ProductTerritoryAvailabilityRef17"
+            },
+            "ProductId": "$LifeSciMarketableProductRef69$",
+            "TerritoryId": "$Territory2Ref9$",
+            "AlignmentType": "Territory Inclusion",
+            "Purpose": "Visit",
+            "UsageType": "LifeSciences",
+            "Status": "Queued"
+        },
+        {
+            "attributes": {
+                "type": "ProductTerritoryAvailability",
+                "referenceId": "ProductTerritoryAvailabilityRef18"
+            },
+            "ProductId": "$LifeSciMarketableProductRef70$",
+            "TerritoryId": "$Territory2Ref9$",
+            "AlignmentType": "Territory Inclusion",
+            "Purpose": "Visit",
+            "UsageType": "LifeSciences",
+            "Status": "Queued"
+        },
+        {
+            "attributes": {
+                "type": "ProductTerritoryAvailability",
+                "referenceId": "ProductTerritoryAvailabilityRef19"
+            },
+            "ProductId": "$LifeSciMarketableProductRef71$",
+            "TerritoryId": "$Territory2Ref9$",
+            "AlignmentType": "Territory Inclusion",
+            "Purpose": "Visit",
+            "UsageType": "LifeSciences",
+            "Status": "Queued"
+        },
+        {
+            "attributes": {
+                "type": "ProductTerritoryAvailability",
+                "referenceId": "ProductTerritoryAvailabilityRef20"
+            },
+            "ProductId": "$LifeSciMarketableProductRef72$",
+            "TerritoryId": "$Territory2Ref9$",
+            "AlignmentType": "Territory Inclusion",
+            "Purpose": "Visit",
+            "UsageType": "LifeSciences",
+            "Status": "Queued"
+        },
+        {
+            "attributes": {
+                "type": "ProductTerritoryAvailability",
+                "referenceId": "ProductTerritoryAvailabilityRef21"
+            },
+            "ProductId": "$LifeSciMarketableProductRef73$",
+            "TerritoryId": "$Territory2Ref9$",
+            "AlignmentType": "Territory Inclusion",
+            "Purpose": "Visit",
+            "UsageType": "LifeSciences",
+            "Status": "Queued"
+        }
+    ]
+}

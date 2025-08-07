@@ -1,0 +1,180 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "ProductGuidance",
+                "referenceId": "ProductGuidanceRef1"
+            },
+            "Name": "Adravil Efficacy",
+            "Type": "Message",
+            "ContentText": "Efficacy",
+            "ProductReferenceRecordId": "@LifeSciMarketableProductRef5",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "ProductGuidance",
+                "referenceId": "ProductGuidanceRef2"
+            },
+            "Name": "Adravil Safety",
+            "Type": "Message",
+            "ContentText": "Safety",
+            "ProductReferenceRecordId": "@LifeSciMarketableProductRef5",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "ProductGuidance",
+                "referenceId": "ProductGuidanceRef3"
+            },
+            "Name": "Plomax Side Effects",
+            "Type": "Message",
+            "ContentText": "Side Effects",
+            "ProductReferenceRecordId": "@LifeSciMarketableProductRef6",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "ProductGuidance",
+                "referenceId": "ProductGuidanceRef4"
+            },
+            "Name": "Cordim Efficacy",
+            "Type": "Message",
+            "ContentText": "Clinical studies demonstrated Cordim reduces symptoms by 65% in patients with moderate to severe arthritis",
+            "ProductReferenceRecordId": "@LifeSciMarketableProductRef65",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "ProductGuidance",
+                "referenceId": "ProductGuidanceRef5"
+            },
+            "Name": "Cordim Safety Profile",
+            "Type": "Message",
+            "ContentText": "Cordim demonstrated an excellent safety profile with minimal adverse events in long-term usage",
+            "ProductReferenceRecordId": "@LifeSciMarketableProductRef65",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "ProductGuidance",
+                "referenceId": "ProductGuidanceRef6"
+            },
+            "Name": "Cordim 10mg Dosing",
+            "Type": "Message",
+            "ContentText": "Recommended starting dose is 10mg once daily, may be adjusted based on patient response",
+            "ProductReferenceRecordId": "@LifeSciMarketableProductRef75",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "ProductGuidance",
+                "referenceId": "ProductGuidanceRef7"
+            },
+            "Name": "Cordim 20mg Patient Selection",
+            "Type": "Message",
+            "ContentText": "20mg dose recommended for patients with severe symptoms who show inadequate response to 10mg",
+            "ProductReferenceRecordId": "@LifeSciMarketableProductRef76",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "ProductGuidance",
+                "referenceId": "ProductGuidanceRef8"
+            },
+            "Name": "Immunexis Clinical Efficacy",
+            "Type": "Message",
+            "ContentText": "Immunexis demonstrated 72% reduction in inflammatory markers across all clinical trials",
+            "ProductReferenceRecordId": "@LifeSciMarketableProductRef64",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "ProductGuidance",
+                "referenceId": "ProductGuidanceRef9"
+            },
+            "Name": "Immunexis Patient Support",
+            "Type": "Message",
+            "ContentText": "Remind providers about the Immunexis patient assistance program for eligible patients",
+            "ProductReferenceRecordId": "@LifeSciMarketableProductRef64",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "ProductGuidance",
+                "referenceId": "ProductGuidanceRef10"
+            },
+            "Name": "Immunexis 5mg Usage",
+            "Type": "Message",
+            "ContentText": "5mg dose ideal for initial therapy and patients with hepatic impairment",
+            "ProductReferenceRecordId": "@LifeSciMarketableProductRef74",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "ProductGuidance",
+                "referenceId": "ProductGuidanceRef11"
+            },
+            "Name": "Immunexis 10mg Efficacy",
+            "Type": "Message",
+            "ContentText": "10mg dose provides optimal balance of efficacy and tolerability for most patients",
+            "ProductReferenceRecordId": "@LifeSciMarketableProductRef77",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "ProductGuidance",
+                "referenceId": "ProductGuidanceRef12"
+            },
+            "Name": "Plomax Administration",
+            "Type": "Message",
+            "ContentText": "Demonstrate proper pen injection technique and storage requirements",
+            "ProductReferenceRecordId": "@LifeSciMarketableProductRef6",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "ProductGuidance",
+                "referenceId": "ProductGuidanceRef13"
+            },
+            "Name": "Adravil Combination Therapy",
+            "Type": "Message",
+            "ContentText": "Adravil can be safely used in combination with first-line therapies",
+            "ProductReferenceRecordId": "@LifeSciMarketableProductRef5",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "ProductGuidance",
+                "referenceId": "ProductGuidanceRef14"
+            },
+            "Name": "Adravil Sample Pack",
+            "Type": "Message",
+            "ContentText": "2-week sample packs available to help patients assess tolerability",
+            "ProductReferenceRecordId": "@LifeSciMarketableProductRef56",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "ProductGuidance",
+                "referenceId": "ProductGuidanceRef15"
+            },
+            "Name": "Cordim Market Objective",
+            "Type": "Objective",
+            "ContentText": "Increase Cordim market share by 10% among rheumatologists",
+            "ProductReferenceRecordId": "@LifeSciMarketableProductRef65",
+            "IsActive": true
+        },
+        {
+            "attributes": {
+                "type": "ProductGuidance",
+                "referenceId": "ProductGuidanceRef16"
+            },
+            "Name": "Immunexis Awareness Objective",
+            "Type": "Objective",
+            "ContentText": "Increase awareness of Immunexis early intervention benefits",
+            "ProductReferenceRecordId": "@LifeSciMarketableProductRef64",
+            "IsActive": true
+        }
+    ]
+}

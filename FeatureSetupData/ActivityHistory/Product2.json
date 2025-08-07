@@ -1,0 +1,24 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "ActivityHistoryProduct2Ref1"
+      },
+      "Name": "Sample Medicine A",
+      "Description": "Sample pharmaceutical product for activity history demo",
+      "IsActive": true,
+      "ProductCode": "SAMP-MED-A"
+    },
+    {
+      "attributes": {
+        "type": "Product2",
+        "referenceId": "ActivityHistoryProduct2Ref2"
+      },
+      "Name": "Sample Medicine B", 
+      "Description": "Sample pharmaceutical product for activity history demo",
+      "IsActive": true,
+      "ProductCode": "SAMP-MED-B"
+    }
+  ]
+} 

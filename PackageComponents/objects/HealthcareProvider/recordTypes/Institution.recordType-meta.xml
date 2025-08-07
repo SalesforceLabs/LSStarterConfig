@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Institution</fullName>
+    <active>true</active>
+    <description>A health care organization providing patient treatment with specialized medical and nursing staff and medical equipment.</description>
+    <label>Institution</label>
+</RecordType>

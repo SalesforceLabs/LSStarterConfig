@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <baseObject>Inquiry</baseObject>
+    <category>other</category>
+    <deployed>true</deployed>
+    <description>Inquiries from Visits</description>
+    <label>Inquiries</label>
+    <sections>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Inquiry ID</displayNameOverride>
+            <field>Id</field>
+            <table>Inquiry</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Name</displayNameOverride>
+            <field>Name</field>
+            <table>Inquiry</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Inquiry Channel Type</displayNameOverride>
+            <field>InquiryChannelType</field>
+            <table>Inquiry</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Case.Status</field>
+            <table>Inquiry</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Type</displayNameOverride>
+            <field>Type</field>
+            <table>Inquiry</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Priority</displayNameOverride>
+            <field>Priority</field>
+            <table>Inquiry</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Submitted Date Time</displayNameOverride>
+            <field>SubmittedDateTime</field>
+            <table>Inquiry</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>ReferenceRecord.Account.Name</field>
+            <table>Inquiry</table>
+        </columns>
+        <masterLabel>Inquiries</masterLabel>
+    </sections>
+</ReportType>

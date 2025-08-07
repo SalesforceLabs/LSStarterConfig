@@ -1,0 +1,40 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "CommSubscriptionChannelType",
+                "referenceId": "CommunicationSubscriptionChannelTypeRef1"
+            },
+            "Name": "Email - Cancer Medicine",
+            "CommunicationSubscriptionId": "@CommunicationSubscriptionRef1",
+            "EngagementChannelTypeId": "@EngagementChannelTypeRef1"
+        },
+        {
+            "attributes": {
+                "type": "CommSubscriptionChannelType",
+                "referenceId": "CommunicationSubscriptionChannelTypeRef2"
+            },
+            "Name": "Address - Cancer Medicine",
+            "CommunicationSubscriptionId": "@CommunicationSubscriptionRef1",
+            "EngagementChannelTypeId": "@EngagementChannelTypeRef2"
+        },
+        {
+            "attributes": {
+                "type": "CommSubscriptionChannelType",
+                "referenceId": "CommunicationSubscriptionChannelTypeRef3"
+            },
+            "Name": "Email - Diabetes Medicine",
+            "CommunicationSubscriptionId": "@CommunicationSubscriptionRef2",
+            "EngagementChannelTypeId": "@EngagementChannelTypeRef1"
+        },
+        {
+            "attributes": {
+                "type": "CommSubscriptionChannelType",
+                "referenceId": "CommunicationSubscriptionChannelTypeRef4"
+            },
+            "Name": "Address - Diabetes Medicine",
+            "CommunicationSubscriptionId": "@CommunicationSubscriptionRef2",
+            "EngagementChannelTypeId": "@EngagementChannelTypeRef2"
+        }
+    ]
+}

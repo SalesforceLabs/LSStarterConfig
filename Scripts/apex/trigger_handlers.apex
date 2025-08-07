@@ -1,0 +1,1 @@
+TriggerService.syncTriggerHandlerRecords();

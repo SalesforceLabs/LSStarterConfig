@@ -1,0 +1,26 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "BusinessLicense",
+                "referenceId": "BusinessLicenseRef1"
+            },
+            "Name": "Primary Healthcare Center",
+            "AccountId": "@AccountRef1",
+            "LicenseNumber": "BL789012",
+            "IssueDate": "2020-01-01",
+            "Status": "Active"
+        },
+        {
+            "attributes": {
+                "type": "BusinessLicense",
+                "referenceId": "BusinessLicenseRef2"
+            },
+            "Name": "Secondary Medical Practice",
+            "AccountId": "@AccountRef2",
+            "LicenseNumber": "BL789012",
+            "IssueDate": "2020-01-01",
+            "Status": "Active"
+        }
+    ]
+}
