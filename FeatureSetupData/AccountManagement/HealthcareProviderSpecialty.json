@@ -1,0 +1,37 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "HealthcareProviderSpecialty",
+                "referenceId": "HealthcareProviderSpecialtyRef1"
+            },
+            "Name": "Oncology",
+            "SpecialtyId": "@CareSpecialtyRef1",
+            "AccountId": "@AccountRef1",
+            "IsActive": true,
+            "IsPrimarySpecialty": true
+        },
+        {
+            "attributes": {
+                "type": "HealthcareProviderSpecialty",
+                "referenceId": "HealthcareProviderSpecialtyRef2"
+            },
+            "Name": "Cardiology",
+            "SpecialtyId": "@CareSpecialtyRef2",
+            "AccountId": "@AccountRef1",
+            "IsActive": true,
+            "IsPrimarySpecialty": true
+        },
+        {
+            "attributes": {
+                "type": "HealthcareProviderSpecialty",
+                "referenceId": "HealthcareProviderSpecialtyRef3"
+            },
+            "Name": "Internal Medicine",
+            "SpecialtyId": "@CareSpecialtyRef3",
+            "AccountId": "@AccountRef1",
+            "IsActive": true,
+            "IsPrimarySpecialty": false
+        }
+    ]
+}

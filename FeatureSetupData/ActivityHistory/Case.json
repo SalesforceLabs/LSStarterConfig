@@ -1,0 +1,40 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Case",
+                "referenceId": "CaseRef1"
+            },
+            "Subject": "Medical Information Request - Drug Interactions",
+            "Type": "Other",
+            "Priority": "High",
+            "Status": "New",
+            "AccountId": "@ActivityHistoryAccountRef1",
+            "Description": "Healthcare provider inquiry regarding potential drug interactions with concurrent medications"
+        },
+        {
+            "attributes": {
+                "type": "Case",
+                "referenceId": "CaseRef2"
+            },
+            "Subject": "Safety Inquiry - Adverse Event Report",
+            "Type": "Other",
+            "Priority": "Medium",
+            "Status": "Working",
+            "AccountId": "@ActivityHistoryAccountRef2",
+            "Description": "Pharmacovigilance inquiry regarding potential adverse drug reaction reported by healthcare professional"
+        },
+        {
+            "attributes": {
+                "type": "Case",
+                "referenceId": "CaseRef3"
+            },
+            "Subject": "Product Information Request",
+            "Type": "Other",
+            "Priority": "Low",
+            "Status": "Closed",
+            "AccountId": "@ActivityHistoryAccountRef1",
+            "Description": "Request for updated prescribing information and clinical trial data"
+        }
+    ]
+} 

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LifeSciConfigRecord xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldValues>
+        <dataType>TEXT</dataType>
+        <fieldName>End</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <textValue>ThursdayEndTime</textValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>TEXT</dataType>
+        <fieldName>Start</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <textValue>ThursdayStartTime</textValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>TEXT</dataType>
+        <fieldName>Object</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <textValue>BusinessHours</textValue>
+    </fieldValues>
+    <lifeSciConfigCategory>WorkingDaysConfig</lifeSciConfigCategory>
+    <masterLabel>ThurBusHrsWDConfig_OrgLevel</masterLabel>
+</LifeSciConfigRecord>

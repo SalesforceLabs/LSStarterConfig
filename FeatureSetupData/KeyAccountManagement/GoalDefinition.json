@@ -1,0 +1,22 @@
+{
+  "records": [
+    {
+      "attributes": { "type": "GoalDefinition", "referenceId": "KAMGoal1" },
+      "Name": "Increase Patient Access - KAM",
+      "Description": "Expand access to immunotherapy treatments for cancer patients.",
+      "Status": "Active"
+    },
+    {
+      "attributes": { "type": "GoalDefinition", "referenceId": "KAMGoal2" },
+      "Name": "Enhance Research Collaboration - KAM",
+      "Description": "Foster partnerships for clinical trials and research.",
+      "Status": "Active"
+    },
+    {
+      "attributes": { "type": "GoalDefinition", "referenceId": "KAMGoal3" },
+      "Name": "Improve Patient Outcomes - KAM",
+      "Description": "Implement best practices to improve cancer treatment outcomes.",
+      "Status": "Active"
+    }
+  ]
+} 

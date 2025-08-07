@@ -1,0 +1,36 @@
+{
+  "records": [
+      {
+          "attributes": {
+              "type": "LifeSciMarketableProduct",
+              "referenceId": "LifeSciMarketableProductRef1"
+          },
+          "IsCompetitorProduct": false,
+          "IsControlledSubstance": false,
+          "IsMsgReqdForProvVisit": false,
+          "Name": "Primary Healthcare Center Product",
+          "StartDate": "2024-01-01",
+          "Type": "Product",
+          "EndDate": "2026-12-31",
+          "IsActive": true,
+          "IsAvlForSamplingAllocation": false,
+          "ProductId": "@ActivityHistoryProduct2Ref1"
+      },
+      {
+          "attributes": {
+              "type": "LifeSciMarketableProduct",
+              "referenceId": "LifeSciMarketableProductRef2"
+          },
+          "IsCompetitorProduct": false,
+          "IsControlledSubstance": false,
+          "IsMsgReqdForProvVisit": false,
+          "Name": "Secondary Medical Practice Product",
+          "StartDate": "2024-01-01",
+          "Type": "Product",
+          "EndDate": "2026-12-31",
+          "IsActive": true,
+          "IsAvlForSamplingAllocation": false,
+          "ProductId": "@ActivityHistoryProduct2Ref2"
+      }
+  ]
+}

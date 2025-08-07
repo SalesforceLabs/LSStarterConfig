@@ -1,0 +1,52 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Visit",
+                "referenceId": "VisitRef1"
+            },
+            "PlaceId": "$ContactPointAddressRef1$",
+            "AccountId": "$AccountRef505$",
+            "TerritoryId": "$Territory2Ref9$",
+            "PlannedVisitStartTime": "2023-08-15T10:00:00.000Z",
+            "Status": "Completed",
+            "Channel": "In-Person"
+        },
+        {
+            "attributes": {
+                "type": "Visit",
+                "referenceId": "VisitRef2"
+            },
+            "PlaceId": "$ContactPointAddressRef1$",
+            "AccountId": "$AccountRef506$",
+            "TerritoryId": "$Territory2Ref9$",
+            "PlannedVisitStartTime": "2023-08-16T10:00:00.000Z",
+            "Status": "Planned",
+            "Channel": "Remote"
+        },
+        {
+            "attributes": {
+                "type": "Visit",
+                "referenceId": "VisitRef3"
+            },
+            "PlaceId": "$ContactPointAddressRef2$",
+            "AccountId": "$AccountRef507$",
+            "TerritoryId": "$Territory2Ref9$",
+            "PlannedVisitStartTime": "2023-08-15T10:00:00.000Z",
+            "Status": "Completed",
+            "Channel": "In-Person"
+        },
+        {
+            "attributes": {
+                "type": "Visit",
+                "referenceId": "VisitRefTwilio"
+            },
+            "PlaceId": "$ContactPointAddressRefTwilio$",
+            "AccountId": "$AccountRefTwilio$",
+            "TerritoryId": "$Territory2Ref9$",
+            "PlannedVisitStartTime": "2025-01-01T10:00:00.000Z",
+            "Status": "Completed",
+            "Channel": "Remote"
+        }
+    ]
+} 

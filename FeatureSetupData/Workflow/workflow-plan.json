@@ -1,0 +1,38 @@
+[
+    {
+        "sobject": "LifeSciStageObject",
+        "files": [
+            "LifeSciStageObject.json"
+        ]
+    },
+    {
+        "sobject": "LifeSciStageAction",
+        "files": [
+            "LifeSciStageAction.json"
+        ]
+    },
+    {
+        "sobject": "LifeSciStagePath",
+        "files": [
+            "LifeSciStagePath.json"
+        ]
+    },
+    {
+        "sobject": "LifeSciStageValue",
+        "files": [
+            "LifeSciStageValue.json"
+        ]
+    },
+    {
+        "sobject": "LifeSciStageOperation",
+        "files": [
+            "LifeSciStageOperation.json"
+        ]
+    },
+    {
+        "sobject": "LifeSciStageOperationAction",
+        "files": [
+            "LifeSciStageOperationAction.json"
+        ]
+    }
+]

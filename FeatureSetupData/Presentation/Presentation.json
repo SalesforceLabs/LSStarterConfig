@@ -1,0 +1,24 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Presentation",
+                "referenceId": "PresentationRef1"
+            },
+            "Name": "Cordim Presentation",
+            "Status": "Active",
+            "Type": "ZIP",
+            "CanSendByEmail": false
+        },
+        {
+            "attributes": {
+                "type": "Presentation",
+                "referenceId": "PresentationRef2"
+            },
+            "Name": "Life Sciences Cloud Customer Engagement Developer Guide (Pilot)",
+            "Status": "Active",
+            "Type": "PDF",
+            "CanSendByEmail": true
+        }
+    ]
+}

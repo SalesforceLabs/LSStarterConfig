@@ -1,0 +1,508 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "LifeSciMetadataFieldValue",
+                "referenceId": "AccountFilterConfigFieldValueRef1"
+            },
+            "DataType": "PICKLIST",
+            "DateTimeValue": null,
+            "DateValue": null,
+            "FieldName": "Type",
+            "FieldValueApiName": "AccountFilterConfig_Sample_Type",
+            "HasBooleanValue": false,
+            "IntegerValue": null,
+            "LifeScienceMetadataRecordId": "@AccountFilterConfigRecordRef1",
+            "LongTextValue": null,
+            "Name": "Type",
+            "NumberValue": null,
+            "PhoneValue": null,
+            "PicklistValue": "Static",
+            "TextValue": null,
+            "UrlValue": null
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataFieldValue",
+                "referenceId": "AccountFilterConfigFieldValueRef2"
+            },
+            "DataType": "TEXT",
+            "DateTimeValue": null,
+            "DateValue": null,
+            "FieldName": "Col2Field",
+            "FieldValueApiName": "AccountFilterConfig_Sample_Col2Field",
+            "HasBooleanValue": false,
+            "IntegerValue": null,
+            "LifeScienceMetadataRecordId": "@AccountFilterConfigRecordRef1",
+            "LongTextValue": null,
+            "Name": "Col2Field",
+            "NumberValue": null,
+            "PhoneValue": null,
+            "PicklistValue": null,
+            "TextValue": "Owner.alias",
+            "UrlValue": null
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataFieldValue",
+                "referenceId": "AccountFilterConfigFieldValueRef3"
+            },
+            "DataType": "TEXT",
+            "DateTimeValue": null,
+            "DateValue": null,
+            "FieldName": "Col4Field",
+            "FieldValueApiName": "AccountFilterConfig_Sample_Col4Field",
+            "HasBooleanValue": false,
+            "IntegerValue": null,
+            "LifeScienceMetadataRecordId": "@AccountFilterConfigRecordRef1",
+            "LongTextValue": null,
+            "Name": "Col4Field",
+            "NumberValue": null,
+            "PhoneValue": null,
+            "PicklistValue": null,
+            "TextValue": null,
+            "UrlValue": null
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataFieldValue",
+                "referenceId": "AccountFilterConfigFieldValueRef4"
+            },
+            "DataType": "PICKLIST",
+            "DateTimeValue": null,
+            "DateValue": null,
+            "FieldName": "RecordType",
+            "FieldValueApiName": "AccountFilterConfig_Sample_RecordType",
+            "HasBooleanValue": false,
+            "IntegerValue": null,
+            "LifeScienceMetadataRecordId": "@AccountFilterConfigRecordRef1",
+            "LongTextValue": null,
+            "Name": "RecordType",
+            "NumberValue": null,
+            "PhoneValue": null,
+            "PicklistValue": "Business_Account",
+            "TextValue": null,
+            "UrlValue": null
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataFieldValue",
+                "referenceId": "AccountFilterConfigFieldValueRef5"
+            },
+            "DataType": "PICKLIST",
+            "DateTimeValue": null,
+            "DateValue": null,
+            "FieldName": "SortColumnsFieldSet",
+            "FieldValueApiName": "AccountFilterConfig_Sample_SortColumnsFieldSet",
+            "HasBooleanValue": false,
+            "IntegerValue": null,
+            "LifeScienceMetadataRecordId": "@AccountFilterConfigRecordRef1",
+            "LongTextValue": null,
+            "Name": "SortColumnsFieldSet",
+            "NumberValue": null,
+            "PhoneValue": null,
+            "PicklistValue": null,
+            "TextValue": null,
+            "UrlValue": null
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataFieldValue",
+                "referenceId": "AccountFilterConfigFieldValueRef6"
+            },
+            "DataType": "TEXT",
+            "DateTimeValue": null,
+            "DateValue": null,
+            "FieldName": "Col3Field",
+            "FieldValueApiName": "AccountFilterConfig_Sample_Col3Field",
+            "HasBooleanValue": false,
+            "IntegerValue": null,
+            "LifeScienceMetadataRecordId": "@AccountFilterConfigRecordRef1",
+            "LongTextValue": null,
+            "Name": "Col3Field",
+            "NumberValue": null,
+            "PhoneValue": null,
+            "PicklistValue": null,
+            "TextValue": null,
+            "UrlValue": null
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataFieldValue",
+                "referenceId": "AccountFilterConfigFieldValueRef7"
+            },
+            "DataType": "BOOLEAN",
+            "DateTimeValue": null,
+            "DateValue": null,
+            "FieldName": "SpecialCol2",
+            "FieldValueApiName": "AccountFilterConfig_Sample_SpecialCol2",
+            "HasBooleanValue": true,
+            "IntegerValue": null,
+            "LifeScienceMetadataRecordId": "@AccountFilterConfigRecordRef1",
+            "LongTextValue": null,
+            "Name": "SpecialCol2",
+            "NumberValue": null,
+            "PhoneValue": null,
+            "PicklistValue": null,
+            "TextValue": null,
+            "UrlValue": null
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataFieldValue",
+                "referenceId": "AccountFilterConfigFieldValueRef8"
+            },
+            "DataType": "TEXT",
+            "DateTimeValue": null,
+            "DateValue": null,
+            "FieldName": "Col5Field",
+            "FieldValueApiName": "AccountFilterConfig_Sample_Col5Field",
+            "HasBooleanValue": false,
+            "IntegerValue": null,
+            "LifeScienceMetadataRecordId": "@AccountFilterConfigRecordRef1",
+            "LongTextValue": null,
+            "Name": "Col5Field",
+            "NumberValue": null,
+            "PhoneValue": null,
+            "PicklistValue": null,
+            "TextValue": null,
+            "UrlValue": null
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataFieldValue",
+                "referenceId": "AccountFilterConfigFieldValueRef9"
+            },
+            "DataType": "TEXT",
+            "DateTimeValue": null,
+            "DateValue": null,
+            "FieldName": "ActivityPlanCol5",
+            "FieldValueApiName": "AccountFilterConfig_Sample_ActivityPlanCol5",
+            "HasBooleanValue": false,
+            "IntegerValue": null,
+            "LifeScienceMetadataRecordId": "@AccountFilterConfigRecordRef1",
+            "LongTextValue": null,
+            "Name": "ActivityPlanCol5",
+            "NumberValue": null,
+            "PhoneValue": null,
+            "PicklistValue": null,
+            "TextValue": "Sample",
+            "UrlValue": null
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataFieldValue",
+                "referenceId": "AccountFilterConfigFieldValueRef11"
+            },
+            "DataType": "BOOLEAN",
+            "DateTimeValue": null,
+            "DateValue": null,
+            "FieldName": "EnableBulkAction",
+            "FieldValueApiName": "AccountListActions_AccountListActions_00eSM000002pmRLYAY_EnableBulkAction",
+            "HasBooleanValue": true,
+            "IntegerValue": null,
+            "LifeScienceMetadataRecordId": "@AccountListActionsRecordRef1",
+            "LongTextValue": null,
+            "Name": "EnableBulkAction",
+            "NumberValue": null,
+            "PhoneValue": null,
+            "PicklistValue": null,
+            "TextValue": null,
+            "UrlValue": null
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataFieldValue",
+                "referenceId": "AccountFilterConfigFieldValueRef12"
+            },
+            "DataType": "BOOLEAN",
+            "DateTimeValue": null,
+            "DateValue": null,
+            "FieldName": "EnableMultiSelect",
+            "FieldValueApiName": "AccountListActions_AccountListActions_00eSM000002pmRLYAY_EnableMultiSelect",
+            "HasBooleanValue": true,
+            "IntegerValue": null,
+            "LifeScienceMetadataRecordId": "@AccountListActionsRecordRef1",
+            "LongTextValue": null,
+            "Name": "EnableMultiSelect",
+            "NumberValue": null,
+            "PhoneValue": null,
+            "PicklistValue": null,
+            "TextValue": null,
+            "UrlValue": null
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataFieldValue",
+                "referenceId": "AccountFilterConfigFieldValueRef13"
+            },
+            "DataType": "BOOLEAN",
+            "DateTimeValue": null,
+            "DateValue": null,
+            "FieldName": "EnableBulkUpdate",
+            "FieldValueApiName": "AccountListActions_AccountListActions_00eSM000002pmRLYAY_EnableBulkUpdate",
+            "HasBooleanValue": true,
+            "IntegerValue": null,
+            "LifeScienceMetadataRecordId": "@AccountListActionsRecordRef1",
+            "LongTextValue": null,
+            "Name": "EnableBulkUpdate",
+            "NumberValue": null,
+            "PhoneValue": null,
+            "PicklistValue": null,
+            "TextValue": null,
+            "UrlValue": null
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataFieldValue",
+                "referenceId": "AccountFilterConfigFieldValueRef14"
+            },
+            "DataType": "BOOLEAN",
+            "DateTimeValue": null,
+            "DateValue": null,
+            "FieldName": "EnableListExport",
+            "FieldValueApiName": "AccountListActions_AccountListActions_00eSM000002pmRLYAY_EnableListExport",
+            "HasBooleanValue": true,
+            "IntegerValue": null,
+            "LifeScienceMetadataRecordId": "@AccountListActionsRecordRef1",
+            "LongTextValue": null,
+            "Name": "EnableListExport",
+            "NumberValue": null,
+            "PhoneValue": null,
+            "PicklistValue": null,
+            "TextValue": null,
+            "UrlValue": null
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataFieldValue",
+                "referenceId": "AccountFilterConfigFieldValueRef15"
+            },
+            "DataType": "PICKLIST",
+            "DateTimeValue": null,
+            "DateValue": null,
+            "FieldName": "AccountAvailableFields",
+            "FieldValueApiName": "AccountDynamicListConfiguration_AccountDynamicListConfiguration_00eSM000002pmRFYAY_AccountAvailableFields",
+            "HasBooleanValue": false,
+            "IntegerValue": null,
+            "LifeScienceMetadataRecordId": "@AccountDynamicListConfigurationRecordRef1",
+            "LongTextValue": null,
+            "Name": "AccountAvailableFields",
+            "NumberValue": null,
+            "PhoneValue": null,
+            "PicklistValue": "lsc4ce__SearchableFields",
+            "TextValue": null,
+            "UrlValue": null
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataFieldValue",
+                "referenceId": "AccountFilterConfigFieldValueRef16"
+            },
+            "DataType": "BOOLEAN",
+            "DateTimeValue": null,
+            "DateValue": null,
+            "FieldName": "FilterSharingEnabled",
+            "FieldValueApiName": "AccountDynamicListConfiguration_AccountDynamicListConfiguration_00eSM000002pmRFYAY_FilterSharingEnabled",
+            "HasBooleanValue": true,
+            "IntegerValue": null,
+            "LifeScienceMetadataRecordId": "@AccountDynamicListConfigurationRecordRef1",
+            "LongTextValue": null,
+            "Name": "FilterSharingEnabled",
+            "NumberValue": null,
+            "PhoneValue": null,
+            "PicklistValue": null,
+            "TextValue": null,
+            "UrlValue": null
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataFieldValue",
+                "referenceId": "AccountFilterConfigFieldValueRef17"
+            },
+            "DataType": "BOOLEAN",
+            "DateTimeValue": null,
+            "DateValue": null,
+            "FieldName": "AccountFilterCreateEnabled",
+            "FieldValueApiName": "AccountDynamicListConfiguration_AccountDynamicListConfiguration_00eSM000002pmRFYAY_AccountFilterCreateEnabled",
+            "HasBooleanValue": true,
+            "IntegerValue": null,
+            "LifeScienceMetadataRecordId": "@AccountDynamicListConfigurationRecordRef1",
+            "LongTextValue": null,
+            "Name": "AccountFilterCreateEnabled",
+            "NumberValue": null,
+            "PhoneValue": null,
+            "PicklistValue": null,
+            "TextValue": null,
+            "UrlValue": null
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataFieldValue",
+                "referenceId": "ProviderVisitSettingsFieldRef1"
+            },
+            "FieldName":"ShowExpiredBatches",
+            "DataType": "BOOLEAN",
+            "DateTimeValue": null,
+            "DateValue": null,
+            "FieldValueApiName": "ProviderVisitSettings_ProviderVisitSettings_OrgLevel1",
+            "HasBooleanValue": true,
+            "IntegerValue": null,
+            "LifeScienceMetadataRecordId": "@ProviderVisitSettingsRecordRef1",
+            "LongTextValue": null,
+            "Name":"ShowExpiredBatches",
+            "NumberValue": null,
+            "PhoneValue": null,
+            "PicklistValue": null,
+            "TextValue": null,
+            "UrlValue": null
+         }, 
+         {
+            "attributes": {
+                "type": "LifeSciMetadataFieldValue",
+                "referenceId": "ProviderVisitSettingsFieldRef2"
+            },
+        "FieldName":"ValidateSampleInventory",
+        "DataType":"BOOLEAN",
+        "DateTimeValue": null,
+        "DateValue": null,
+        "FieldValueApiName": "ProviderVisitSettings_ProviderVisitSettings_OrgLevel2",
+        "HasBooleanValue":"true",
+        "IntegerValue":"",
+        "LifeScienceMetadataRecordId": "@ProviderVisitSettingsRecordRef1",
+        "TextValue":"",
+        "LongTextValue":"",
+        "Name":"ValidateSampleInventory",
+        "NumberValue": null,
+        "PhoneValue": null,
+        "PicklistValue":"",
+        "UrlValue": null
+    },
+    {
+        "attributes": {
+            "type": "LifeSciMetadataFieldValue",
+            "referenceId": "ProviderVisitSettingsFieldRef4"
+        },
+    "FieldName":"ValidateSampleLimits",
+    "DataType":"BOOLEAN",
+    "DateTimeValue": null,
+    "DateValue": null,
+    "FieldValueApiName": "ProviderVisitSettings_ProviderVisitSettings_OrgLevel_ValidateSampleLimits",
+    "HasBooleanValue":"true",
+    "IntegerValue":"",
+    "LifeScienceMetadataRecordId": "@ProviderVisitSettingsRecordRef1",
+    "TextValue":"",
+    "LongTextValue":"",
+    "Name":"ValidateSampleLimits",
+    "NumberValue": null,
+    "PhoneValue": null,
+    "PicklistValue":"",
+    "UrlValue": null
+    },
+    {
+        "attributes": {
+            "type": "LifeSciMetadataFieldValue",
+            "referenceId": "ProviderVisitSettingsFieldRef5"
+        },
+    "FieldName":"DefaultVisitDuration",
+    "DataType":"INTEGER",
+    "DateTimeValue": null,
+    "DateValue": null,
+    "FieldValueApiName": "ProviderVisitSettings_ProviderVisitSettings_OrgLevel_DefaultVisitDuration",
+    "HasBooleanValue":"",
+    "IntegerValue":"15",
+    "LifeScienceMetadataRecordId": "@ProviderVisitSettingsRecordRef1",
+    "TextValue":"",
+    "LongTextValue":"",
+    "Name":"DefaultVisitDuration",
+    "NumberValue": null,
+    "PhoneValue": null,
+    "PicklistValue":"",
+    "UrlValue": null
+    },
+    {
+        "attributes": {
+            "type": "LifeSciMetadataFieldValue",
+            "referenceId": "ProviderVisitSettingsFieldRef6"
+        },
+    "FieldName":"MaxAllowedVisitDistance",
+    "DataType":"INTEGER",
+    "DateTimeValue": null,
+    "DateValue": null,
+    "FieldValueApiName": "ProviderVisitSettings_ProviderVisitSettings_OrgLevel_MaxAllowedVisitDistance",
+    "HasBooleanValue":"",
+    "IntegerValue":"500",
+    "LifeScienceMetadataRecordId": "@ProviderVisitSettingsRecordRef1",
+    "TextValue":"",
+    "LongTextValue":"",
+    "Name":"MaxAllowedVisitDistance",
+    "NumberValue": null,
+    "PhoneValue": null,
+    "PicklistValue":"",
+    "UrlValue": null
+    },
+    {
+        "attributes": {
+            "type": "LifeSciMetadataFieldValue",
+            "referenceId": "ProviderVisitSettingsFieldRef7"
+        },
+    "FieldName":"RequireBatchNumber",
+    "DataType":"BOOLEAN",
+    "DateTimeValue": null,
+    "DateValue": null,
+    "FieldValueApiName": "ProviderVisitSettings_ProviderVisitSettings_OrgLevel_RequireBatchNumber",
+    "HasBooleanValue":"true",
+    "IntegerValue":"",
+    "LifeScienceMetadataRecordId": "@ProviderVisitSettingsRecordRef1",
+    "TextValue":"",
+    "LongTextValue":"",
+    "Name":"RequireBatchNumber",
+    "NumberValue": null,
+    "PhoneValue": null,
+    "PicklistValue":"",
+    "UrlValue": null
+    },
+    {
+            "attributes": {
+            "type": "LifeSciMetadataFieldValue",
+            "referenceId": "AccountSearchPreferencesFieldRef1"
+            },
+        "FieldName":"EnableSearchOutsideTerritory",
+        "DataType":"BOOLEAN",
+        "DateTimeValue": null,
+        "DateValue": null,
+        "FieldValueApiName": "AccountSearchPreferences_AccountSearchPreferences_00eSM000002pmRLYAY_EnableSearchOutsideTerritory",
+        "HasBooleanValue":"true",
+        "IntegerValue":"",
+        "LifeScienceMetadataRecordId": "@AccountSearchPreferencesRecordRef1",
+        "TextValue":"",
+        "LongTextValue":"",
+        "Name":"EnableSearchOutsideTerritory",
+        "NumberValue": null,
+        "PhoneValue": null,
+        "PicklistValue":"",
+        "UrlValue": null
+    },
+    {
+            "attributes": {
+            "type": "LifeSciMetadataFieldValue",
+            "referenceId": "AccountSearchPreferencesFieldRef2"
+            },
+        "FieldName":"EnableAdvancedSearchLayout",
+        "DataType":"BOOLEAN",
+        "DateTimeValue": null,
+        "DateValue": null,
+        "FieldValueApiName": "AccountSearchPreferences_AccountSearchPreferences_00eSM000002pmRLYAY_EnableAdvancedSearchLayout",
+        "HasBooleanValue":"true",
+        "IntegerValue":"",
+        "LifeScienceMetadataRecordId": "@AccountSearchPreferencesRecordRef1",
+        "TextValue":"",
+        "LongTextValue":"",
+        "Name":"EnableAdvancedSearchLayout",
+        "NumberValue": null,
+        "PhoneValue": null,
+        "PicklistValue":"",
+        "UrlValue": null
+    }
+    ]
+}

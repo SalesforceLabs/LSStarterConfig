@@ -1,0 +1,18 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "CommSubConsentCmplSnpsht",
+                "referenceId": "CommSubConsentCmplSnpshtRef1"
+            },
+            "ConsentGiverId": "@AccountRef1"
+        },
+        {
+            "attributes": {
+                "type": "CommSubConsentCmplSnpsht",
+                "referenceId": "CommSubConsentCmplSnpshtRef2"
+            },
+            "ConsentGiverId": "@AccountRef2"
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+Hello, {!HeadlessAuth.FirstName} {!HeadlessAuth.LastName},
+
+            To confirm your registration as {!HeadlessAuth.Username} in {!Community.Name},
+
+            let’s verify your identity. Enter this one-time password where prompted.
+
+            Password: {!Verification.Code}

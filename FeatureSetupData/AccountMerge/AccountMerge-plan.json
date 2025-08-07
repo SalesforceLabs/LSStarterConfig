@@ -1,0 +1,106 @@
+[
+    {
+        "sobject": "Account",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Account.json"
+        ]
+    },
+    {
+        "sobject": "HealthcareProvider",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "HealthcareProvider.json"
+        ]
+    },
+    {
+        "sobject": "HealthcareProviderNpi",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "HealthcareProviderNpis.json"
+        ]
+    },
+    {
+        "sobject": "HealthcareProviderSpecialty",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "HealthcareProviderSpecialty.json"
+        ]
+    },
+    {
+        "sobject": "ContactPointEmail",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "ContactPointEmail.json"
+        ]
+    },
+    {
+        "sobject": "ContactPointPhone",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "ContactPointPhone.json"
+        ]
+    },
+    {
+        "sobject": "ContactPointAddress",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "ContactPointAddress.json"
+        ]
+    },
+    {
+        "sobject": "ContactPointSocial",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "ContactPointSocial.json"
+        ]
+    },
+    {
+        "sobject": "LifeSciMarketableProduct",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "LifeSciMarketableProduct.json"
+        ]
+    },
+    {
+        "sobject": "ProviderAcctProductInfo",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "ProviderAcctProductInfo.json"
+        ]
+    },
+    {
+        "sobject": "BusinessLicense",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "BusinessLicense.json"
+        ]
+    },
+    {
+        "sobject": "CommSubConsentCmplSnpsht",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "CommSubConsentCmplSnpsht.json"
+        ]
+    },
+    {
+        "sobject": "ProviderAffiliation",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "ProviderAffiliation.json"
+        ]
+    }
+]

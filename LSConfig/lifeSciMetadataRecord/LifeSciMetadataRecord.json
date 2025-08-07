@@ -1,0 +1,69 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "LifeSciMetadataRecord",
+                "referenceId": "AccountDynamicListConfigurationRecordRef1"
+            },
+            "LifeScienceMetadataCategoryId": "@AccountDynamicListConfigurationRef1",
+            "IsActive": true,
+            "IsOrgLevel": false,
+            "Name": "AccountDynamicListConfiguration_00eSM000002pmRFYAY",
+            "ParentMetadataRecordId": null,
+            "RecordApiName": "AccountDynamicListConfiguration_AccountDynamicListConfiguration_00eSM000002pmRFYAY",
+            "Type": null
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataRecord",
+                "referenceId": "AccountFilterConfigRecordRef1"
+            },
+            "LifeScienceMetadataCategoryId": "@AccountFilterConfigRef1",
+            "IsActive": true,
+            "IsOrgLevel": false,
+            "Name": "Sample",
+            "ParentMetadataRecordId": null,
+            "RecordApiName": "AccountFilterConfig_Sample",
+            "Type": null
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataRecord",
+                "referenceId": "AccountListActionsRecordRef1"
+            },
+            "Name": "AccountListActions_00eSM000002pmRLYAY",
+            "LifeScienceMetadataCategoryId": "@AccountListActionsRef1",
+            "ParentMetadataRecordId": null,
+            "RecordApiName": "AccountListActions_AccountListActions_00eSM000002pmRLYAY",
+            "Type": null,
+            "IsActive": true,
+            "IsOrgLevel": false
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataRecord",
+                "referenceId": "ProviderVisitSettingsRecordRef1"
+            },
+            "Name": "ProviderVisitSettings_00eSM000002pmRLYAY",
+            "LifeScienceMetadataCategoryId": "@ProviderVisitSettingsRef1",
+            "ParentMetadataRecordId": null,
+            "RecordApiName": "ProviderVisitSettings_ProviderVisitSettings_00eSM000002pmRLYAY",
+            "Type": null,
+            "IsActive": true,
+            "IsOrgLevel": true
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataRecord",
+                "referenceId": "AccountSearchPreferencesRecordRef1"
+            },
+            "Name": "AccountSearchPreferences_00eSM000002pmRLYAY",
+            "LifeScienceMetadataCategoryId": "@AccountSearchPreferencesRef1",
+            "ParentMetadataRecordId": null,
+            "RecordApiName": "AccountSearchPreferences_AccountSearchPreferences_00eSM000002pmRLYAY",
+            "Type": null,
+            "IsActive": true,
+            "IsOrgLevel": true
+        }
+    ]
+}

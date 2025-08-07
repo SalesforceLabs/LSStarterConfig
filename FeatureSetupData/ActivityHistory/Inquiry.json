@@ -1,0 +1,49 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Inquiry",
+                "referenceId": "InquiryRef1"
+            },
+            "Type": "Medical Inquiry",
+            "Priority": "High",
+            "CaseId": "@CaseRef1",
+            "Comment": "Healthcare provider inquiry regarding potential drug interactions with concurrent medications",
+            "AdditionalInformation": "Patient has multiple comorbidities including diabetes and hypertension. Seeking guidance on safe prescribing practices.",
+            "SubmittedDateTime": "2024-01-15T09:30:00.000Z",
+            "IsSignatureCopyRequested": false,
+            "SourceSystemName": "Medical Information Portal",
+            "SourceSystemIdentifier": "MIP-2024-001"
+        },
+        {
+            "attributes": {
+                "type": "Inquiry",
+                "referenceId": "InquiryRef2"
+            },
+            "Type": "Safety Inquiry",
+            "Priority": "Medium",
+            "CaseId": "@CaseRef2",
+            "Comment": "Pharmacovigilance inquiry regarding potential adverse drug reaction reported by healthcare professional",
+            "AdditionalInformation": "Patient experienced mild gastrointestinal symptoms after initiating treatment. Timeline and causality assessment needed.",
+            "SubmittedDateTime": "2024-01-20T14:45:00.000Z",
+            "IsSignatureCopyRequested": true,
+            "SourceSystemName": "Safety Database",
+            "SourceSystemIdentifier": "SDB-2024-045"
+        },
+        {
+            "attributes": {
+                "type": "Inquiry",
+                "referenceId": "InquiryRef3"
+            },
+            "Type": "Product Information",
+            "Priority": "Low",
+            "CaseId": "@CaseRef3",
+            "Comment": "Request for updated prescribing information and clinical trial data",
+            "AdditionalInformation": "Healthcare provider preparing for formulary committee review. Requires latest efficacy and safety data.",
+            "SubmittedDateTime": "2024-01-10T11:20:00.000Z",
+            "IsSignatureCopyRequested": false,
+            "SourceSystemName": "Customer Portal",
+            "SourceSystemIdentifier": "CP-2024-012"
+        }
+    ]
+} 

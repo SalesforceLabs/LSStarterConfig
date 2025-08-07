@@ -1,0 +1,32 @@
+[
+    {
+        "sobject": "Account",
+        "files": [
+            "Account.json"
+        ]
+    },
+    {
+        "sobject": "SurveyInvitation",
+        "files": [
+            "SurveyInvitation.json"
+        ]
+    },
+    {
+        "sobject": "SurveySubject",
+        "files": [
+            "SurveySubject.json"
+        ]
+    },
+    {
+        "sobject": "SurveyResponseOffline",
+        "files": [
+            "SurveyResponseOffline.json"
+        ]
+    },
+    {
+        "sobject": "SurveyQstnResponseOffline",
+        "files": [
+            "SurveyQstnResponseOffline.json"
+        ]
+    }
+]

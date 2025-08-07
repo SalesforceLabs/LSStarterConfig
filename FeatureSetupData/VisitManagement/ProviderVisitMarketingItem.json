@@ -1,0 +1,49 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "ProviderVisitMarketingItem",
+                "referenceId": "ProviderVisitMarketingItemRef1"
+            },
+            "ProviderVisitId": "@ProviderVisitRef1",
+            "ProductId": "$Product2Ref4$",
+            "Quantity": 2
+        },
+        {
+            "attributes": {
+                "type": "ProviderVisitMarketingItem",
+                "referenceId": "ProviderVisitMarketingItemRef2"
+            },
+            "ProviderVisitId": "@ProviderVisitRef1",
+            "ProductId": "$Product2Ref5$",
+            "Quantity": 1
+        },
+        {
+            "attributes": {
+                "type": "ProviderVisitMarketingItem",
+                "referenceId": "ProviderVisitMarketingItemRef3"
+            },
+            "ProviderVisitId": "@ProviderVisitRef2",
+            "ProductId": "$Product2Ref15$",
+            "Quantity": 2
+        },
+        {
+            "attributes": {
+                "type": "ProviderVisitMarketingItem",
+                "referenceId": "ProviderVisitMarketingItemRef4"
+            },
+            "ProviderVisitId": "@ProviderVisitRef2",
+            "ProductId": "$Product2Ref16$",
+            "Quantity": 1
+        },
+        {
+            "attributes": {
+                "type": "ProviderVisitMarketingItem",
+                "referenceId": "ProviderVisitMarketingItemRef5"
+            },
+            "ProviderVisitId": "@ProviderVisitRef3",
+            "ProductId": "$Product2Ref19$",
+            "Quantity": 1
+        }
+    ]
+} 

@@ -1,0 +1,70 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "ProviderAcctTerritoryInfo",
+                "referenceId": "ProviderAcctTerritoryInfoRef1"
+            },
+            "AccountId" :"@AccountRef1",
+            "IsTargetedAccount": true,
+            "IsActive": true,
+            "Territory2Id":"$Territory2Ref1$",
+            "PreferredAddressId":"@ContactPointAddressRef1"
+        },
+        {
+            "attributes": {
+                "type": "ProviderAcctTerritoryInfo",
+                "referenceId": "ProviderAcctTerritoryInfoRef2"
+            },
+            "AccountId" :"@AccountRef1",
+            "IsTargetedAccount": true,
+            "IsActive": false,
+            "Territory2Id":"$Territory2Ref1$",
+            "PreferredAddressId":"@ContactPointAddressRef1"
+        },
+        {
+            "attributes": {
+                "type": "ProviderAcctTerritoryInfo",
+                "referenceId": "ProviderAcctTerritoryInfoRef3"
+            },
+            "AccountId" :"@AccountRef1",
+            "IsTargetedAccount": true,
+            "IsActive": true,
+            "Territory2Id":"$Territory2Ref2$",
+            "PreferredAddressId":"@ContactPointAddressRef2"
+        },
+        {
+            "attributes": {
+                "type": "ProviderAcctTerritoryInfo",
+                "referenceId": "ProviderAcctTerritoryInfoRef4"
+            },
+            "AccountId" :"@AccountRef2",
+            "IsTargetedAccount": true,
+            "IsActive": true,
+            "Territory2Id":"$Territory2Ref1$",
+            "PreferredAddressId":"@ContactPointAddressRef2"
+        },
+        {
+            "attributes": {
+                "type": "ProviderAcctTerritoryInfo",
+                "referenceId": "ProviderAcctTerritoryInfoRef5"
+            },
+            "AccountId" :"@AccountRef2",
+            "IsTargetedAccount": false,
+            "IsActive": false,
+            "Territory2Id":"$Territory2Ref1$",
+            "PreferredAddressId":"@ContactPointAddressRef2"
+        },
+        {
+            "attributes": {
+                "type": "ProviderAcctTerritoryInfo",
+                "referenceId": "ProviderAcctTerritoryInfoRef6"
+            },
+            "AccountId" :"@AccountRef1",
+            "IsTargetedAccount": false,
+            "IsActive": true,
+            "Territory2Id":"$Territory2Ref2$",
+            "PreferredAddressId":"@ContactPointAddressRef2"
+        }
+    ]
+}

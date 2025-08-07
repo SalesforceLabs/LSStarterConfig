@@ -1,0 +1,114 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "ProductItem",
+                "referenceId": "ProductItemRef1"
+            },
+            "Product2Id": "$Product2Ref1$",
+            "LocationId": "@LocationRef1",
+            "QuantityOnHand": 50,
+            "QuantityUnitOfMeasure": "Each"
+        },
+        {
+            "attributes": {
+                "type": "ProductItem",
+                "referenceId": "ProductItemRef2"
+            },
+            "Product2Id": "$Product2Ref2$",
+            "LocationId": "@LocationRef1",
+            "QuantityOnHand": 50,
+            "QuantityUnitOfMeasure": "Each"
+        },
+        {
+            "attributes": {
+                "type": "ProductItem",
+                "referenceId": "ProductItemRef3"
+            },
+            "Product2Id": "$Product2Ref3$",
+            "LocationId": "@LocationRef1",
+            "QuantityOnHand": 50,
+            "QuantityUnitOfMeasure": "Each"
+        },
+        {
+            "attributes": {
+                "type": "ProductItem",
+                "referenceId": "ProductItemRef4"
+            },
+            "Product2Id": "$Product2Ref4$",
+            "LocationId": "@LocationRef1",
+            "QuantityOnHand": 100,
+            "QuantityUnitOfMeasure": "Each"
+        },
+        {
+            "attributes": {
+                "type": "ProductItem",
+                "referenceId": "ProductItemRef5"
+            },
+            "Product2Id": "$Product2Ref5$",
+            "LocationId": "@LocationRef1",
+            "QuantityOnHand": 100,
+            "QuantityUnitOfMeasure": "Each"
+        },
+        {
+            "attributes": {
+                "type": "ProductItem",
+                "referenceId": "ProductItemRef6"
+            },
+            "Product2Id": "$Product2Ref6$",
+            "LocationId": "@LocationRef1",
+            "QuantityOnHand": 50,
+            "QuantityUnitOfMeasure": "Each"
+        },
+        {
+            "attributes": {
+                "type": "ProductItem",
+                "referenceId": "ProductItemRef7"
+            },
+            "Product2Id": "$Product2Ref7$",
+            "LocationId": "@LocationRef1",
+            "QuantityOnHand": 50,
+            "QuantityUnitOfMeasure": "Each"
+        },
+        {
+            "attributes": {
+                "type": "ProductItem",
+                "referenceId": "ProductItemRef8"
+            },
+            "Product2Id": "$Product2Ref8$",
+            "LocationId": "@LocationRef1",
+            "QuantityOnHand": 50,
+            "QuantityUnitOfMeasure": "Each"
+        },
+        {
+            "attributes": {
+                "type": "ProductItem",
+                "referenceId": "ProductItemRef9"
+            },
+            "Product2Id": "$Product2Ref9$",
+            "LocationId": "@LocationRef1",
+            "QuantityOnHand": 50,
+            "QuantityUnitOfMeasure": "Each"
+        },
+        {
+            "attributes": {
+                "type": "ProductItem",
+                "referenceId": "ProductItemRef10"
+            },
+            "Product2Id": "$Product2Ref13$",
+            "LocationId": "@LocationRef1",
+            "QuantityOnHand": 50,
+            "QuantityUnitOfMeasure": "Each"
+        },
+        {
+            "attributes": {
+                "type": "ProductItem",
+                "referenceId": "ProductItemRef11"
+            },
+            "Product2Id": "$Product2Ref14$",
+            "LocationId": "@LocationRef1",
+            "QuantityOnHand": 50,
+            "QuantityUnitOfMeasure": "Each"
+        }
+    ]
+} 

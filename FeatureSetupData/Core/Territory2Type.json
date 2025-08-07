@@ -1,0 +1,14 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Territory2Type",
+                "referenceId": "Territory2TypeRef1"
+            },
+            "DeveloperName": "Geographical",
+            "Language": "en_US",
+            "MasterLabel": "Geographical",
+            "Priority": 1
+        }
+    ]
+}

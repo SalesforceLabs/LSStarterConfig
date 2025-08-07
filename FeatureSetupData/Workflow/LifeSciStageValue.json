@@ -1,0 +1,64 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "LifeSciStageValue",
+                "referenceId": "LifeSciStageValueRef1"
+            },
+            "FieldValue": "New",
+            "SourceSystemIdentifier": "LifeSciStageValueRef1",
+            "LifeSciStagePathId": "@LifeSciStagePathRef1",
+            "Name": "New"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciStageValue",
+                "referenceId": "LifeSciStageValueRef2"
+            },
+            "FieldValue": "Submitted",
+            "SourceSystemIdentifier": "LifeSciStageValueRef2",
+            "LifeSciStagePathId": "@LifeSciStagePathRef1",
+            "Name": "Submitted"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciStageValue",
+                "referenceId": "LifeSciStageValueRef3"
+            },
+            "FieldValue": "Signed",
+            "SourceSystemIdentifier": "LifeSciStageValueRef3",
+            "LifeSciStagePathId": "@LifeSciStagePathRef1",
+            "Name": "Signed"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciStageValue",
+                "referenceId": "LifeSciStageValueRef4"
+            },
+            "FieldValue": "Responded",
+            "SourceSystemIdentifier": "LifeSciStageValueRef4",
+            "LifeSciStagePathId": "@LifeSciStagePathRef1",
+            "Name": "Responded"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciStageValue",
+                "referenceId": "LifeSciStageValueRef5"
+            },
+            "FieldValue": "Assigned",
+            "SourceSystemIdentifier": "LifeSciStageValueRef5",
+            "LifeSciStagePathId": "@LifeSciStagePathRef1",
+            "Name": "Assigned"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciStageValue",
+                "referenceId": "LifeSciStageValueRef6"
+            },
+            "FieldValue": "Delivered",
+            "SourceSystemIdentifier": "LifeSciStageValueRef6",
+            "LifeSciStagePathId": "@LifeSciStagePathRef1",
+            "Name": "InquiryDelivered"
+        }
+    ]
+}

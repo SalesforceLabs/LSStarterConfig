@@ -1,0 +1,16 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "LifeSciStagePath",
+                "referenceId": "LifeSciStagePathRef1"
+            },
+            "Name": "Inquiry",
+            "Parameters": "{}",
+            "Status": "Active",
+            "SourceSystemIdentifier": "LifeSciStagePathRef1",
+            "LifeSciStageObjectId": "@LifeSciStageObjectRef1",
+            "FieldApiName": "Status"
+        }
+    ]
+}

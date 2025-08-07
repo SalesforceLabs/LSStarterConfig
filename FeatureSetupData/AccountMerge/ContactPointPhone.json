@@ -1,0 +1,24 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "ContactPointPhone",
+                "referenceId": "ContactPointPhoneRef1"
+            },
+            "ParentId": "@AccountRef1",
+            "TelephoneNumber": "+1-555-123-4567",
+            "IsPrimary": true,
+            "PhoneType": "Home"
+        },
+        {
+            "attributes": {
+                "type": "ContactPointPhone",
+                "referenceId": "ContactPointPhoneRef2"
+            },
+            "ParentId": "@AccountRef2",
+            "TelephoneNumber": "+1-555-987-6543",
+            "IsPrimary": true,
+            "PhoneType": "Home"
+        }
+    ]
+}

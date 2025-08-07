@@ -1,0 +1,18 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountPharmaRef1"
+            },
+            "Name": "Pharma1"
+        },
+        {
+            "attributes": {
+                "type": "Account",
+                "referenceId": "AccountPharmaRef2"
+            },
+            "Name": "Pharma2"
+        }
+    ]
+}

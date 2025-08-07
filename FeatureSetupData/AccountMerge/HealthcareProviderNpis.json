@@ -1,0 +1,24 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "HealthcareProviderNpi",
+        "referenceId": "HealthcareProviderNpisRef1"
+      },
+        "Name": "Primary Healthcare Center",
+        "AccountId": "@AccountRef1",
+        "IsActive": true,
+        "NpiType": "Individual"
+    },
+    {
+      "attributes": {
+        "type": "HealthcareProviderNpi",
+        "referenceId": "HealthcareProviderNpisRef2"
+      },
+        "Name": "Secondary Medical Practice",
+        "AccountId": "@AccountRef2",
+        "IsActive": true,
+        "NpiType": "Individual"
+    }
+  ]
+}

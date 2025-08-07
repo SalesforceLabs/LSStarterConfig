@@ -1,0 +1,94 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "ContentVersion",
+                "referenceId": "ActivityHistoryContentVersionRef1"
+            },
+            "Title": "Product Introduction and Overview",
+            "PathOnClient": "product_introduction_overview.zip",
+            "VersionData": "UEsDBBQAAAAIAC1qTVcAAAAAAAAAAAAAAAAUAAAAcHJvZHVjdF9pbnRyb2R1Y3Rpb24udHh0S0osyczPAABQSwcIAAAAAAAAAAAAAAAAAABQSwECFAAUAAAACAAtaktXAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAAAAAAHByb2R1Y3RfaW50cm9kdWN0aW9uLnR4dFBLBQYAAAAAAQABAEIAAAAoAAAAAAA=",
+            "IsMajorVersion": true
+        },
+        {
+            "attributes": {
+                "type": "ContentVersion",
+                "referenceId": "ActivityHistoryContentVersionRef2"
+            },
+            "Title": "Clinical Efficacy Data",
+            "PathOnClient": "clinical_efficacy_data.zip",
+            "VersionData": "UEsDBBQAAAAIAC1qTVcAAAAAAAAAAAAAAAASAAAAY2xpbmljYWxfZWZmaWNhY3kudHh0S0osyczPAABQSwcIAAAAAAAAAAAAAAAAAABQSwECFAAUAAAACAAtaktXAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAAAAAAGNsaW5pY2FsX2VmZmljYWN5LnR4dFBLBQYAAAAAAQABAEAAAAAmAAAAAAA=",
+            "IsMajorVersion": true
+        },
+        {
+            "attributes": {
+                "type": "ContentVersion",
+                "referenceId": "ActivityHistoryContentVersionRef3"
+            },
+            "Title": "Safety Profile and Monitoring",
+            "PathOnClient": "safety_profile_monitoring.zip",
+            "VersionData": "UEsDBBQAAAAIAC1qTVcAAAAAAAAAAAAAAAAVAAAAc2FmZXR5X3Byb2ZpbGVfbW9uaXRvcmluZy50eHRLSixOzM8DAFBLBwgAAAAAAAAAAAAAAAAAUEsBAhQAFAAAAAgALWpNVwAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAAAAAABzYWZldHlfcHJvZmlsZV9tb25pdG9yaW5nLnR4dFBLBQYAAAAAAQABAEMAAAApAAAAAAA=",
+            "IsMajorVersion": true
+        },
+        {
+            "attributes": {
+                "type": "ContentVersion",
+                "referenceId": "ActivityHistoryContentVersionRef4"
+            },
+            "Title": "Phase III Trial Results Summary",
+            "PathOnClient": "phase_iii_trial_results.pdf",
+            "VersionData": "JVBERi0xLjQKJcOkw7zDtsO4CjIgMCBvYmoKPDwvTGVuZ3RoIDMgMCBSL0ZpbHRlci9GbGF0ZURlY29kZT4+CnN0cmVhbQp4nDPQM1Qo5ypUKEotLs5ILVKwVTJUKEotS8wpTlWyUihJLS5RSiwpzy9SKE9NzNFLzk/VzyrOTFGyMjAzMDNUqihKTUxOzStRslKAqAGqAKvIzCtJTbFSKC5JTcnPS1WyUoABdSsFiGKQIqBxULZCTmJySWZRKlCNlYKVAgxYKZjVAAAKiDCQCmVuZHN0cmVhbQplbmRvYmoKCjMgMCBvYmoKNjkKZW5kb2JqCgo1IDAgb2JqCjw8L0xlbmd0aCA2IDAgUi9GaWx0ZXIvRmxhdGVEZWNvZGUvTGVuZ3RoMSA5MD4+CnN0cmVhbQp4nFNQUEhOzStRyM3Mz1NITixJzsjMS1fIT0vNycxLt1IoKMrMTFHwzCtJTbFSKC5JTcnPS1WyUoABKwUzOwUYsFIwqwEAe5wWDgplbmRzdHJlYW0KZW5kb2JqCgo2IDAgb2JqCjM2CmVuZG9iagoKMSAwIG9iago8PC9UeXBlL0NhdGFsb2cvUGFnZXMgNCAwIFI+PgplbmRvYmoKCjQgMCBvYmoKPDwvVHlwZS9QYWdlcy9Db3VudCAxL0tpZHNbNSAwIFJdPj4KZW5kb2JqCgp4cmVmCjAgNwowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDA0ODYgMDAwMDAgbiAKMDAwMDAwMDAwOSAwMDAwMCBuIAowMDAwMDAwMTU4IDAwMDAwIG4gCjAwMDAwMDA1MzMgMDAwMDAgbiAKMDAwMDAwMTc3IDAwMDAwIG4gCjAwMDAwMDA0NjcgMDAwMDAgbiAKdHJhaWxlcgo8PC9TaXplIDcvUm9vdCAxIDAgUj4+CnN0YXJ0eHJlZgo1ODAKJSVFT0YK",
+            "IsMajorVersion": true
+        },
+        {
+            "attributes": {
+                "type": "ContentVersion",
+                "referenceId": "ActivityHistoryContentVersionRef5"
+            },
+            "Title": "Real-World Evidence Analysis",
+            "PathOnClient": "real_world_evidence.pdf",
+            "VersionData": "JVBERi0xLjQKJcOkw7zDtsO4CjIgMCBvYmoKPDwvTGVuZ3RoIDMgMCBSL0ZpbHRlci9GbGF0ZURlY29kZT4+CnN0cmVhbQp4nDPQM1Qo5ypUKEotLs5ILVKwVTJUKEotS8wpTlWyUihJLS5RSiwpzy9SKE9NzNFLzk/VzyrOTFGyMjAzMDNUqihKTUxOzStRslKAqAGqAKvIzCtJTbFSKC5JTcnPS1WyUoABdSsFiGKQIqBxULZCTmJySWZRKlCNlYKVAgxYKZjVAAAKiDCQCmVuZHN0cmVhbQplbmRvYmoKCjMgMCBvYmoKNjkKZW5kb2JqCgo1IDAgb2JqCjw8L0xlbmd0aCA2IDAgUi9GaWx0ZXIvRmxhdGVEZWNvZGUvTGVuZ3RoMSA5MD4+CnN0cmVhbQp4nFNQUEhOzStRyM3Mz1NITixJzsjMS1fIT0vNycxLt1IoKMrMTFHwzCtJTbFSKC5JTcnPS1WyUoABKwUzOwUYsFIwqwEAe5wWDgplbmRzdHJlYW0KZW5kb2JqCgo2IDAgb2JqCjM2CmVuZG9iagoKMSAwIG9iago8PC9UeXBlL0NhdGFsb2cvUGFnZXMgNCAwIFI+PgplbmRvYmoKCjQgMCBvYmoKPDwvVHlwZS9QYWdlcy9Db3VudCAxL0tpZHNbNSAwIFJdPj4KZW5kb2JqCgp4cmVmCjAgNwowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDA0ODYgMDAwMDAgbiAKMDAwMDAwMDAwOSAwMDAwMCBuIAowMDAwMDAwMTU4IDAwMDAwIG4gCjAwMDAwMDA1MzMgMDAwMDAgbiAKMDAwMDAwMTc3IDAwMDAwIG4gCjAwMDAwMDA0NjcgMDAwMDAgbiAKdHJhaWxlcgo8PC9TaXplIDcvUm9vdCAxIDAgUj4+CnN0YXJ0eHJlZgo1ODAKJSVFT0YK",
+            "IsMajorVersion": true
+        },
+        {
+            "attributes": {
+                "type": "ContentVersion",
+                "referenceId": "ActivityHistoryContentVersionRef6"
+            },
+            "Title": "Comparative Effectiveness Research",
+            "PathOnClient": "comparative_effectiveness.pdf",
+            "VersionData": "JVBERi0xLjQKJcOkw7zDtsO4CjIgMCBvYmoKPDwvTGVuZ3RoIDMgMCBSL0ZpbHRlci9GbGF0ZURlY29kZT4+CnN0cmVhbQp4nDPQM1Qo5ypUKEotLs5ILVKwVTJUKEotS8wpTlWyUihJLS5RSiwpzy9SKE9NzNFLzk/VzyrOTFGyMjAzMDNUqihKTUxOzStRslKAqAGqAKvIzCtJTbFSKC5JTcnPS1WyUoABdSsFiGKQIqBxULZCTmJySWZRKlCNlYKVAgxYKZjVAAAKiDCQCmVuZHN0cmVhbQplbmRvYmoKCjMgMCBvYmoKNjkKZW5kb2JqCgo1IDAgb2JqCjw8L0xlbmd0aCA2IDAgUi9GaWx0ZXIvRmxhdGVEZWNvZGUvTGVuZ3RoMSA5MD4+CnN0cmVhbQp4nFNQUEhOzStRyM3Mz1NITixJzsjMS1fIT0vNycxLt1IoKMrMTFHwzCtJTbFSKC5JTcnPS1WyUoABKwUzOwUYsFIwqwEAe5wWDgplbmRzdHJlYW0KZW5kb2JqCgo2IDAgb2JqCjM2CmVuZG9iagoKMSAwIG9iago8PC9UeXBlL0NhdGFsb2cvUGFnZXMgNCAwIFI+PgplbmRvYmoKCjQgMCBvYmoKPDwvVHlwZS9QYWdlcy9Db3VudCAxL0tpZHNbNSAwIFJdPj4KZW5kb2JqCgp4cmVmCjAgNwowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDA0ODYgMDAwMDAgbiAKMDAwMDAwMDAwOSAwMDAwMCBuIAowMDAwMDAwMTU4IDAwMDAwIG4gCjAwMDAwMDA1MzMgMDAwMDAgbiAKMDAwMDAwMTc3IDAwMDAwIG4gCjAwMDAwMDA0NjcgMDAwMDAgbiAKdHJhaWxlcgo8PC9TaXplIDcvUm9vdCAxIDAgUj4+CnN0YXJ0eHJlZgo1ODAKJSVFT0YK",
+            "IsMajorVersion": true
+        },
+        {
+            "attributes": {
+                "type": "ContentVersion",
+                "referenceId": "ActivityHistoryContentVersionRef7"
+            },
+            "Title": "Disease Pathophysiology Overview",
+            "PathOnClient": "disease_pathophysiology.zip",
+            "VersionData": "UEsDBBQAAAAIAC1qTVcAAAAAAAAAAAAAAAAYAAAAZGlzZWFzZV9wYXRob3BoeXNpb2xvZ3kudHh0S0osyczPAABQSwcIAAAAAAAAAAAAAAAAAABQSwECFAAUAAAACAAtaktXAAAAAAAAAAAAAAAAGAAAAAAAAAAAAAAAAAAAAGRpc2Vhc2VfcGF0aG9waHlzaW9sb2d5LnR4dFBLBQYAAAAAAQABAEYAAAAsAAAAAAA=",
+            "IsMajorVersion": true
+        },
+        {
+            "attributes": {
+                "type": "ContentVersion",
+                "referenceId": "ActivityHistoryContentVersionRef8"
+            },
+            "Title": "Treatment Guidelines and Protocols",
+            "PathOnClient": "treatment_guidelines.zip",
+            "VersionData": "UEsDBBQAAAAIAC1qTVcAAAAAAAAAAAAAAAAWAAAAdHJlYXRtZW50X2d1aWRlbGluZXMudHh0S0osyczPAABQSwcIAAAAAAAAAAAAAAAAAABQSwECFAAUAAAACAAtaktXAAAAAAAAAAAAAAAAFgAAAAAAAAAAAAAAAAAAAHRyZWF0bWVudF9ndWlkZWxpbmVzLnR4dFBLBQYAAAAAAQABAEQAAAAqAAAAAAA=",
+            "IsMajorVersion": true
+        },
+        {
+            "attributes": {
+                "type": "ContentVersion",
+                "referenceId": "ActivityHistoryContentVersionRef9"
+            },
+            "Title": "Patient Care Best Practices",
+            "PathOnClient": "patient_care_practices.zip",
+            "VersionData": "UEsDBBQAAAAIAC1qTVcAAAAAAAAAAAAAAAAYAAAAcGF0aWVudF9jYXJlX3ByYWN0aWNlcy50eHRLSixOzM8DAFBLBwgAAAAAAAAAAAAAAAAAUEsBAhQAFAAAAAgALWpNVwAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAAAAAABwYXRpZW50X2NhcmVfcHJhY3RpY2VzLnR4dFBLBQYAAAAAAQABAEYAAAAsAAAAAAA=",
+            "IsMajorVersion": true
+        }
+    ]
+} 

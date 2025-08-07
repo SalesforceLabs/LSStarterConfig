@@ -1,0 +1,12 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "ProviderVisit",
+        "referenceId": "ProviderVisitRef1"
+      },
+      "VisitId": "@VisitRef1",
+      "IsConfirmed": true
+    }
+  ]
+} 

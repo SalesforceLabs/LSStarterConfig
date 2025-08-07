@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>65.0</apiVersion>
+    <isExposed>true</isExposed>
+    <description>Edi Account Info LWC for LMR Integration test</description>
+    <masterLabel>LSC Edit Account Info (LMR)</masterLabel>
+    <targets>
+        <target>lightning__AppPage</target>
+        <target>lightning__GlobalAction</target>
+        <target>lightning__HomePage</target>
+        <target>lightning__RecordAction</target>
+        <target>lightning__RecordPage</target>
+        <target>lightning__Tab</target>
+        <target>lightning__UrlAddressable</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordAction">
+            <actionType>ScreenAction</actionType>
+        </targetConfig>
+    </targetConfigs>    
+</LightningComponentBundle>

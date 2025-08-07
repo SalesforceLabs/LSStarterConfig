@@ -1,0 +1,194 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "ProductionBatch",
+                "referenceId": "ProductionBatchRef1"
+            },
+            "ProductId": "$Product2Ref1$",
+            "UniqueIdentificationNumber": "ADRACHOL2510mgLot2024A",
+            "IsActive": true,
+            "ExpirationDate": "2030-12-31"
+        },
+        {
+            "attributes": {
+                "type": "ProductionBatch",
+                "referenceId": "ProductionBatchRef2"
+            },
+            "ProductId": "$Product2Ref2$",
+            "UniqueIdentificationNumber": "ADRAVIL10mgLot2024B",
+            "IsActive": true,
+            "ExpirationDate": "2030-12-31"
+        },
+        {
+            "attributes": {
+                "type": "ProductionBatch",
+                "referenceId": "ProductionBatchRef3"
+            },
+            "ProductId": "$Product2Ref6$",
+            "UniqueIdentificationNumber": "ADRAVIL5mgLot2024C",
+            "IsActive": true,
+            "ExpirationDate": "2030-12-31"
+        },
+        {
+            "attributes": {
+                "type": "ProductionBatch",
+                "referenceId": "ProductionBatchRef4"
+            },
+            "ProductId": "$Product2Ref7$",
+            "UniqueIdentificationNumber": "PLOMAX50mcgLot2024D",
+            "IsActive": true,
+            "ExpirationDate": "2030-12-31"
+        },
+        {
+            "attributes": {
+                "type": "ProductionBatch",
+                "referenceId": "ProductionBatchRef5"
+            },
+            "ProductId": "$Product2Ref3$",
+            "UniqueIdentificationNumber": "PLOMAX100mcgLot2024E",
+            "IsActive": true,
+            "ExpirationDate": "2030-12-31"
+        },
+        {
+            "attributes": {
+                "type": "ProductionBatch",
+                "referenceId": "ProductionBatchRef6"
+            },
+            "ProductId": "$Product2Ref1$",
+            "UniqueIdentificationNumber": "ADRACHOL2510mgLot2024F",
+            "IsActive": true,
+            "ExpirationDate": "2030-12-31"
+        },
+        {
+            "attributes": {
+                "type": "ProductionBatch",
+                "referenceId": "ProductionBatchRef7"
+            },
+            "ProductId": "$Product2Ref2$",
+            "UniqueIdentificationNumber": "ADRAVIL10mgLot2024G",
+            "IsActive": true,
+            "ExpirationDate": "2030-12-31"
+        },
+        {
+            "attributes": {
+                "type": "ProductionBatch",
+                "referenceId": "ProductionBatchRef8"
+            },
+            "ProductId": "$Product2Ref3$",
+            "UniqueIdentificationNumber": "PLOMAX100mcgLot2024H",
+            "IsActive": true,
+            "ExpirationDate": "2030-12-31"
+        },
+        {
+            "attributes": {
+                "type": "ProductionBatch",
+                "referenceId": "ProductionBatchRef9"
+            },
+            "ProductId": "$Product2Ref6$",
+            "UniqueIdentificationNumber": "ADRAVIL5mgLot2024I",
+            "IsActive": true,
+            "ExpirationDate": "2030-12-31"
+        },
+        {
+            "attributes": {
+                "type": "ProductionBatch",
+                "referenceId": "ProductionBatchRef10"
+            },
+            "ProductId": "$Product2Ref7$",
+            "UniqueIdentificationNumber": "PLOMAX50mcgLot2024J",
+            "IsActive": true,
+            "ExpirationDate": "2030-12-31"
+        },
+        {
+            "attributes": {
+                "type": "ProductionBatch",
+                "referenceId": "ProductionBatchRef11"
+            },
+            "ProductId": "$Product2Ref9$",
+            "UniqueIdentificationNumber": "Imm5mgLot1",
+            "IsActive": true,
+            "ExpirationDate": "2030-12-31"
+        },
+        {
+            "attributes": {
+                "type": "ProductionBatch",
+                "referenceId": "ProductionBatchRef12"
+            },
+            "ProductId": "$Product2Ref8$",
+            "UniqueIdentificationNumber": "Imm10mgLot1",
+            "IsActive": true,
+            "ExpirationDate": "2030-12-31"
+        },
+        {
+            "attributes": {
+                "type": "ProductionBatch",
+                "referenceId": "ProductionBatchRef13"
+            },
+            "ProductId": "$Product2Ref9$",
+            "UniqueIdentificationNumber": "Imm5mgLot2",
+            "IsActive": true,
+            "ExpirationDate": "2030-12-31"
+        },
+        {
+            "attributes": {
+                "type": "ProductionBatch",
+                "referenceId": "ProductionBatchRef14"
+            },
+            "ProductId": "$Product2Ref13$",
+            "UniqueIdentificationNumber": "Cor10mgLot1",
+            "IsActive": true,
+            "ExpirationDate": "2030-12-31"
+        },
+        {
+            "attributes": {
+                "type": "ProductionBatch",
+                "referenceId": "ProductionBatchRef15"
+            },
+            "ProductId": "$Product2Ref13$",
+            "UniqueIdentificationNumber": "Cor10mgLot2",
+            "IsActive": true,
+            "ExpirationDate": "2030-12-31"
+        },
+        {
+            "attributes": {
+                "type": "ProductionBatch",
+                "referenceId": "ProductionBatchRef16"
+            },
+            "ProductId": "$Product2Ref13$",
+            "UniqueIdentificationNumber": "Cor10mgLot3",
+            "IsActive": true,
+            "ExpirationDate": "2030-12-31"
+        },
+        {
+            "attributes": {
+                "type": "ProductionBatch",
+                "referenceId": "ProductionBatchRef17"
+            },
+            "ProductId": "$Product2Ref14$",
+            "UniqueIdentificationNumber": "Cor20mgLot1",
+            "IsActive": true,
+            "ExpirationDate": "2030-12-31"
+        },
+        {
+            "attributes": {
+                "type": "ProductionBatch",
+                "referenceId": "ProductionBatchRef18"
+            },
+            "ProductId": "$Product2Ref14$",
+            "UniqueIdentificationNumber": "Cor20mgLot2",
+            "IsActive": true,
+            "ExpirationDate": "2030-12-31"
+        },
+        {
+            "attributes": {
+                "type": "ProductionBatch",
+                "referenceId": "ProductionBatchRef19"
+            },
+            "ProductId": "$Product2Ref8$",
+            "UniqueIdentificationNumber": "Imm10mgLot2",
+            "IsActive": true,
+            "ExpirationDate": "2030-12-31"
+        }
+    ]
+} 

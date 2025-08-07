@@ -1,0 +1,52 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "ContactPointAddress",
+        "referenceId": "ContactPointAddressRef1"
+      },
+      "Name": "Primary Healthcare Main Address",
+      "ParentId": "@ActivityHistoryAccountRef1",
+      "AddressType": "Shipping",
+      "Street": "123 Main Street",
+      "City": "Denver",
+      "State": "Colorado",
+      "Country": "United States",
+      "PostalCode": "80202",
+      "IsPrimary": true,
+      "IsActive": true
+    },
+    {
+      "attributes": {
+        "type": "ContactPointAddress",
+        "referenceId": "ContactPointAddressRef2"
+      },
+      "Name": "Primary Healthcare Billing Address",
+      "ParentId": "@ActivityHistoryAccountRef1",
+      "AddressType": "Billing",
+      "Street": "123 Main Street",
+      "City": "Denver",
+      "State": "Colorado",
+      "Country": "United States",
+      "PostalCode": "80202",
+      "IsPrimary": false,
+      "IsActive": true
+    },
+    {
+      "attributes": {
+        "type": "ContactPointAddress",
+        "referenceId": "ContactPointAddressRef3"
+      },
+      "Name": "Dr. Johnson Office Address",
+      "ParentId": "@ActivityHistoryAccountRef2",
+      "AddressType": "Shipping",
+      "Street": "456 Oak Avenue",
+      "City": "Boulder",
+      "State": "Colorado",
+      "Country": "United States",
+      "PostalCode": "80301",
+      "IsPrimary": true,
+      "IsActive": true
+    }
+  ]
+} 

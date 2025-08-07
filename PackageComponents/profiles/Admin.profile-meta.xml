@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Account.Institution</recordType>
+        <visible>true</visible>
+        <personAccountDefault>false</personAccountDefault>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>PersonAccount.MedicalProfessional</recordType>
+        <visible>true</visible>
+        <personAccountDefault>true</personAccountDefault>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>HealthcareProvider.MedicalProfessional</recordType>
+        <visible>true</visible>
+        <personAccountDefault>false</personAccountDefault>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>HealthcareProvider.Institution</recordType>
+        <visible>true</visible>
+        <personAccountDefault>false</personAccountDefault>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>HealthcareProvider.PersonAccount</recordType>
+        <visible>true</visible>
+        <personAccountDefault>false</personAccountDefault>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>Product2.Sample_Product</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Product2.Promotional_Item</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <applicationVisibilities>
+        <application>lsc4ce__lifeSciencesCommercial</application>
+        <default>false</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <tabVisibilities>
+        <tab>lsc4ce__AdminConsole</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>lsc4ce__Planner</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>lsc4ce__IntelligentContent</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>lsc4ce__AccountFilter</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <layoutAssignments>
+        <layout>Account-Business Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PersonAccount-Person Account MP Layout</layout>
+        <recordType>PersonAccount.MedicalProfessional</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>PersonAccount-Person Account MP Layout</layout>
+        <recordType>PersonAccount.PersonAccount</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Visit-Visit Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>ProviderVisit-Provider Visit Layout</layout>
+    </layoutAssignments>
+</Profile>

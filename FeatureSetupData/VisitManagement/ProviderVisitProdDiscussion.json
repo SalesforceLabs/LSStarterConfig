@@ -1,0 +1,68 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "ProviderVisitProdDiscussion",
+                "referenceId": "ProviderVisitProdDiscussionRef1"
+            },
+            "ProviderVisitProductDtlId": "@ProviderVisitProdDetailingRef1",
+            "Note": "Physician expressed interest in Adravil's clinical efficacy data for elderly patients."
+        },
+        {
+            "attributes": {
+                "type": "ProviderVisitProdDiscussion",
+                "referenceId": "ProviderVisitProdDiscussionRef2"
+            },
+            "ProviderVisitProductDtlId": "@ProviderVisitProdDetailingRef1",
+            "Note": "Requested additional information about potential drug interactions with common cardiovascular medications."
+        },
+        {
+            "attributes": {
+                "type": "ProviderVisitProdDiscussion",
+                "referenceId": "ProviderVisitProdDiscussionRef3"
+            },
+            "ProviderVisitProductDtlId": "@ProviderVisitProdDetailingRef2",
+            "Note": "Dr. Smith is interested in Cordim's safety profile for patients with renal impairment."
+        },
+        {
+            "attributes": {
+                "type": "ProviderVisitProdDiscussion",
+                "referenceId": "ProviderVisitProdDiscussionRef4"
+            },
+            "ProviderVisitProductDtlId": "@ProviderVisitProdDetailingRef3",
+            "Note": "Inquired about Adravil patient assistance program for low-income patients. Shared brochure."
+        },
+        {
+            "attributes": {
+                "type": "ProviderVisitProdDiscussion",
+                "referenceId": "ProviderVisitProdDiscussionRef5"
+            },
+            "ProviderVisitProductDtlId": "@ProviderVisitProdDetailingRef4",
+            "Note": "Discussed optimal injection techniques for Plomax. Provider mentioned previous patient complaints about administration difficulty."
+        },
+        {
+            "attributes": {
+                "type": "ProviderVisitProdDiscussion",
+                "referenceId": "ProviderVisitProdDiscussionRef6"
+            },
+            "ProviderVisitProductDtlId": "@ProviderVisitProdDetailingRef5",
+            "Note": "Provider has had positive outcomes with Immunexis in elderly patients. Requested more samples."
+        },
+        {
+            "attributes": {
+                "type": "ProviderVisitProdDiscussion",
+                "referenceId": "ProviderVisitProdDiscussionRef7"
+            },
+            "ProviderVisitProductDtlId": "@ProviderVisitProdDetailingRef5",
+            "Note": "Requested information about ongoing clinical trials for extended indications."
+        },
+        {
+            "attributes": {
+                "type": "ProviderVisitProdDiscussion",
+                "referenceId": "ProviderVisitProdDiscussionRef8"
+            },
+            "ProviderVisitProductDtlId": "@ProviderVisitProdDetailingRef6",
+            "Note": "Provider is considering switching some patients from competitor products to Cordim. Requested comparative efficacy data."
+        }
+    ]
+} 

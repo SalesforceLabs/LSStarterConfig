@@ -1,0 +1,94 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "ProductBatchItem",
+                "referenceId": "ProductBatchItemRef1"
+            },
+            "ProductItemId": "@ProductItemRef1",
+            "ProductionBatchId": "@ProductionBatchRef1",
+            "IsActive": true,
+            "RemainingQuantity": 50
+        },
+        {
+            "attributes": {
+                "type": "ProductBatchItem",
+                "referenceId": "ProductBatchItemRef2"
+            },
+            "ProductItemId": "@ProductItemRef2",
+            "ProductionBatchId": "@ProductionBatchRef2",
+            "IsActive": true,
+            "RemainingQuantity": 50
+        },
+        {
+            "attributes": {
+                "type": "ProductBatchItem",
+                "referenceId": "ProductBatchItemRef3"
+            },
+            "ProductItemId": "@ProductItemRef3",
+            "ProductionBatchId": "@ProductionBatchRef5",
+            "IsActive": true,
+            "RemainingQuantity": 50
+        },
+        {
+            "attributes": {
+                "type": "ProductBatchItem",
+                "referenceId": "ProductBatchItemRef6"
+            },
+            "ProductItemId": "@ProductItemRef6",
+            "ProductionBatchId": "@ProductionBatchRef3",
+            "IsActive": true,
+            "RemainingQuantity": 50
+        },
+        {
+            "attributes": {
+                "type": "ProductBatchItem",
+                "referenceId": "ProductBatchItemRef7"
+            },
+            "ProductItemId": "@ProductItemRef7",
+            "ProductionBatchId": "@ProductionBatchRef4",
+            "IsActive": true,
+            "RemainingQuantity": 50
+        },
+        {
+            "attributes": {
+                "type": "ProductBatchItem",
+                "referenceId": "ProductBatchItemRef8"
+            },
+            "ProductItemId": "@ProductItemRef8",
+            "ProductionBatchId": "@ProductionBatchRef12",
+            "IsActive": true,
+            "RemainingQuantity": 50
+        },
+        {
+            "attributes": {
+                "type": "ProductBatchItem",
+                "referenceId": "ProductBatchItemRef9"
+            },
+            "ProductItemId": "@ProductItemRef9",
+            "ProductionBatchId": "@ProductionBatchRef11",
+            "IsActive": true,
+            "RemainingQuantity": 50
+        },
+        {
+            "attributes": {
+                "type": "ProductBatchItem",
+                "referenceId": "ProductBatchItemRef10"
+            },
+            "ProductItemId": "@ProductItemRef10",
+            "ProductionBatchId": "@ProductionBatchRef14",
+            "IsActive": true,
+            "RemainingQuantity": 50
+        },
+        {
+            "attributes": {
+                "type": "ProductBatchItem",
+                "referenceId": "ProductBatchItemRef11"
+            },
+            "ProductItemId": "@ProductItemRef11",
+            "ProductionBatchId": "@ProductionBatchRef17",
+            "IsActive": true,
+            "RemainingQuantity": 50
+        }
+    ]
+} 

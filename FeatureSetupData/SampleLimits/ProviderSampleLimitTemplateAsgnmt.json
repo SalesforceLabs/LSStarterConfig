@@ -1,0 +1,50 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "ProviderSmplLmtTmplAssignment",
+        "referenceId": "ProviderSmplLmtTmplAssignmentRef1"
+      },
+      "ProductId": "$LifeSciMarketableProductRef65$",
+      "PrvdSampleLimitTemplateId": "@ProviderSampleLimitTemplateRef1",
+      "RuleCondition": "{\"Belgium_SamplesYTD\":{\"name\":\"Belgium_SamplesYTD\",\"label\":\"Samples per Calendar year\",\"strategy\":\"SKU\",\"quota\":8,\"calculation\":\"SamplesPerYear\",\"period\":{\"type\":\"SampleLimitProductPeriod\",\"params\":{\"starts\":{\"enabled\":false},\"ends\":{\"enabled\":false}}}}}"
+    },
+    {
+      "attributes": {
+        "type": "ProviderSmplLmtTmplAssignment",
+        "referenceId": "ProviderSmplLmtTmplAssignmentRef2"
+      },
+      "ProductId": "$LifeSciMarketableProductRef74$",
+      "PrvdSampleLimitTemplateId": "@ProviderSampleLimitTemplateRef3",
+      "RuleCondition": "{\"Netherlands_SamplesYTD\":{\"name\":\"Netherlands_SamplesYTD\",\"label\":\"Maximum Quantity per Calendar Year\",\"strategy\":\"SKU\",\"quota\":2,\"calculation\":\"SamplesPerYear\",\"period\":{\"type\":\"SampleLimitProductPeriod\",\"params\":{\"starts\":{\"enabled\":false},\"ends\":{\"enabled\":false}}}},\"Netherlands_SamplesPerVisit\":{\"name\":\"Netherlands_SamplesPerVisit\",\"label\":\"Maximum Quantity per Visit\",\"strategy\":\"SKU\",\"quota\":2,\"calculation\":\"SamplesPerVisit\",\"period\":{\"type\":\"SampleLimitFirstDropPeriod\",\"params\":{\"interval\":24,\"intervalTime\":\"months\",\"offset\":\"\",\"offsetTime\":\"\"}}}}"
+    },
+    {
+      "attributes": {
+        "type": "ProviderSmplLmtTmplAssignment",
+        "referenceId": "ProviderSmplLmtTmplAssignmentRef3"
+      },
+      "ProductId": "$LifeSciMarketableProductRef77$",
+      "PrvdSampleLimitTemplateId": "@ProviderSampleLimitTemplateRef3",
+      "RuleCondition": "{\"Netherlands_SamplesYTD\":{\"name\":\"Netherlands_SamplesYTD\",\"label\":\"Maximum Quantity per Calendar Year\",\"strategy\":\"SKU\",\"quota\":2,\"calculation\":\"SamplesPerYear\",\"period\":{\"type\":\"SampleLimitProductPeriod\",\"params\":{\"starts\":{\"enabled\":false},\"ends\":{\"enabled\":false}}}},\"Netherlands_SamplesPerVisit\":{\"name\":\"Netherlands_SamplesPerVisit\",\"label\":\"Maximum Quantity per Visit\",\"strategy\":\"SKU\",\"quota\":2,\"calculation\":\"SamplesPerVisit\",\"period\":{\"type\":\"SampleLimitFirstDropPeriod\",\"params\":{\"interval\":24,\"intervalTime\":\"months\",\"offset\":\"\",\"offsetTime\":\"\"}}}}"
+    },
+    {
+      "attributes": {
+        "type": "ProviderSmplLmtTmplAssignment",
+        "referenceId": "ProviderSmplLmtTmplAssignmentRef4"
+      },
+      "ProductId": "$LifeSciMarketableProductRef6$",
+      "PrvdSampleLimitTemplateId": "@ProviderSampleLimitTemplateRef5",
+      "RuleCondition": "{\"PerPeriodLimit\":{\"name\":\"PerPeriodLimit\",\"label\":\"Maximum Quantity per Period\",\"strategy\":\"SKU\",\"quota\":10,\"calculation\":\"SamplesInPeriod\",\"period\":{\"type\":\"SampleLimitDateRangePeriod\",\"params\":{\"starts\":\"\",\"ends\":\"\"}}},\"PerCallLimit\":{\"name\":\"PerCallLimit\",\"label\":\"Maximum Quantity per Visit\",\"strategy\":\"SKU\",\"quota\":2,\"calculation\":\"SamplesPerVisit\",\"period\":{\"type\":\"SampleLimitDateRangePeriod\",\"params\":{\"starts\":\"\",\"ends\":\"\"}}}}"
+      
+    },
+    {
+      "attributes": {
+        "type": "ProviderSmplLmtTmplAssignment",
+        "referenceId": "ProviderSmplLmtTmplAssignmentRef5"
+      },
+      "ProductId": "$LifeSciMarketableProductRef5$",
+      "PrvdSampleLimitTemplateId": "@ProviderSampleLimitTemplateRef4",
+      "RuleCondition": "{\"Turkey_SamplesRollingFirstYear\":{\"name\":\"Turkey_SamplesRollingFirstYear\",\"label\":\"Maximum Quantity for First Rolling Year\",\"strategy\":\"SKU\",\"quota\":4,\"calculation\":\"SamplesInPeriod\",\"period\":{\"type\":\"SampleLimitFirstDropPeriod\",\"params\":{\"interval\":12,\"intervalTime\":\"months\",\"offset\":0,\"offsetTime\":\"months\"}}},\"Turkey_SamplesRollingSecondYear\":{\"name\":\"Turkey_SamplesRollingSecondYear\",\"label\":\"Maximum Quantity for Second Rolling Year\",\"strategy\":\"SKU\",\"quota\":4,\"calculation\":\"SamplesInPeriod\",\"period\":{\"type\":\"SampleLimitFirstDropPeriod\",\"params\":{\"interval\":24,\"intervalTime\":\"months\",\"offset\":12,\"offsetTime\":\"months\"}}},\"Turkey_SamplesPerVisit\":{\"name\":\"Turkey_SamplesPerVisit\",\"label\":\"Maximum Quantity per Visit\",\"strategy\":\"SKU\",\"quota\":4,\"calculation\":\"SamplesPerVisit\",\"period\":{\"type\":\"SampleLimitFirstDropPeriod\",\"params\":{\"interval\":24,\"intervalTime\":\"months\"}}}}"
+    }
+  ]
+}

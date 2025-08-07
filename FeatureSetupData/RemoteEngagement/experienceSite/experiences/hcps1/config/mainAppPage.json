@@ -1,0 +1,11 @@
+{
+  "cmsSettings" : { },
+  "currentThemeId" : "eb68d81e-e777-4e82-a5cf-ef443b5bcf78",
+  "headMarkup" : null,
+  "id" : "31d9ea86-38e6-45ff-9aeb-5225189bec79",
+  "isLockerServiceEnabled" : true,
+  "isRelaxedCSPLevel" : false,
+  "label" : "main",
+  "templateName" : "Starter Template",
+  "type" : "appPage"
+}

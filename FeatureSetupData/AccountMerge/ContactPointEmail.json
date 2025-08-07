@@ -1,0 +1,22 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "ContactPointEmail",
+                "referenceId": "ContactPointEmailRef1"
+            },
+            "ParentId": "@AccountRef1",
+            "EmailAddress": "info@primaryhealthcare.com",
+            "IsPrimary": true
+        },
+        {
+            "attributes": {
+                "type": "ContactPointEmail",
+                "referenceId": "ContactPointEmailRef2"
+            },
+            "ParentId": "@AccountRef2",
+            "EmailAddress": "info@secondarymedical.com",
+            "IsPrimary": true
+        }
+    ]
+}

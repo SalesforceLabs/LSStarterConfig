@@ -1,0 +1,162 @@
+[
+    {
+        "sobject": "Territory2Type",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Territory2Type.json"
+        ]
+    }
+    ,{
+        "sobject": "Territory2Model",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Territory2Model.json"
+        ]
+    },
+    {
+        "sobject": "Territory2",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "Territory2.json"
+        ]
+    }, 
+    {
+        "sobject": "Product2",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Product2.json"
+        ]
+    },
+    {
+        "sobject": "LifeSciMarketableProduct",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "LifeSciMarketableProduct.json"
+        ]
+    },
+    {
+        "sobject": "ProductGuidance",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "ProductGuidance.json"
+        ]
+    },
+    {
+        "sobject": "Account",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "Account.json"
+        ]
+    }, 
+    {
+        "sobject": "HealthcareProvider",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "HealthcareProvider.json"
+        ]
+    },
+    {
+        "sobject": "ContactPointAddress",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "ContactPointAddress.json"
+        ]
+    },
+    {
+        "sobject": "PartyRoleRelation",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "PartyRoleRelation.json"
+        ]
+    },
+    {
+        "sobject": "ProviderAffiliation",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "ProviderAffiliation.json"
+        ]
+    },
+    {
+        "sobject": "ComplianceStatementDef",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "ComplianceStatementDef.json"
+        ]
+    },
+    {
+        "sobject": "ProviderAffiliationProduct",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "ProviderAffiliationProduct.json"
+        ]
+    },
+    {
+        "sobject": "CommSubscription",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "CommunicationSubscription.json"
+        ]
+    },
+    {
+        "sobject": "EngagementChannelType",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "EngagementChannelType.json"
+        ]
+    },
+    {
+        "sobject": "CommSubscriptionChannelType",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "CommunicationSubscriptionChannelType.json"
+        ]
+    },
+    {
+        "sobject": "LifeSciEmailTemplate",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "EmailTemplate.json"
+        ]
+    },
+    {
+        "sobject": "TerritoryAcctRcmdAction",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "TerritoryAcctRcmdAction.json"
+        ]
+    },
+    {
+        "sobject": "LifeSciEmailTmplSnapshot",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "EmailTemplateSnapshot.json"
+        ]
+    },
+    {
+        "sobject": "TerritoryContentTmplAsgnt",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "TerritoryEmailTemplateAssignment.json"
+        ]
+    }
+]

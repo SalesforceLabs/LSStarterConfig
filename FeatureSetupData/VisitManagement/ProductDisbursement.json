@@ -1,0 +1,37 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "ProductDisbursement",
+                "referenceId": "ProductDisbursementRef1"
+            },
+            "VisitId": "@VisitRef1",
+            "ProductItemId": "$ProductItemRef6$",
+            "ProductionBatchId": "$ProductionBatchRef3$",
+            "QuantityDisbursed": 1,
+            "IsDisbursed": true
+        },
+        {
+            "attributes": {
+                "type": "ProductDisbursement",
+                "referenceId": "ProductDisbursementRef2"
+            },
+            "VisitId": "@VisitRef2",
+            "ProductItemId": "$ProductItemRef7$",
+            "ProductionBatchId": "$ProductionBatchRef4$",
+            "QuantityDisbursed": 1,
+            "IsDisbursed": true
+        },
+        {
+            "attributes": {
+                "type": "ProductDisbursement",
+                "referenceId": "ProductDisbursementRef3"
+            },
+            "VisitId": "@VisitRef3",
+            "ProductItemId": "$ProductItemRef8$",
+            "ProductionBatchId": "$ProductionBatchRef12$",
+            "QuantityDisbursed": 1,
+            "IsDisbursed": true
+        }
+    ]
+} 

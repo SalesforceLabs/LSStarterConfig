@@ -1,0 +1,7 @@
+{
+  "records": [
+    { "attributes": { "type": "Visit", "referenceId": "KAMVisit1" }, "PlaceId": "@KAMLocation1", "AccountId": "@KAMAccount1", "PlannedVisitStartTime": "2024-07-10T09:00:00Z" },
+    { "attributes": { "type": "Visit", "referenceId": "KAMVisit2" }, "PlaceId": "@KAMLocation1", "AccountId": "@KAMAccount2", "PlannedVisitStartTime": "2024-07-11T09:00:00Z" },
+    { "attributes": { "type": "Visit", "referenceId": "KAMVisit3" }, "PlaceId": "@KAMLocation1", "AccountId": "@KAMAccount3", "PlannedVisitStartTime": "2024-07-12T09:00:00Z" }
+  ]
+} 

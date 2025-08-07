@@ -1,0 +1,26 @@
+[
+    {
+        "sobject": "ProviderSampleLimitTemplate",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "ProviderSampleLimitTemplate.json"
+        ]
+    },
+    {
+        "sobject": "ProviderSmplLmtTmplAssignment",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "ProviderSampleLimitTemplateAsgnmt.json"
+        ]
+    },
+    {
+        "sobject": "ProviderSampleLimit",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "ProviderSampleLimit.json"
+        ]
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "sobject": "PresentationPage",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "PresentationPage.json"
+        ]
+    },
+    {
+        "sobject": "Presentation",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "Presentation.json"
+        ]
+    },
+    {
+        "sobject": "PresentationLinkedPage",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "PresentationLinkedPage.json"
+        ]
+    },
+    {
+        "sobject": "PresentationPageProduct",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": [
+            "PresentationPageProduct.json"
+        ]
+    }
+]

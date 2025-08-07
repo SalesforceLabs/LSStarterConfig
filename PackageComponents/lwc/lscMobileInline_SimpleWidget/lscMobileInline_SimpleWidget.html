@@ -1,0 +1,48 @@
+<template>
+    <div  class="widget-container">
+        <div class="slds-var-p-horizontal_small slds-var-p-vertical_small">
+            <div class="slds-text-align_center">
+                <span class="slds-text-heading_large">BarcodeScanner: Multi-Scan</span>
+            </div>
+            
+            <!-- Static help text -->
+            <div class="slds-text-align_center slds-text-color_weak slds-var-m-vertical_small slds-var-m-horizontal_small">
+            <p>Tap <strong>Start a Scanning Session</strong> to open a barcode scanner camera view. Position barcodes in the scanner view to scan them.</p>
+            <p>Continue scanning items. Tap Done when you are done scanning.</p>
+            </div>
+            
+            
+            <!-- Scan button, always enabled -->
+            <div class="slds-align_absolute-center slds-var-m-vertical_small">
+            <lightning-button
+                disabled={isScanningDisabled}
+                variant="brand"
+                class="slds-var-m-left_x-small"
+                icon-name="utility:scan"
+                label="Start a Scanning Session"
+                title="Start scanning barcodes, until there are no more barcodes to scan"
+                onclick={beginScanning}
+            ></lightning-button>
+            </div>
+            
+            <!-- After barcodes are scanned, their values are displayed here: -->
+            <template lwc:if={scannedBarcodes}>
+                <div class="slds-var-m-vertical_small slds-var-p-vertical_small slds-border_top slds-border_bottom">
+                <p>Scanned barcode values are:</p>
+                <pre>{scannedBarcodesAsString}</pre>
+                </div>
+            </template>
+        </div>
+        <div class="slds-text-color_weak slds-var-m-vertical_small slds-var-m-horizontal_small">
+            <template lwc:if={isBarcodeScannerAvailable}>
+                Barcode Scanner Available
+            </template>
+            <template lwc:else>
+                Barcode Scanner Not Available
+            </template>
+            <div>
+                {objectApiName} - {recordId}
+            </div>
+        </div>
+    </div>
+</template>
