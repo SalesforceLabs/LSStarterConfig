@@ -1,46 +1,6 @@
 (() => {
-    // Safely parse JSON string
-    function safelyParseJSON(jsonString) {
-        try {
-            const result = typeof jsonString === 'string' ? JSON.parse(jsonString) : null;
-            return result;
-        } catch (e) {
-            console.error('Error parsing JSON:', e.message);
-            return null;
-        }
-    }
-
-    // Extract data from params property, needed by extractFromContextData
-    function extractFromParams(obj) {
-        const params = obj?.params;
-        if (!params) return null;
-        
-        if (typeof params === 'string') {
-            return safelyParseJSON(params);
-        } else if (typeof params === 'object') {
-            return params;
-        }
-        
-        return null;
-    }
-
-    // Extract data from contextData property - APPROACH 1
-    function extractFromContextData(obj) {
-        const contextData = obj?.contextData;
-        if (!contextData) return null;
-        
-        if (typeof contextData === 'string') {
-            return safelyParseJSON(contextData);
-        } else if (typeof contextData === 'object') {
-            // Check if params is nested in contextData
-            if (contextData.params) {
-                return extractFromParams({ params: contextData.params });
-            }
-            return contextData;
-        }
-        
-        return null;
-    }
+    // Note: Old data extraction functions removed - no longer needed 
+    // since businessRuleValidator provides clean, structured parameters
 
     // AccountDAO - Data Access Object for account-related operations
     var accountDao = (function () {
@@ -53,42 +13,84 @@
 
         // Helper functions for accountDao - moved inside closure to access currentRecord
         async function checkForPersonAccount() {
-            let accountId = currentRecord.stringValue("Account");
+            let accountId = currentRecord.stringValue("AccountId");
+            
+            // If not found, try extracting directly from context data
+            if (!accountId) {
+                try {
+                    const contextData = parseContextData(currentRecord);
+                    
+                    // Try different possible locations for AccountId
+                    accountId = contextData.ProviderVisit?.AccountId || 
+                               contextData.AccountId || 
+                               contextData.Account?.Id ||
+                               contextData.Account;
+                } catch (e) {
+                    console.log("Context data error:", e.message);
+                    // Error accessing context data, continue with null accountId
+                    accountId = null;
+                }
+            }
             
             if (!accountId) {
                 return false; // Default to not person account if no account ID
             }
             
-            let account = await selectAccountById(accountId);
-            let result = account && account.length > 0 ? account[0].boolValue("IsPersonAccount") : false;
-            return result;
+            try {
+                let account = await selectAccountById(accountId);
+                let result = account && account.length > 0 ? account[0].boolValue("IsPersonAccount") : false;
+                return result;
+            } catch (error) {
+                console.log("Account check error:", error.message);
+                return false; // Default to false on error
+            }
         }
 
         async function checkForInstitution() {
-            let accountId = currentRecord.stringValue("Account");
+            let accountId = currentRecord.stringValue("AccountId");
+            // If not found, try extracting directly from context data
+            if (!accountId) {
+                try {
+                    const contextData = parseContextData(currentRecord);
+                    
+                    // Try different possible locations for AccountId
+                    accountId = contextData.ProviderVisit?.AccountId || 
+                               contextData.AccountId || 
+                               contextData.Account?.Id ||
+                               contextData.Account;
+                } catch (e) {
+                    // Error accessing context data, continue with null accountId
+                    console.log("Context data error:", e.message);
+                }
+            }
             
             if (!accountId) {
                 return false; // Default to not institution if no account ID
             }
             
-            let account = await selectAccountById(accountId);
-            let isPersonAccount = account && account.length > 0 ? account[0].boolValue("IsPersonAccount") : false;
-            
-            // If it's not a Person Account, then it's a Business Account (HCO)
-            let result = !isPersonAccount;
-            return result;
+            try {
+                let account = await selectAccountById(accountId);
+                let isPersonAccount = account && account.length > 0 ? account[0].boolValue("IsPersonAccount") : false;
+                
+                // If it's not a Person Account, then it's a Business Account (HCO)
+                let result = !isPersonAccount;
+                return result;
+            } catch (error) {
+                console.log("Institution check error:", error.message);
+                return false; // Default to false on error
+            }
         }
 
         async function selectChildCallAccountsById() {
             // Extract attendee account IDs directly from the JSON data
             // The attendee data is in the Visit.ParentVisitId array in the JSON
             
-            // Get the JSON data from the current record context
+            // Get the data from the current record context
             let contextData;
             try {
-                const contextJson = currentRecord.getContextData();
-                contextData = JSON.parse(contextJson);
+                contextData = parseContextData(currentRecord);
             } catch (error) {
+                console.log("Context data error:", error.message);
                 return [];
             }
             
@@ -187,33 +189,21 @@
     // Main function that businessRuleValidator calls
     async function validateVisit() {
         try {
-            const record = arguments[0];
-            const user = arguments[1]; // jsUser parameter from business rule validator
+            const record = arguments[0]; // JsDbObject with stringValue(), boolValue(), getContextData()
+            const user = arguments[1];   // JsUser object  
+            const db = arguments[2];     // JsDb object for database operations
+            const env = arguments[3];    // JsEnv object for environment options
             
             if (!record) {
                 return [{ 
                     title: "Error in validation", 
-                    isValid: false, 
+                    status: "error", 
                     error: "No record provided" 
                 }];
             }
             
-            // Only use Approach 1: Extract data from JsDbObject format (sObject with contextData)
-            let jsonData = null;
-            if (record.sObject) {
-                jsonData = extractFromContextData(record);
-            } else {
-                return [{ 
-                    title: "Invalid record format", 
-                    isValid: false, 
-                    error: "Record missing sObject property" 
-                }];
-            }
-            
-            // Default to empty object if no data found
-            jsonData = jsonData || {};
-            
-            const validationResults = await runValidation(jsonData, user);
+            // Use the properly provided business rule parameters directly
+            const validationResults = await runValidation(record, user, db, env);
             
             // Handle mixed sync/async results
             const resolvedResults = await Promise.all(validationResults);
@@ -221,28 +211,19 @@
             // Ensure we always return an array
             const finalResults = Array.isArray(resolvedResults) ? resolvedResults : [resolvedResults];
             return finalResults;
-        } catch (error) {
-            console.error('validateVisit() - ERROR:', error);
+      } catch (error) {
             return [{ 
                 title: "Error in validation", 
-                isValid: false, 
+                status: "error", 
                 error: error.message 
             }];
         }
     }
     
     // Function to run the validation with provided data
-    async function runValidation(jsonData, user) {
-        // Create environment wrapper for the JSON data
-        const env = createEnvironment(jsonData);
-        
-        // Get record from environment
-        const record = env ? env.getRecord() : { 
-            stringValue: (field) => field === 'Status' ? 'Draft' : '',
-            boolValue: (field) => false
-        };
+    async function runValidation(record, user, db, env) {
 
-        // Initialize accountDao with record context
+        // Initialize accountDao with the proper record object (JsDbObject)
         await accountDao.getInstance().initialize(record);
 
         // Always validate in this version
@@ -268,157 +249,183 @@
             // Run all validation functions (handling both sync and async)
             validationResults = validationFunctions.map((validationFn, index) => {
                 try {
-                    // Pass user parameter to validation functions that need it
-                    const result = validationFn(jsonData, record, env, user);
+                    // Pass proper business rule parameters: record, user, db, env
+                    const result = validationFn(record, user, db, env);
                     // If the result is a Promise, return it as is for Promise.all
                     if (result && typeof result.then === 'function') {
-                        return result.catch(error => {
-                            console.error(`Validation ${validationFn.name} error:`, error);
+                        return result.then(asyncResult => {
+                            return asyncResult;
+                        }).catch(error => {
+                            console.log(`${validationFn.name} error:`, error.message);
                             return {
                                 title: `Error in ${validationFn.name}: ${error.message}`,
-                                isValid: false,
+                                status: "error",
                                 error: error.message
                             };
                         });
                     }
                     return result;
                 } catch (error) {
-                    console.error(`Validation ${validationFn.name} caught error:`, error);
-                    return {
-                        title: `Error in ${validationFn.name}: ${error.message}`,
-                        isValid: false,
-                        error: error.message
-                    };
+                    console.log(`${validationFn.name} error:`, error.message);
+                        return {
+                                title: `Error in ${validationFn.name}: ${error.message}`,
+                                status: "error",
+                                error: error.message
+                            };
                 }
             });
-        } else {
-            // Default return when validation is not required
-            validationResults = [{ 
-                title: "Validation not required", 
-                isValid: true 
-            }];
-        }
+            } else {
+                // Default return when validation is not required
+                validationResults = [{ 
+                    title: "Validation not required", 
+                    status: "success" 
+                }];
+            }
 
         return validationResults;
     }
     
-    // Create environment wrapper for the JSON data
-    function createEnvironment(jsonData) {
-        const env = {
-            getOption: (option) => {
-                return option === 'actionName' ? 'Submit' : '';
-            },
-            currentUser: {
-                ProfileId: jsonData?.currentUser?.ProfileId || null,
-                Id: jsonData?.currentUser?.Id || null,
-                Name: jsonData?.currentUser?.Name || null
-            },
-            getRecord: () => ({
-                stringValue: (field) => {
-                    let result;
-                    
-                    if (field === "Status") {
-                        result = "Draft";
-                    } else if (field === "Id") {
-                        result = jsonData.ProviderVisit?.Id || '';
-                    } else if (field === "VisitId") {
-                        result = jsonData.ProviderVisit?.VisitId || '';
-                    } else if (field === "Account") {
-                        // Based on actual JSON structure: ProviderVisit.AccountId contains the account ID
-                        result = jsonData.ProviderVisit?.AccountId || '';
-                        
-                        // Fallback: Try other possible locations
-                        if (!result) {
-                            result = jsonData.Visit?.Account || jsonData.ProviderVisit?.Account || 
-                                   jsonData.Visit?.AccountId || '';
-                        }
-                        
-                    } else if (field === "ComplianceAgreementStatus") {
-                        result = jsonData.ProviderVisit?.ComplianceStmtAgreeStatus || '';
-                    } else if (field === "SubmissionDelayReason") {
-                        result = jsonData.ProviderVisit?.SubmitDelayReason || '';
-                    } else if (field === "SubmissionDelayReasonPicklist") {
-                        result = jsonData.ProviderVisit?.SubmitDelayReasonType || '';
-                    } else if (field === "ProfileId") {
-                        result = jsonData?.currentUser?.ProfileId || '';
-                    } else {
-                        result = jsonData.ProviderVisit?.[field] || '';
-                    }
-                    
-                    return result;
-                },
-                boolValue: (field) => {
-                    let result;
-                    if (field === "IsVisitDelayed") result = jsonData.ProviderVisit?.IsVisitDelayed || false;
-                    else result = jsonData.ProviderVisit?.[field] === true;
-                    
-                    return result;
-                },
-                getContextData: () => {
-                    return JSON.stringify(jsonData);
-                }
-            })
-        };
-        return env;
+
+
+    // Helper function to get context data safely
+    function parseContextData(record) {
+        try {
+            if (!record || typeof record.getContextData !== 'function') {
+                return {};
+            }
+            
+            const contextData = record.getContextData();
+            
+            // Handle different return types from getContextData()
+            if (typeof contextData === 'string') {
+                // If it's a JSON string, parse it
+                return JSON.parse(contextData);
+            } else if (typeof contextData === 'object' && contextData !== null) {
+                // If it's already an object (including Proxy), use it directly
+                return contextData;
+            } else {
+                return {};
+            }
+        } catch (error) {
+            return {};
+        }
     }
     
     // Validation rule: at least one sample is required
-    function atLeastOneSampleIsRequired(jsonData, record, env, user) {
+    function atLeastOneSampleIsRequired(record, user, db, env) {
         const sampleField = "ProductDisbursement.VisitId";
         let hasSamples = false;
+        let sampleCount = 0;
         
         try {
-            const sampleData = jsonData?.[sampleField] || null;
-            hasSamples = Array.isArray(sampleData) && sampleData.length > 0;
+            // Get context data from the record object
+            const contextData = parseContextData(record);
+            const sampleData = contextData?.[sampleField] || null;
+            
+            // Handle Proxy arrays properly
+            if (sampleData) {
+                try {
+                    // Try to get length property (works for both arrays and Proxy arrays)
+                    sampleCount = sampleData.length || 0;
+                    hasSamples = sampleCount > 0;
+
+                } catch (lengthError) {
+                    // Handle Proxy length access error
+                    // Fallback: check if object has any enumerable properties
+                    try {
+                        const keys = Object.keys(sampleData);
+                        hasSamples = keys.length > 0;
+                        sampleCount = keys.length;
+                    } catch (keysError) {
+                        console.log("Sample keys access error:", keysError.message);
+                        // Error getting keys - graceful fallback
+                        hasSamples = false;
+                        sampleCount = 0;
+                    }
+                }
+            }           
         } catch (e) {
+            console.log("Sample validation error:", e.message);
+            // Handle validation error gracefully
             hasSamples = false;
+            sampleCount = 0;
         }
         
         return {
             title: hasSamples ? 
-                `Found ${jsonData?.[sampleField]?.length || 0} sample(s)` :
+                `Found ${sampleCount} sample(s)` :
                 "At least one sample must be added to the visit.",
-            isValid: hasSamples
+            status: hasSamples ? "success" : "error"
         };
     }
 
     // Validation rule: at least one detail and sample are required
-    function atLeastOneDetailAndSampleAreRequired(jsonData, record, env, user) {
+    function atLeastOneDetailAndSampleAreRequired(record, user, db, env) {     
         try {
+            const contextData = parseContextData(record);            
             const productDisbursementField = "ProductDisbursement.VisitId";
             const providerVisitProdDetailingField = "ProviderVisitProdDetailing.ProviderVisitId";
             
-            const productDisbursementData = jsonData?.[productDisbursementField];
-            const providerVisitProdDetailingData = jsonData?.[providerVisitProdDetailingField];
+            const productDisbursementData = contextData?.[productDisbursementField];
+            const providerVisitProdDetailingData = contextData?.[providerVisitProdDetailingField];
             
-            const hasProductDisbursement = Array.isArray(productDisbursementData) && productDisbursementData.length > 0;
-            const hasProviderVisitProdDetailing = Array.isArray(providerVisitProdDetailingData) && providerVisitProdDetailingData.length > 0;
+            // Handle Proxy arrays properly for both fields
+            let sampleCount = 0;
+            let detailCount = 0;
+            let hasProductDisbursement = false;
+            let hasProviderVisitProdDetailing = false;
             
-            const sampleCount = hasProductDisbursement ? productDisbursementData.length : 0;
-            const detailCount = hasProviderVisitProdDetailing ? providerVisitProdDetailingData.length : 0;
+            // Check product disbursement
+            if (productDisbursementData) {
+                try {
+                    sampleCount = productDisbursementData.length || 0;
+                    hasProductDisbursement = sampleCount > 0;
+                } catch (e) {
+                    console.log("Sample length error:", e.message);
+                    // Error accessing length property
+                    const keys = Object.keys(productDisbursementData || {});
+                    sampleCount = keys.length;
+                    hasProductDisbursement = sampleCount > 0;
+                }
+            }
+            
+            // Check provider visit prod detailing
+            if (providerVisitProdDetailingData) {
+                try {
+                    detailCount = providerVisitProdDetailingData.length || 0;
+                    hasProviderVisitProdDetailing = detailCount > 0;
+                } catch (e) {
+                    console.log("Detail length error:", e.message);
+                    // Error accessing length property
+                    const keys = Object.keys(providerVisitProdDetailingData || {});
+                    detailCount = keys.length;
+                    hasProviderVisitProdDetailing = detailCount > 0;
+                }
+            }
             
             if (hasProductDisbursement && hasProviderVisitProdDetailing) {
                 return {
                     title: `Found ${sampleCount} sample(s) and ${detailCount} detailed product(s)`,
-                    isValid: true
+                    status: "success"
                 };
             }
             
             return {
                 title: "At least one sample and detailed product must be added to the visit.",
-                isValid: false
+                status: "error"
             };
         } catch (e) {
+            console.log("Detail validation error:", e.message);
             return {
                 title: "At least one sample and detailed product must be added to the visit.",
-                isValid: false,
+                status: "error",
                 error: e.message
             };
         }
     }
 
     // Validation rule: at least one message is required for each visit detail
-    async function atLeastOneMessageIsRequiredForEachVisitDetail(jsonData, record, env, user) {
+    async function atLeastOneMessageIsRequiredForEachVisitDetail(record, user, db, env) {
         try {
             let profileId;
             
@@ -430,7 +437,7 @@
                     // Try alternative access methods
                     profileId = user.ProfileId || user["ProfileId"];
                     if (!profileId) {
-                        console.error('Error accessing user ProfileId:', error);
+                        // Error accessing ProfileId, continue with fallback
                     }
                 }
             }
@@ -438,7 +445,7 @@
             if (!profileId) {
                 return {
                     title: 'Profile validation skipped - no ProfileId available',
-                    isValid: true,
+                    status: "success",
                 };
             }
 
@@ -462,26 +469,26 @@
                 } else {
                     return {
                         title: 'Profile validation skipped - profile not found',
-                        isValid: true,
+                        status: "success",
                     };
                 }
                 
             } catch (error) {
                 return {
                     title: 'Profile validation skipped - unable to query profile',
-                    isValid: true,
+                    status: "success",
                 };
             }
 
             if (!isMedicalSalesRep) {
                 return {
                     title: `Profile validation skipped - user is not Medical Sales Representative`,
-                    isValid: true,
+                    status: "success",
                 };
             }
 
-            // Get visit context data (jsonData is already our visit data)
-            const visitData = jsonData;
+            // Get visit context data from the record object
+            const visitData = parseContextData(record);
 
             // Check if channel is "Face to Face"
             const visitChannel = visitData?.Visit?.channel || visitData?.ProviderVisit?.Channel || '';
@@ -489,7 +496,7 @@
             if (visitChannel !== "Face to Face") {
                 return {
                     title: `Message validation skipped - visit channel is "${visitChannel}", not "Face to Face"`,
-                    isValid: true,
+                    status: "success",
                 };
             }
 
@@ -500,7 +507,7 @@
             if (!Array.isArray(visitDetails) || visitDetails.length === 0) {
                 return {
                     title: 'Message validation passed - no visit details to validate',
-                    isValid: true
+                    status: "success"
                 };
             }
 
@@ -526,19 +533,19 @@
             if (detailsWithoutMessages.length > 0) {
                 return {
                     title: "At least one message is required for each detailed product when the channel is 'Face to Face' and the user has a 'Medical Sales Representative' profile.",
-                    isValid: false
+                    status: "error"
                 };
             } else {
                 return {
                     title: `All ${visitDetails.length} detailed products have messages - Medical Sales Rep Face to Face validation passed`,
-                    isValid: true
+                    status: "success"
                 };
             }
 
         } catch (error) {
             return {
                 title: "At least one message is required for each detailed product when the channel is 'Face to Face' and the user has a 'Medical Sales Representative' profile.",
-                isValid: false,
+                status: "error",
                 error: error.message
             };
         }
@@ -548,33 +555,67 @@
      * The rule 'specificSampleDependencyCheck' blocks the user from submitting a visit.
      * Validation: If sample "Immunexis 10mg" is selected,
      * then "ADRAVIL Sample Pack 5mg" must also be selected.
-     * @returns result { title: string, isValid: boolean };
+     * @returns result { title: string, status: "success" | "error" };
      */
-    async function specificSampleDependencyCheck(jsonData, record, env, user) {
-        try {
-            
-            // Get visit context data
-            let visitJson = record.getContextData();
-            let visitData = JSON.parse(visitJson);
+    async function specificSampleDependencyCheck(record, user, db, env) {
 
+        try {
+            // Get visit context data using the proper helper function
+            let visitData = parseContextData(record);
+            
             // Check if we have samples to validate
             const samplesField = "ProductDisbursement.VisitId";
             let samples = visitData[samplesField];
             
-            if (!Array.isArray(samples) || samples.length === 0) {
+            // Handle Proxy arrays properly
+            let samplesCount = 0;
+            let isValidSamples = false;
+            
+            if (samples) {
+                try {
+                    samplesCount = samples.length || 0;
+                    isValidSamples = samplesCount > 0;
+                } catch (e) {
+                    console.log("Sample length error:", e.message);
+                    // Error accessing samples length
+                    const keys = Object.keys(samples || {});
+                    samplesCount = keys.length;
+                    isValidSamples = samplesCount > 0;
+                }
+            }
+            
+            if (!isValidSamples) {
                 return {
                     title: 'Sample dependency validation passed - no samples to validate',
-                    isValid: true
+                    status: "success"
                 };
             }
 
             // Get all product item IDs from samples
-            let productItemIds = samples.map(sample => sample.ProductItemId).filter(id => id);
+            let productItemIds = [];
+            try {
+                if (samples && typeof samples === 'object') {
+                    // Handle both array and Proxy array
+                    for (let i = 0; i < samplesCount; i++) {
+                        try {
+                            const sample = samples[i];
+                            if (sample && sample.ProductItemId) {
+                                productItemIds.push(sample.ProductItemId);
+                            }
+                        } catch (sampleError) {
+                            // Error accessing sample
+                        }
+                    }
+                }
+            } catch (mappingError) {
+                // Error mapping product item IDs
+            }
+            
 
             if (productItemIds.length === 0) {
                 return {
                     title: 'Sample dependency validation passed - no product item IDs found',
-                    isValid: true
+                    status: "success"
                 };
             }
 
@@ -599,11 +640,29 @@
             }
 
             // Get all sample names for the current visit
-            let sampleNames = samples.map(sample => {
-                let productItemId = sample.ProductItemId;
-                let productName = productNameMap.get(productItemId) || '';
-                return productName;
-            }).filter(name => name);
+            let sampleNames = [];
+            try {
+                if (samples && typeof samples === 'object') {
+                    // Handle both array and Proxy array for sample names
+                    for (let i = 0; i < samplesCount; i++) {
+                        try {
+                            const sample = samples[i];
+                            if (sample && sample.ProductItemId) {
+                                const productItemId = sample.ProductItemId;
+                                const productName = productNameMap.get(productItemId) || '';
+                                if (productName) {
+                                    sampleNames.push(productName);
+                                }
+                            }
+                        } catch (sampleError) {
+                            // Error accessing sample for name mapping
+                        }
+                    }
+                }
+            } catch (nameMappingError) {
+                // Error mapping sample names
+            }
+            
 
             // Check if Immunexis 10mg is present
             const targetSample = "Immunexis 10mg";
@@ -618,28 +677,28 @@
                 if (!hasAdravil) {
                     return {
                         title: "If Immunexis 10mg is added to a visit, ADRAVIL Sample Pack 5mg must also be added. However, ADRAVIL Sample Pack 5mg can be added without Immunexis 10mg.",
-                        isValid: false
+                        status: "error"
                     };
                 } else {
                     return {
                         title: "Sample dependency validation passed - both Immunexis 10mg and ADRAVIL Sample Pack 5mg present",
-                        isValid: true
+                        status: "success"
                     };
                 }
             } else {
                 return {
                     title: "Sample dependency validation passed - no Immunexis 10mg found",
-                    isValid: true
+                    status: "success"
                 };
             }
 
-        } catch (error) {
-            console.error('specificSampleDependencyCheck - ERROR:', error);
+      } catch (error) {
+            // Error in specificSampleDependencyCheck
             // In case of database error, we might want to pass validation or handle differently
             // For now, we'll pass the validation to avoid blocking the user due to technical issues
             return {
                 title: "Sample dependency validation passed - technical error occurred",
-                isValid: true
+                status: "success"
             };
         }
     }
@@ -647,9 +706,9 @@
     /**
      * The rule 'isAtLeastOneHCP' blocks the user from submitting a call.
      * Validation: Require at least one HCP (Person Account) for a HCO (Institution Account) call on Submit.
-     * @returns result { title: string, isValid: boolean };
+     * @returns result { title: string, status: "success" | "error" };
      */
-    async function isAtLeastOneHCP(jsonData, record, env, user) {
+    async function isAtLeastOneHCP(record, user, db, env) {
         try {
             
             // Log current account details from record
@@ -663,7 +722,7 @@
                 // This is already a Person Account (HCP), so requirement is met
                 return {
                     title: "HCP validation passed - current account is a Person Account (HCP)",
-                    isValid: true
+                    status: "success"
                 };
             }
 
@@ -671,7 +730,7 @@
             if (!isInstitution) {
                 return {
                     title: "HCP validation skipped - account is not an Institution Account",
-                    isValid: true
+                    status: "success"
                 };
             }
 
@@ -706,21 +765,21 @@
             if (!isRequirementValid) {
                 return {
                     title: "At least one HCP (Healthcare Professional) must be associated when creating a visit for an HCO (Healthcare Organization).",
-                    isValid: false
+                    status: "error"
                 };
             } else {
                 return {
                     title: `HCP validation passed - Institution Account with ${hcpAttendees.length} HCP attendee(s): ${hcpAttendees.join(', ')}`,
-                    isValid: true
+                    status: "success"
                 };
             }
 
-        } catch (error) {
-            console.error('isAtLeastOneHCP - ERROR:', error);
+      } catch (error) {
+            // Error in isAtLeastOneHCP
             // In case of error, fail the validation to be safe
             return {
                 title: "HCP validation failed - error occurred during validation",
-                isValid: false,
+                status: "error",
                 error: error.message
             };
         }
@@ -729,16 +788,15 @@
     /**
      * The rule 'isMoreThanOneHCO' blocks user from submitting a call.
      * Validation: Restrict to one HCO (Institution Account) attendee per Call.
-     * @returns result { title: string, isValid: boolean };
+     * @returns result { title: string, status: "success" | "error" };
      * Note: Expected only 1 HCO attendee per call)
      */
-    async function isMoreThanOneHCO(jsonData, record, env, user) {
+    async function isMoreThanOneHCO(record, user, db, env) {
         try {
             
             let counter = 0;
             let isPersonAccount = await accountDao.getInstance().getIsPersonAccount();
             let accsRelatedToChildCall = await accountDao.getInstance().getChildCallAccounts();
-
 
             let hcoAccounts = [];
             let hcpAccounts = [];
@@ -749,7 +807,6 @@
                     let attendeeIsPersonAccount = relatedAcc.boolValue("IsPersonAccount");
                     let attendeeName = relatedAcc.stringValue("Name") || relatedAcc.stringValue("Id");
                     let attendeeRecordType = relatedAcc.stringValue("RecordType.Name") || 'Unknown';
-                    
                     
                     if (!attendeeIsPersonAccount) {
                         counter++;
@@ -762,35 +819,31 @@
                 counter++;
             }
 
-
             const isValid = counter <= 1;
 
             if (!isValid) {
                 return {
                     title: "Only 1 HCO (Healthcare Organization) attendee can be added per visit.",
-                    isValid: false
+                    status: "error"
                 };
             } else {
                 return {
                     title: `HCO count validation passed - found ${counter} HCO account(s)`,
-                    isValid: true
+                    status: "success"
                 };
             }
 
-        } catch (error) {
-            console.error('isMoreThanOneHCO - ERROR:', error);
+    } catch (error) {
+            // Error in isMoreThanOneHCO
             return {
                 title: "HCO count validation failed - error occurred during validation",
-                isValid: false,
+                status: "error",
                 error: error.message
             };
         }
     }
 
-    // We need to check if we're being called immediately (during script load)
-    // or later with arguments (through the validator)
-    
-    
+
     // If there are arguments, extract the record data and run validation
     if (arguments && arguments.length > 0 && arguments[0]) {
         // Pass all arguments to validateVisit, not just the first one
@@ -800,5 +853,5 @@
     // If no arguments yet, return a function that will run validation when called
     // This is wrapped in an array to make it iterable for Promise.all()
     return [validateVisit];
-})();
+  })();
 

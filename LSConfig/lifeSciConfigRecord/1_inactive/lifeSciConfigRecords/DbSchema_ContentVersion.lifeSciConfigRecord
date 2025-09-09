@@ -8,7 +8,6 @@
         <dataType>PICKLIST</dataType>
         <fieldName>AttachmentsSupport</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <picklistValue>BACKGROUND</picklistValue>
     </fieldValues>
     <fieldValues>
         <dataType>PICKLIST</dataType>
@@ -36,7 +35,6 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>MandatoryFields</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <longTextValue>Checksum,ContentBodyId,ContentDocumentId,ContentLocation,ContentModifiedById,ContentModifiedDate,ContentSize,ContentUrl,CreatedById,CreatedDate,CurrencyIsoCode,Description,FeaturedContentBoost,FeaturedContentDate,FileExtension,FileType,FirstPublishLocationId,Id,IsAssetEnabled,IsDeleted,IsLatest,IsMajorVersion,LastModifiedById,LastModifiedDate,NegativeRatingCount,Origin,OwnerId,PathOnClient,PositiveRatingCount,PublishStatus,RatingCount,ReasonForChange,SharingOption,SharingPrivacy,SystemModstamp,TagCsv,TextPreview,Title,VersionData,VersionDataUrl,VersionNumber</longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>OBJECT</dataType>

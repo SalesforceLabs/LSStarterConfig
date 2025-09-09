@@ -35,7 +35,6 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>MandatoryFields</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <longTextValue>CreatedById, CreatedDate, CurrencyIsoCode, Datatype, Id, IsDeleted, LastModifiedById, LastModifiedDate, Name, ResponseValue, SourceSystemIdentifier, SourceSystemName, SurveyQuestionId, SurveyResponseOfflineId, SystemModstamp</longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>OBJECT</dataType>
@@ -46,7 +45,7 @@
     <fieldValues>
         <dataType>BOOLEAN</dataType>
         <fieldName>OneWaySync</fieldName>
-        <hasBooleanValue>true</hasBooleanValue>
+        <hasBooleanValue>false</hasBooleanValue>
     </fieldValues>
     <fieldValues>
         <dataType>FIELD</dataType>

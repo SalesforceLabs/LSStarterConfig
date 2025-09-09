@@ -35,7 +35,6 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>MandatoryFields</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <longTextValue>AdditionalMessage,CreatedById,CreatedDate,Description,EffectiveDate,Id,IsActive,IsSilent,LastModifiedById,LastModifiedDate,Name,OwnerId,ParentId,RecordAlertCategoryId,Severity,SnoozeUntilDate,SourceSystemIdentifier,Subject,Type,ValidUntilDate,WhatId</longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>OBJECT</dataType>

@@ -35,7 +35,6 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>MandatoryFields</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <longTextValue>Id,ContactId,AccountId,CurrencyIsoCode,Status,Type,Origin,Priority,Reason</longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>OBJECT</dataType>

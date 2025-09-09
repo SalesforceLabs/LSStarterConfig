@@ -35,12 +35,6 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>MandatoryFields</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <longTextValue>ContactId, CreatedById, CreatedDate, CurrencyIsoCode, EmailBrandingId, Id,
-            InvitationLink, InviteExpiryDateTime, IsDefault, IsDeleted, LastModifiedById,
-            LastModifiedDate, LeadId, Name,
-            OptionsAllowGuestUserResponse, OptionsAllowParticipantAccessTheirResponse,
-            OptionsCollectAnonymousResponse, OwnerId, ParticipantId, ResponseStatus, SurveyId,
-            SystemModstamp, UserId, UUID </longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>OBJECT</dataType>
@@ -51,7 +45,7 @@
     <fieldValues>
         <dataType>BOOLEAN</dataType>
         <fieldName>OneWaySync</fieldName>
-        <hasBooleanValue>true</hasBooleanValue>
+        <hasBooleanValue>false</hasBooleanValue>
     </fieldValues>
     <fieldValues>
         <dataType>FIELD</dataType>

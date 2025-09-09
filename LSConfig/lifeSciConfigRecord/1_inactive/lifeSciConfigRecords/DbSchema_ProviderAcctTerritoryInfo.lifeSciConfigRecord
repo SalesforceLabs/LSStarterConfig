@@ -35,7 +35,6 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>MandatoryFields</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <longTextValue>AccountId,Territory2Id,IsTargetedAccount,IsAvailableOffline,RecommendedPresentationInfo,PreferredAddressId,ProviderOrganizationId,SourceType,TargetedPresentationInfo,YearToDatePrvdVisitCount,Id,AssignmentApprovalStatus,NextProviderVisitObjective</longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>OBJECT</dataType>

@@ -35,7 +35,6 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>MandatoryFields</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <longTextValue>Id,ShouldCreaInversRoleAuto,Name,RelatedInverseRecordId,RelatedRoleName,RelationshipObjectName,RoleName</longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>OBJECT</dataType>

@@ -35,7 +35,6 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>MandatoryFields</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <longTextValue>Id,AccountId,Role,AffiliationStrengthType,AffiliationTitle,AffiliationType,CreatedById,CreatedDate,EffectiveEndDate,EffectiveStartDate,InfluenceType,IsInstitutionDoctorAffl,LastModifiedById,LastModifiedDate,Name,OwnerId,IsPrimary,RelatedAccountId,RelatedInverseRecordId,SourceSystemIdentifier,SourceSystemName, CareSpecialtyId</longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>OBJECT</dataType>

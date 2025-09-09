@@ -482,27 +482,6 @@
         "PhoneValue": null,
         "PicklistValue":"",
         "UrlValue": null
-    },
-    {
-            "attributes": {
-            "type": "LifeSciMetadataFieldValue",
-            "referenceId": "AccountSearchPreferencesFieldRef2"
-            },
-        "FieldName":"EnableAdvancedSearchLayout",
-        "DataType":"BOOLEAN",
-        "DateTimeValue": null,
-        "DateValue": null,
-        "FieldValueApiName": "AccountSearchPreferences_AccountSearchPreferences_00eSM000002pmRLYAY_EnableAdvancedSearchLayout",
-        "HasBooleanValue":"true",
-        "IntegerValue":"",
-        "LifeScienceMetadataRecordId": "@AccountSearchPreferencesRecordRef1",
-        "TextValue":"",
-        "LongTextValue":"",
-        "Name":"EnableAdvancedSearchLayout",
-        "NumberValue": null,
-        "PhoneValue": null,
-        "PicklistValue":"",
-        "UrlValue": null
     }
     ]
 }

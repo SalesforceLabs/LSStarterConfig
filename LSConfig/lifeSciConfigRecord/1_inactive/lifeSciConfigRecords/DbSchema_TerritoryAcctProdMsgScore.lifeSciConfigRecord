@@ -39,7 +39,6 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>MandatoryFields</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <longTextValue></longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>OBJECT</dataType>
