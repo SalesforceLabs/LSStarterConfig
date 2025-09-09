@@ -21,5 +21,5 @@ sf data import tree --plan LSConfig/lifeSciMetadataRecord/LifeSciMetadataCategor
 #deploy setup BPO entries, only works with Salesforce CLI version 2.80.4 or higher
 echo "Starting - sf project deploy start -d LSConfig/lifeSciConfigRecord/1_inactive"
 sf project deploy start -d LSConfig/lifeSciConfigRecord/1_inactive
-#echo "Starting - sf project deploy start -d LSConfig/lifeSciConfigRecord/2_activate"
+echo "Starting - sf project deploy start -d LSConfig/lifeSciConfigRecord/2_activate"
 sf project deploy start -d LSConfig/lifeSciConfigRecord/2_activate
