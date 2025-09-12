@@ -35,7 +35,6 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>MandatoryFields</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <longTextValue>Id,CaseId,Comment,DisclaimerText,InquiryChannelType,Name,Priority,ReferenceRecordId,ResponseContactPointRecId,IsSignatureCopyRequested,SubmittedDateTime,TerritoryName,Territory2Id,Type</longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>OBJECT</dataType>

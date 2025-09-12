@@ -35,7 +35,6 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>MandatoryFields</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <longTextValue>AttributeHeight,AttributeWidth,ColumnNumber, CreatedById,CreatedDate,GridColumn,Id,IsActive,IsDeleted,LastModifiedById,LastModifiedDate,PrvdClassificationLayoutId,PrvdClsfnAttrDefinitionId,RowNumber</longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>OBJECT</dataType>

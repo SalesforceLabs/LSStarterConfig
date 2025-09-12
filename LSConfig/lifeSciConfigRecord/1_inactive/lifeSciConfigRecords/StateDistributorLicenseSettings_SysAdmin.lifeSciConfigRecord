@@ -9,7 +9,7 @@
         <dataType>MULTIPICKLIST</dataType>
         <fieldName>TDDDStates</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <longTextValue>California;New York</longTextValue>
+        <longTextValue>OH</longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>PICKLIST</dataType>

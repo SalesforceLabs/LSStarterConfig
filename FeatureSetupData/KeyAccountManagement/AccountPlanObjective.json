@@ -1,7 +1,0 @@
-{
-  "records": [
-    { "attributes": { "type": "AccountPlanObjective", "referenceId": "KAMObj1" }, "Name": "Expand Keytruda Access", "AccountPlanId": "@KAMPlan1", "GoalDefinitionId": "@KAMGoal1", "Status": "Defined", "ActionPlanCompletedPct": 0, "Description": "Expand access to Keytruda for Mayo Clinic patients." },
-    { "attributes": { "type": "AccountPlanObjective", "referenceId": "KAMObj2" }, "Name": "Research Collaboration with Opdivo", "AccountPlanId": "@KAMPlan2", "GoalDefinitionId": "@KAMGoal2", "Status": "Defined", "ActionPlanCompletedPct": 0, "Description": "Collaborate on research using Opdivo at Johns Hopkins." },
-    { "attributes": { "type": "AccountPlanObjective", "referenceId": "KAMObj3" }, "Name": "Improve Avastin Outcomes", "AccountPlanId": "@KAMPlan3", "GoalDefinitionId": "@KAMGoal3", "Status": "Defined", "ActionPlanCompletedPct": 0, "Description": "Improve patient outcomes for Avastin at Stanford Health Care." }
-  ]
-} 

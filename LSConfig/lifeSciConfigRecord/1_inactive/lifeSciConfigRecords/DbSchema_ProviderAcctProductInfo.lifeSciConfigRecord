@@ -35,7 +35,6 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>MandatoryFields</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <longTextValue>Id,Name,ProductId,AccountId,CreatedById,CreatedDate,TerritoryId,OwnerId,LastModifiedById,LastModifiedDate,UserRecordAccess.HasReadAccess,UserRecordAccess.HasEditAccess,UserRecordAccess.HasDeleteAccess,UserRecordAccess.HasAllAccess,UserRecordAccess.MaxAccessLevel</longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>OBJECT</dataType>

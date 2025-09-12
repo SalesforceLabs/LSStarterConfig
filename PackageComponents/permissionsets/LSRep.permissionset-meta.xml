@@ -618,7 +618,7 @@
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
     <tabSettings>
-        <tab>standard-ProviderVisit</tab>
+        <tab>standard-Visit</tab>
         <visibility>Visible</visibility>
     </tabSettings>
     <tabSettings>

@@ -35,7 +35,6 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>MandatoryFields</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <longTextValue>UserRecordAccess.HasReadAccess,UserRecordAccess.HasEditAccess,UserRecordAccess.HasDeleteAccess,UserRecordAccess.HasAllAccess,UserRecordAccess.MaxAccessLevel,Id,OwnerId,IsDeleted,Name,CurrencyIsoCode,CreatedDate,CreatedById,LastModifiedDate,LastModifiedById,AccountId,ProviderType,ProviderClass,TotalLicensedBeds,EhrSystem,TerminationReason,Status,RelatedUserId,InitialStartDate,SourceSystem,SourceSystemIdentifier,EffectiveFrom,EffectiveTo,TerminationDate,CaqhIdentifier,AbbreviatedName,DataChangeComments,DoesDispenseMedication,IsNotSearchable,OperatingCountryCode,ParentOrganizationAccountId,PhoneticName,PhoneticName2,ProfessionalDesignation,ProfessionalTitle,RelatedHealthcareProviderId,HasSalesDataRestriction,SalesDataRstrcEffectiveDate,SourceSystemModifiedDate,IsSpeaker,HasCarrierContract,WrittenName</longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>OBJECT</dataType>

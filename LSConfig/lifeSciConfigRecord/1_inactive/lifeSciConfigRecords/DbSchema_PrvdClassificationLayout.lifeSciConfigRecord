@@ -35,7 +35,6 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>MandatoryFields</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <longTextValue>CreatedById,CreatedDate,DeveloperName,Id,IsActive,IsDeleted,Language,LastModifiedById,LastModifiedDate,MasterLabel, NamespacePrefix, SystemModstamp</longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>OBJECT</dataType>

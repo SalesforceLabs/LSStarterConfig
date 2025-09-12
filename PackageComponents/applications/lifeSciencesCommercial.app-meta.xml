@@ -242,11 +242,27 @@
         <type>Flexipage</type>
         <profile>Medical Sales Representative</profile>
     </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>lsc4ce__VisitLandingPage</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Visit</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>lsc4ce__VisitLandingPage</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Visit</pageOrSobjectType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
     <tabs>standard-home</tabs>
     <tabs>lsc4ce__AdminConsole</tabs>
     <tabs>lsc4ce__AccountFilter</tabs>
     <tabs>lsc4ce__Planner</tabs>
-    <tabs>standard-ProviderVisit</tabs>
+    <tabs>standard-Visit</tabs>
     <tabs>lsc4ce__IntelligentContent</tabs>
     <tabs>standard-Inquiry</tabs>
     <uiType>Lightning</uiType>

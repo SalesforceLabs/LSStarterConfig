@@ -35,7 +35,6 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>MandatoryFields</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <longTextValue>CreatedById,CreatedDate,CurrencyIsoCode,DeviceSyncTransactionId,FieldValues,Id,IsDeleted,LastModifiedById,LastModifiedDate,Name,ObjectName,OfflineCreatedDate,OfflineUniqueIdentifier,OperationType,ProcessedRecordIdentifier,RecordIdentifier,RelatedRecordId,Sequence,Status,SystemModstamp,UserRecordAccess.HasReadAccess,UserRecordAccess.HasEditAccess,UserRecordAccess.HasDeleteAccess,UserRecordAccess.HasAllAccess,UserRecordAccess.MaxAccessLevel</longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>OBJECT</dataType>

@@ -35,7 +35,6 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>MandatoryFields</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <longTextValue>Id,CreatedDate,CreatedById,LastModifiedDate,LastModifiedById,UserRecordAccess.HasReadAccess,UserRecordAccess.HasEditAccess,UserRecordAccess.HasDeleteAccess,UserRecordAccess.HasAllAccess,UserRecordAccess.MaxAccessLevel,CurrencyIsoCode,Name,ColumnApiName,ColumnDataType,LifeSciAccountListObjectId,OperatorType,SequenceNumber,SourceSystemIdentifier,SourceSystemName, ColumnValue</longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>OBJECT</dataType>

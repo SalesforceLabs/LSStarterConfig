@@ -35,7 +35,6 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>MandatoryFields</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <longTextValue>CompletionDateTime, CreatedById, CreatedDate, CurrencyIsoCode, Id, InterviewGuid, InterviewId, InvitationId, IpAddress, IsDeleted, Language, LastModifiedById, LastModifiedDate, Latitude, Location, Longitude, Name, Status, SubmitterId, SurveyId, SurveyResponseOfflineId, SurveyVersionId, SystemModstamp</longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>OBJECT</dataType>

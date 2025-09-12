@@ -39,7 +39,6 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>MandatoryFields</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <longTextValue></longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>OBJECT</dataType>
@@ -50,7 +49,7 @@
     <fieldValues>
         <dataType>BOOLEAN</dataType>
         <fieldName>OneWaySync</fieldName>
-        <hasBooleanValue>false</hasBooleanValue>
+        <hasBooleanValue>true</hasBooleanValue>
     </fieldValues>
     <fieldValues>
         <dataType>FIELD</dataType>

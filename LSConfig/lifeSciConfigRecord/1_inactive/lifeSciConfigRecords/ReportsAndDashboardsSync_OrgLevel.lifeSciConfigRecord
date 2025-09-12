@@ -12,7 +12,7 @@
     </fieldValues>
     <fieldValues>
         <dataType>PICKLIST</dataType>
-        <fieldName>RefreshInterval</fieldName>
+        <fieldName>RefreshFrequency</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
         <picklistValue>3600</picklistValue>
     </fieldValues>

@@ -8,7 +8,6 @@
         <dataType>PICKLIST</dataType>
         <fieldName>AttachmentsSupport</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <picklistValue>BACKGROUND</picklistValue>
     </fieldValues>
     <fieldValues>
         <dataType>PICKLIST</dataType>
@@ -36,7 +35,6 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>MandatoryFields</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <longTextValue>Id,ContentDocumentId,IsDeleted,LinkedEntityId</longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>OBJECT</dataType>
