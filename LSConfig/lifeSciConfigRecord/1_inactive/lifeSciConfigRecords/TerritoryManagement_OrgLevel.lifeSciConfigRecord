@@ -4,4 +4,16 @@
     <isOrgLevel>true</isOrgLevel>
     <lifeSciConfigCategory>TerritoryManagement</lifeSciConfigCategory>
     <masterLabel>TerritoryManagement_OrgLevel</masterLabel>
+    <fieldValues>
+        <dataType>TEXT</dataType>
+        <fieldName>MirrorTerritoryField</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <textValue>lsc4ce__MirrorTerritory__c</textValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>TEXT</dataType>
+        <fieldName>UserNameForMirrorTerritoryField</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <textValue>lsc4ce__UserNameOfMirrorTerritory__c</textValue>
+    </fieldValues>
 </LifeSciConfigRecord>
