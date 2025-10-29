@@ -3,7 +3,7 @@
     <fieldValues>
         <dataType>BOOLEAN</dataType>
         <fieldName>DisableReciprocal</fieldName>
-        <hasBooleanValue>true</hasBooleanValue>
+        <hasBooleanValue>false</hasBooleanValue>
     </fieldValues>
     <fieldValues>
         <dataType>INTEGER</dataType>

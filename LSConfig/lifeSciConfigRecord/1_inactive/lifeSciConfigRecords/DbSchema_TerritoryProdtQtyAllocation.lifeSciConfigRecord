@@ -45,7 +45,7 @@
         <dataType>OBJECT</dataType>
         <fieldName>SObject</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <objectValue>TimePeriod</objectValue>
+        <objectValue>TerritoryProdtQtyAllocation</objectValue>
     </fieldValues>
     <fieldValues>
         <dataType>BOOLEAN</dataType>
@@ -74,6 +74,6 @@
         <hasBooleanValue>true</hasBooleanValue>
     </fieldValues>
     <lifeSciConfigCategory>DbSchema</lifeSciConfigCategory>
-    <masterLabel>DbSchema_TimePeriod</masterLabel>
+    <masterLabel>DbSchema_TerritoryProdtQtyAllocation</masterLabel>
     <type>DATA</type>
 </LifeSciConfigRecord>

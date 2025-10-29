@@ -57,6 +57,7 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>WhereSoql</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
+        <longTextValue>SurveyInvitationId IN (SELECT Id FROM SurveyInvitation WHERE Survey.SurveyType = &apos;OfflineMobile&apos;)</longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>LONGTEXT</dataType>
@@ -69,6 +70,6 @@
         <hasBooleanValue>true</hasBooleanValue>
     </fieldValues>
     <lifeSciConfigCategory>DbSchema</lifeSciConfigCategory>
-    <masterLabel>DbSchema_Subject</masterLabel>
+    <masterLabel>DbSchema_SurveySubject</masterLabel>
     <type>DATA</type>
 </LifeSciConfigRecord>

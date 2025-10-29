@@ -10,13 +10,11 @@
         <dataType>TEXT</dataType>
         <fieldName>Color</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <textValue />
     </fieldValues>
     <fieldValues>
         <dataType>TEXT</dataType>
         <fieldName>Icon</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <textValue />
     </fieldValues>
     <fieldValues>
         <dataType>PICKLIST</dataType>
@@ -45,7 +43,6 @@
         <dataType>TEXT</dataType>
         <fieldName>PermissionSets</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <textValue />
     </fieldValues>
     <fieldValues>
         <dataType>TEXT</dataType>
@@ -57,7 +54,6 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>RecordTypes</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <longTextValue />
     </fieldValues>
     <isActive>false</isActive>
     <isOrgLevel>false</isOrgLevel>

@@ -3,7 +3,7 @@ set -e
 
 echo "Loading package components and configurations..."
 
-sf org assign permset -n HealthCloudStarter
+#sf org assign permset -n HealthCloudStarter
 
 #deploy 2GP package components
 sf project deploy start -d PackageComponents
@@ -23,3 +23,5 @@ echo "Starting - sf project deploy start -d LSConfig/lifeSciConfigRecord/1_inact
 sf project deploy start -d LSConfig/lifeSciConfigRecord/1_inactive
 echo "Starting - sf project deploy start -d LSConfig/lifeSciConfigRecord/2_activate"
 sf project deploy start -d LSConfig/lifeSciConfigRecord/2_activate
+echo "Starting - bash activate_trigger_handlers.sh --file TriggerHandlers/TriggerHandlers.ts"
+bash activate_trigger_handlers.sh --file TriggerHandlers/TriggerHandlers.ts

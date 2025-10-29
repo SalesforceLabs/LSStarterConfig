@@ -45,7 +45,7 @@
         <dataType>OBJECT</dataType>
         <fieldName>SObject</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <objectValue>Visit</objectValue>
+        <objectValue>TimePeriod</objectValue>
     </fieldValues>
     <fieldValues>
         <dataType>BOOLEAN</dataType>
@@ -62,6 +62,7 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>WhereSoql</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
+        <longTextValue>Id IN (Select TimePeriodId FROM ActivityPlan WHERE TerritoryList Like &apos;%{USER.TERRITORYID}%&apos; AND IsActive = true)</longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>LONGTEXT</dataType>
@@ -74,6 +75,6 @@
         <hasBooleanValue>true</hasBooleanValue>
     </fieldValues>
     <lifeSciConfigCategory>DbSchema</lifeSciConfigCategory>
-    <masterLabel>DbSchema_Visit</masterLabel>
+    <masterLabel>DbSchema_TimePeriod</masterLabel>
     <type>DATA</type>
 </LifeSciConfigRecord>

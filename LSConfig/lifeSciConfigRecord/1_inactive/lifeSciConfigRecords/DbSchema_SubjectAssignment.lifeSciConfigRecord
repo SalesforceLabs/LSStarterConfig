@@ -58,6 +58,7 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>WhereSoql</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
+        <longTextValue>AssignmentId IN (SELECT Id FROM Inquiry where Case.AccountId IN ({ACCOUNT.IDS}))</longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>LONGTEXT</dataType>

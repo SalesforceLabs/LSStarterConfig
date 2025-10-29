@@ -8,7 +8,7 @@ import {
 } from 'lightning/empApi';
 
 export default class SubscribeToEvents extends LightningElement {
-    channelName = '/event/lsc4ce__NotificationEvent__e';
+    channelName = 'ProviderVisitChangedEvent';
     isSubscribeDisabled = false;
     isUnsubscribeDisabled = !this.isSubscribeDisabled;
 

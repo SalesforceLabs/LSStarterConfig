@@ -7,10 +7,10 @@
             },
             "LifeScienceMetadataCategoryId": "@AccountDynamicListConfigurationRef1",
             "IsActive": true,
-            "IsOrgLevel": false,
-            "Name": "AccountDynamicListConfiguration_00eSM000002pmRFYAY",
+            "IsOrgLevel": true,
+            "Name": "AccountDynamicListConfiguration_OrgLevel",
             "ParentMetadataRecordId": null,
-            "RecordApiName": "AccountDynamicListConfiguration_AccountDynamicListConfiguration_00eSM000002pmRFYAY",
+            "RecordApiName": "AccountDynamicListConfiguration_AccountDynamicListConfiguration_OrgLevel",
             "Type": null
         },
         {
@@ -20,10 +20,10 @@
             },
             "LifeScienceMetadataCategoryId": "@AccountFilterConfigRef1",
             "IsActive": true,
-            "IsOrgLevel": false,
-            "Name": "Sample",
+            "IsOrgLevel": true,
+            "Name": "AccountFilterConfig_OrgLevel",
             "ParentMetadataRecordId": null,
-            "RecordApiName": "AccountFilterConfig_Sample",
+            "RecordApiName": "AccountFilterConfig_AccountFilterConfig_OrgLevel",
             "Type": null
         },
         {
@@ -31,23 +31,23 @@
                 "type": "LifeSciMetadataRecord",
                 "referenceId": "AccountListActionsRecordRef1"
             },
-            "Name": "AccountListActions_00eSM000002pmRLYAY",
+            "Name": "AccountListActions_OrgLevel",
             "LifeScienceMetadataCategoryId": "@AccountListActionsRef1",
             "ParentMetadataRecordId": null,
-            "RecordApiName": "AccountListActions_AccountListActions_00eSM000002pmRLYAY",
+            "RecordApiName": "AccountListActions_AccountListActions_OrgLevel",
             "Type": null,
             "IsActive": true,
-            "IsOrgLevel": false
+            "IsOrgLevel": true
         },
         {
             "attributes": {
                 "type": "LifeSciMetadataRecord",
                 "referenceId": "ProviderVisitSettingsRecordRef1"
             },
-            "Name": "ProviderVisitSettings_00eSM000002pmRLYAY",
+            "Name": "ProviderVisitSettings_OrgLevel",
             "LifeScienceMetadataCategoryId": "@ProviderVisitSettingsRef1",
             "ParentMetadataRecordId": null,
-            "RecordApiName": "ProviderVisitSettings_ProviderVisitSettings_00eSM000002pmRLYAY",
+            "RecordApiName": "ProviderVisitSettings_ProviderVisitSettings_OrgLevel",
             "Type": null,
             "IsActive": true,
             "IsOrgLevel": true
@@ -57,10 +57,62 @@
                 "type": "LifeSciMetadataRecord",
                 "referenceId": "AccountSearchPreferencesRecordRef1"
             },
-            "Name": "AccountSearchPreferences_00eSM000002pmRLYAY",
+            "Name": "AccountSearchPreferences_OrgLevel",
             "LifeScienceMetadataCategoryId": "@AccountSearchPreferencesRef1",
             "ParentMetadataRecordId": null,
-            "RecordApiName": "AccountSearchPreferences_AccountSearchPreferences_00eSM000002pmRLYAY",
+            "RecordApiName": "AccountSearchPreferences_AccountSearchPreferences_OrgLevel",
+            "Type": null,
+            "IsActive": true,
+            "IsOrgLevel": true
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataRecord",
+                "referenceId": "PresentationSettingsRecordRef1"
+            },
+            "Name": "PresentationSettings_OrgLevel",
+            "LifeScienceMetadataCategoryId": "@PresentationSettingsRef1",
+            "ParentMetadataRecordId": null,
+            "RecordApiName": "PresentationSettings_PresentationSettings_OrgLevel",
+            "Type": null,
+            "IsActive": true,
+            "IsOrgLevel": true
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataRecord",
+                "referenceId": "EmailSettingsRecordRef1"
+            },
+            "Name": "EmailSettings_OrgLevel",
+            "LifeScienceMetadataCategoryId": "@EmailSettingsRef1",
+            "ParentMetadataRecordId": null,
+            "RecordApiName": "EmailSettings_EmailSettings_OrgLevel",
+            "Type": null,
+            "IsActive": true,
+            "IsOrgLevel": true
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataRecord",
+                "referenceId": "InventoryManagementProfileSettingsRecordRef1"
+            },
+            "Name": "InventoryManagementProfileSettings_OrgLevel",
+            "LifeScienceMetadataCategoryId": "@InventoryManagementProfileSettingsRef1",
+            "ParentMetadataRecordId": null,
+            "RecordApiName": "InventoryManagementProfileSettings_InventoryManagementProfileSettings_OrgLevel",
+            "Type": null,
+            "IsActive": true,
+            "IsOrgLevel": true
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataRecord",
+                "referenceId": "ExternalSearchSettingsRecordRef1"
+            },
+            "Name": "ExternalSearchSettings_OrgLevel",
+            "LifeScienceMetadataCategoryId": "@ExternalSearchSettingsRef1",
+            "ParentMetadataRecordId": null,
+            "RecordApiName": "ExternalSearchSettings_ExternalSearchSettings_OrgLevel",
             "Type": null,
             "IsActive": true,
             "IsOrgLevel": true

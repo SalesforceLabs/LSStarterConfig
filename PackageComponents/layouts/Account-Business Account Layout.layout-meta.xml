@@ -142,12 +142,12 @@
             <sortOrder>0</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>Account.NewVisit</actionName>
+            <actionName>Account.lsc4ce__NewVisit</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>1</sortOrder>
         </platformActionListItems>
         <platformActionListItems>
-            <actionName>Account.LastVisit</actionName>
+            <actionName>Account.lsc4ce__LastVisit</actionName>
             <actionType>QuickAction</actionType>
             <sortOrder>2</sortOrder>
         </platformActionListItems>

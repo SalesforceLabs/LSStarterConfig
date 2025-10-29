@@ -61,7 +61,7 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>WhereSoql</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <longTextValue>Territory.Name = &apos;{USER.TERRITORY}&apos; AND AlignmentType = &apos;Territory Exclusion&apos;</longTextValue>
+        <longTextValue>TerritoryId = &apos;{USER.TERRITORYID}&apos; AND AlignmentType = &apos;Territory Exclusion&apos; AND UsageType = &apos;LifeSciences&apos; AND Purpose = &apos;Visit&apos; AND Status = &apos;Active&apos;</longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>LONGTEXT</dataType>

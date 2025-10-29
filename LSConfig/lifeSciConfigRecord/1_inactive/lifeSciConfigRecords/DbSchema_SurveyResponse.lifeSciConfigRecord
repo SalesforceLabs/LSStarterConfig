@@ -57,6 +57,7 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>WhereSoql</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
+        <longTextValue>isDeleted=false AND SurveyId IN (SELECT Id FROM Survey WHERE IsDeleted =false AND SurveyType = &apos;OfflineMobile&apos;)</longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>LONGTEXT</dataType>

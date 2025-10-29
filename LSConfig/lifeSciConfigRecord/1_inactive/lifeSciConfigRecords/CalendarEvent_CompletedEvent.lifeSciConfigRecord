@@ -51,8 +51,8 @@
         <hasBooleanValue>false</hasBooleanValue>
         <textValue>Completed</textValue>
     </fieldValues>
-    <isActive>true</isActive>
-    <isOrgLevel>false</isOrgLevel>
+    <isActive>false</isActive>
+    <isOrgLevel>true</isOrgLevel>
     <lifeSciConfigCategory>CalendarEvent</lifeSciConfigCategory>
     <masterLabel>CalendarEvent_Completed</masterLabel>
 </LifeSciConfigRecord>

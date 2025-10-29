@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LifeSciConfigRecord xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldValues>
+        <dataType>BOOLEAN</dataType>
+        <fieldName>IsDEALicensingEnabled</fieldName>
+        <hasBooleanValue>true</hasBooleanValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>PICKLIST</dataType>
+        <fieldName>DEAValidationFormulaField</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <picklistValue>IsLicenseValidated</picklistValue>
+    </fieldValues>
+    <isActive>false</isActive>
+    <isOrgLevel>false</isOrgLevel>
+    <assignments>
+        <assignedTo>Medical Sales Representative</assignedTo>
+        <assignmentLevel>Profile</assignmentLevel>
+    </assignments>
+    <lifeSciConfigCategory>DEASettings</lifeSciConfigCategory>
+    <masterLabel>DEASettings_SalesRep</masterLabel>
+</LifeSciConfigRecord>
