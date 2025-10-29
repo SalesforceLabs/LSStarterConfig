@@ -8,6 +8,7 @@
         <dataType>PICKLIST</dataType>
         <fieldName>AttachmentsSupport</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
+        <picklistValue>BACKGROUND</picklistValue>
     </fieldValues>
     <fieldValues>
         <dataType>PICKLIST</dataType>
@@ -57,6 +58,7 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>WhereSoql</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
+        <longTextValue>Case.AccountId IN (SELECT AccountId FROM ProviderAcctTerritoryInfo WHERE IsAvailableOffline = true AND Territory2Id = &apos;{USER.TERRITORYID}&apos; AND IsActive = true)</longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>LONGTEXT</dataType>

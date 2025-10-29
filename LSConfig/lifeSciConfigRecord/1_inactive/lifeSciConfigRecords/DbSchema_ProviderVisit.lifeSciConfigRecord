@@ -61,6 +61,7 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>WhereSoql</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
+        <longTextValue>AccountId IN (SELECT AccountId FROM ProviderAcctTerritoryInfo WHERE IsAvailableOffline = true AND Territory2Id = &apos;{USER.TERRITORYID}&apos;)</longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>LONGTEXT</dataType>

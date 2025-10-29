@@ -45,7 +45,7 @@
         <hasBooleanValue>false</hasBooleanValue>
         <textValue>Holiday</textValue>
     </fieldValues>
-    <isActive>true</isActive>
+    <isActive>false</isActive>
     <isOrgLevel>false</isOrgLevel>
     <lifeSciConfigCategory>CalendarEvent</lifeSciConfigCategory>
     <masterLabel>CalendarEvent_Holiday</masterLabel>

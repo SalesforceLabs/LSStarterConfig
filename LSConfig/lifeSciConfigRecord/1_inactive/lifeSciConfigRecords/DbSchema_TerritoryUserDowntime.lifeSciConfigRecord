@@ -57,6 +57,7 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>WhereSoql</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
+        <longTextValue>createddate &gt;= LAST_N_MONTHS:6 AND TerritoryId = &apos;{USER.TERRITORYID}&apos;</longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>LONGTEXT</dataType>

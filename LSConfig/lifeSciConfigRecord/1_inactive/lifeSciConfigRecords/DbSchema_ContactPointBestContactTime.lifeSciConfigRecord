@@ -57,6 +57,7 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>WhereSoql</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
+        <longTextValue>ContactPointReferenceId IN (Select Id from ContactPointAddress where ParentId IN ({ACCOUNT.IDS}))</longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>LONGTEXT</dataType>

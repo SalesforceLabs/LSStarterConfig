@@ -2,7 +2,7 @@
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">    
     <actionOverrides>
         <actionName>Edit</actionName>
-        <content>LogAVisitAction</content>
+        <content>lsc4ce__LogAVisitAction</content>
         <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>LightningComponent</type>
@@ -18,7 +18,7 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>New</actionName>
-        <content>LogAVisitAction</content>
+        <content>lsc4ce__LogAVisitAction</content>
         <formFactor>Large</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
         <type>LightningComponent</type>

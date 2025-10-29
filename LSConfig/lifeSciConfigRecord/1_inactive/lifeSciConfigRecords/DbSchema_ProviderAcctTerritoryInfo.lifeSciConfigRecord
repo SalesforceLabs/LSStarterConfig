@@ -57,7 +57,7 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>WhereSoql</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <longTextValue>Territory2.Name = &apos;{USER.TERRITORY}&apos;</longTextValue>
+        <longTextValue>IsAvailableOffline = true AND Territory2Id = &apos;{USER.TERRITORYID}&apos; AND IsActive = true</longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>LONGTEXT</dataType>

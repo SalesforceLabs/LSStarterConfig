@@ -57,6 +57,7 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>WhereSoql</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
+        <longTextValue>SurveyResponseOfflineId IN (Select Id FROM SurveyResponseOffline WHERE Survey.SurveyType = &apos;OfflineMobile&apos;)</longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>LONGTEXT</dataType>

@@ -57,7 +57,7 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>WhereSoql</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <longTextValue>ParentReferenceRecordId IN ({ACCOUNT.IDS}) AND ParentReferenceRecordId IN (SELECT AccountId FROM ProviderAcctTerritoryInfo WHERE IsAvailableOffline = true AND Territory2.Name = &apos;{USER.TERRITORY}&apos;)</longTextValue>
+        <longTextValue>ParentReferenceRecordId IN (SELECT AccountId FROM ProviderAcctTerritoryInfo WHERE IsAvailableOffline = true AND Territory2.Name = &apos;{USER.TERRITORY}&apos;)</longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>LONGTEXT</dataType>

@@ -49,7 +49,46 @@
             "CategoryLabel": "Account Search Preferences",
             "Category": "AccountSearchPreferences",
             "Type": "Hierarchical"
-        }
-        
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataCategory",
+                "referenceId": "PresentationSettingsRef1"
+            },
+            "Name": "PresentationSettings",
+            "CategoryLabel": "Presentation Settings",
+            "Category": "PresentationSettings",
+            "Type": "Hierarchical"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataCategory",
+                "referenceId": "EmailSettingsRef1"
+            },
+            "Name": "EmailSettings",
+            "CategoryLabel": "Email Settings",
+            "Category": "EmailSettings",
+            "Type": "Hierarchical"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataCategory",
+                "referenceId": "InventoryManagementProfileSettingsRef1"
+            },
+            "Name": "InventoryManagementProfileSettings",
+            "CategoryLabel": "Inventory Management Profile Settings",
+            "Category": "InventoryManagementProfileSettings",
+            "Type": "Hierarchical"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataCategory",
+                "referenceId": "ExternalSearchSettingsRef1"
+            },
+            "Name": "ExternalSearchSettings",
+            "CategoryLabel": "External Search Settings",
+            "Category": "ExternalSearchSettings",
+            "Type": "Hierarchical"
+        }       
     ]
 }

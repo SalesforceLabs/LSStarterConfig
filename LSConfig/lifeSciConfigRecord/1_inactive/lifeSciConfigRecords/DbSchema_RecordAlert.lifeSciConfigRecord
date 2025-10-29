@@ -57,8 +57,7 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>WhereSoql</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <longTextValue>(EffectiveDate >= LAST_N_DAYS:7 OR (Type = &apos;GuidedAction&apos; AND EffectiveDate != null)) 
-            AND (ValidUntilDate >= TODAY OR ValidUntilDate = null) AND IsActive = True AND Id in (SELECT AlertReferenceRecordId FROM AppAlertTerritory where Territory.Name = &apos;{USER.TERRITORY}&apos;)</longTextValue>
+        <longTextValue>(EffectiveDate &gt;= LAST_N_DAYS:7 OR (Type = &apos;GuidedAction&apos; AND EffectiveDate != null)) AND (ValidUntilDate &gt;= TODAY OR ValidUntilDate = null) AND IsActive = True AND Id in (SELECT AlertReferenceRecordId FROM AppAlertTerritory where Territory.Name = &apos;{USER.TERRITORY}&apos;)</longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>LONGTEXT</dataType>

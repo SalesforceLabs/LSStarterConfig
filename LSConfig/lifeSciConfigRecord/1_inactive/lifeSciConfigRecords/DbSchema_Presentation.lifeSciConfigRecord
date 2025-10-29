@@ -61,6 +61,7 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>WhereSoql</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
+        <longTextValue>Status = &apos;Active&apos; AND (DeactivationDate = NULL OR DeactivationDate &gt;= TODAY) AND (ActivationDate = NULL OR ActivationDate &lt;= TODAY)</longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>LONGTEXT</dataType>

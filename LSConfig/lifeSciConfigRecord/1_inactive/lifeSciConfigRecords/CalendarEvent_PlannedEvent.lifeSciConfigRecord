@@ -52,7 +52,7 @@
         <hasBooleanValue>false</hasBooleanValue>
         <textValue>Planned</textValue>
     </fieldValues>
-    <isActive>true</isActive>
+    <isActive>false</isActive>
     <isOrgLevel>false</isOrgLevel>
     <lifeSciConfigCategory>CalendarEvent</lifeSciConfigCategory>
     <masterLabel>CalendarEvent_Planned</masterLabel>
