@@ -57,6 +57,7 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>WhereSoql</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
+        <longTextValue>AccountPlanId IN (SELECT Id from AccountPlan where AccountId in ({ACCOUNT.IDS})) and RelatedAccountPlanId in (SELECT Id from AccountPlan where AccountId in ({ACCOUNT.IDS}))</longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>LONGTEXT</dataType>

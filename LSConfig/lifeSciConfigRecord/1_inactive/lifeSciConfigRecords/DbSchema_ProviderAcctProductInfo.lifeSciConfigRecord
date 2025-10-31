@@ -57,7 +57,7 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>WhereSoql</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <longTextValue>AccountId IN (SELECT AccountId FROM ProviderAcctTerritoryInfo WHERE IsAvailableOffline = true AND Territory2Id = &apos;{USER.TERRITORYID}&apos; AND IsActive = true) AND (TerritoryId = &apos;{USER.TERRITORYID}&apos; OR TerritoryId = NULL) AND ProductId in (Select ProductId from ProductTerrDtlAvailability Where TerritoryId = &apos;{USER.TERRITORYID}&apos; AND IsActive = true) AND ProductId NOT IN (Select ProductId from ProductTerritoryAvailability Where TerritoryId = &apos;{USER.TERRITORYID}&apos; AND AlignmentType = &apos;Territory Exclusion&apos; AND UsageType = &apos;LifeScience&apos; AND Status = &apos;Active&apos;)</longTextValue>
+        <longTextValue>AccountId IN ({ACCOUNT.IDS}) AND (TerritoryId = &apos;{USER.TERRITORYID}&apos; OR TerritoryId = NULL) AND ProductId in (Select ProductId from ProductTerrDtlAvailability Where TerritoryId = &apos;{USER.TERRITORYID}&apos; AND IsActive = true) AND ProductId NOT IN (Select  ProductId from productTerritoryAvailability Where TerritoryId = &apos;{USER.TERRITORYID}&apos; AND AlignmentType = &apos;Territory Exclusion&apos; AND UsageType = &apos;LifeScience&apos;  AND Status = &apos;Active&apos;)</longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>LONGTEXT</dataType>
