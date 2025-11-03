@@ -57,7 +57,7 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>WhereSoql</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <longTextValue>SurveyInvitationId IN (SELECT Id FROM SurveyInvitation WHERE Survey.SurveyType = &apos;OfflineMobile&apos;)</longTextValue>
+        <longTextValue>ParentId IN (SELECT Id FROM SurveyInvitation WHERE Survey.SurveyType = &apos;OfflineMobile&apos;)</longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>LONGTEXT</dataType>
