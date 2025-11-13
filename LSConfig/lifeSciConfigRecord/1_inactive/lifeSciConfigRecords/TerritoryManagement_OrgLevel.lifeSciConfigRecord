@@ -8,12 +8,12 @@
         <dataType>TEXT</dataType>
         <fieldName>MirrorTerritoryField</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <textValue>lsc4ce__MirrorTerritory__c</textValue>
+        <textValue>MirrorTerritory__c</textValue>
     </fieldValues>
     <fieldValues>
         <dataType>TEXT</dataType>
         <fieldName>UserNameForMirrorTerritoryField</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <textValue>lsc4ce__UserNameOfMirrorTerritory__c</textValue>
+        <textValue>UserNameOfMirrorTerritory__c</textValue>
     </fieldValues>
 </LifeSciConfigRecord>
