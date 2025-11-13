@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LifeSciConfigRecord xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldValues>
+        <dataType>PICKLIST</dataType>
+        <fieldName>ContactPointAddressFormulaField</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <picklistValue>FullAddress</picklistValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>PICKLIST</dataType>
+        <fieldName>SamplesManagementAddressFormulaField</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+    </fieldValues>
+    <isActive>false</isActive>
+    <isOrgLevel>true</isOrgLevel>
+    <lifeSciConfigCategory>AddressSettings</lifeSciConfigCategory>
+    <masterLabel>AddressSettings_OrgLevel</masterLabel>
+</LifeSciConfigRecord>

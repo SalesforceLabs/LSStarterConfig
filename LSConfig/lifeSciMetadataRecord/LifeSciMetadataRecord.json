@@ -116,6 +116,19 @@
             "Type": null,
             "IsActive": true,
             "IsOrgLevel": true
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataRecord",
+                "referenceId": "SampleLimitSettingsRecordRef1"
+            },
+            "Name": "SampleLimitSettings_OrgLevel",
+            "LifeScienceMetadataCategoryId": "@SampleLimitSettingsRef1",
+            "ParentMetadataRecordId": null,
+            "RecordApiName": "SampleLimitSettings_SampleLimitSettings_OrgLevel",
+            "Type": null,
+            "IsActive": true,
+            "IsOrgLevel": true
         }
     ]
 }

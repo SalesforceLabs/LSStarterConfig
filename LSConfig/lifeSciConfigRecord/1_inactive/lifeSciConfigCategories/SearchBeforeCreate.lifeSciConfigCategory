@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LifeSciConfigCategory xmlns="http://soap.sforce.com/2006/04/metadata">
-    <category>SyncTransactionConfig</category>
-    <masterLabel>Sync Transaction Config</masterLabel>
+    <category>SearchBeforeCreate</category>
+    <categoryLabel>Search Before Create</categoryLabel>
+    <masterLabel>Search Before Create</masterLabel>
     <type>Hierarchical</type>
 </LifeSciConfigCategory>

@@ -1,0 +1,2396 @@
+[
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014kcKAA"
+    },
+    "Id": "1KpWs00000014kcKAA",
+    "MasterLabel": "DbSchema_Visitor",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014kbKAA"
+    },
+    "Id": "1KpWs00000014kbKAA",
+    "MasterLabel": "DbSchema_Visit",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014kaKAA"
+    },
+    "Id": "1KpWs00000014kaKAA",
+    "MasterLabel": "DbSchema_VideoCallRecording",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014kZKAQ"
+    },
+    "Id": "1KpWs00000014kZKAQ",
+    "MasterLabel": "DbSchema_VideoCallPtcpSession",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014kYKAQ"
+    },
+    "Id": "1KpWs00000014kYKAQ",
+    "MasterLabel": "DbSchema_VideoCallPtcpRequest",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014kXKAQ"
+    },
+    "Id": "1KpWs00000014kXKAQ",
+    "MasterLabel": "DbSchema_VideoCallParticipant",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014kWKAQ"
+    },
+    "Id": "1KpWs00000014kWKAQ",
+    "MasterLabel": "DbSchema_VideoCall",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014kVKAQ"
+    },
+    "Id": "1KpWs00000014kVKAQ",
+    "MasterLabel": "DbSchema_UserTerritory2Association",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014kUKAQ"
+    },
+    "Id": "1KpWs00000014kUKAQ",
+    "MasterLabel": "DbSchema_User",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014kTKAQ"
+    },
+    "Id": "1KpWs00000014kTKAQ",
+    "MasterLabel": "DbSchema_TopicAssignment",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014kSKAQ"
+    },
+    "Id": "1KpWs00000014kSKAQ",
+    "MasterLabel": "DbSchema_Topic",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014kRKAQ"
+    },
+    "Id": "1KpWs00000014kRKAQ",
+    "MasterLabel": "DbSchema_TimePeriod",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014kQKAQ"
+    },
+    "Id": "1KpWs00000014kQKAQ",
+    "MasterLabel": "DbSchema_TerritoryUserDowntime",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014kPKAQ"
+    },
+    "Id": "1KpWs00000014kPKAQ",
+    "MasterLabel": "DbSchema_TerritoryProdtQtyAllocation",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014kOKAQ"
+    },
+    "Id": "1KpWs00000014kOKAQ",
+    "MasterLabel": "DbSchema_TerritoryAcctRcmdAction",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014kNKAQ"
+    },
+    "Id": "1KpWs00000014kNKAQ",
+    "MasterLabel": "DbSchema_TerritoryAcctProdMsgScore",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014kMKAQ"
+    },
+    "Id": "1KpWs00000014kMKAQ",
+    "MasterLabel": "DbSchema_TerritoryAccountScore",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014kLKAQ"
+    },
+    "Id": "1KpWs00000014kLKAQ",
+    "MasterLabel": "DbSchema_Territory2",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014kKKAQ"
+    },
+    "Id": "1KpWs00000014kKKAQ",
+    "MasterLabel": "DbSchema_SurveyVersion",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014kJKAQ"
+    },
+    "Id": "1KpWs00000014kJKAQ",
+    "MasterLabel": "DbSchema_SurveySubject",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014kIKAQ"
+    },
+    "Id": "1KpWs00000014kIKAQ",
+    "MasterLabel": "DbSchema_SurveyResponseOffline",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014kHKAQ"
+    },
+    "Id": "1KpWs00000014kHKAQ",
+    "MasterLabel": "DbSchema_SurveyResponse",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014kGKAQ"
+    },
+    "Id": "1KpWs00000014kGKAQ",
+    "MasterLabel": "DbSchema_SurveyQuestionResponse",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014kFKAQ"
+    },
+    "Id": "1KpWs00000014kFKAQ",
+    "MasterLabel": "DbSchema_SurveyQuestionChoice",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014kEKAQ"
+    },
+    "Id": "1KpWs00000014kEKAQ",
+    "MasterLabel": "DbSchema_SurveyQuestion",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014kDKAQ"
+    },
+    "Id": "1KpWs00000014kDKAQ",
+    "MasterLabel": "DbSchema_SurveyQstnResponseOffline",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014kCKAQ"
+    },
+    "Id": "1KpWs00000014kCKAQ",
+    "MasterLabel": "DbSchema_SurveyPage",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014kBKAQ"
+    },
+    "Id": "1KpWs00000014kBKAQ",
+    "MasterLabel": "DbSchema_SurveyInvitation",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014kAKAQ"
+    },
+    "Id": "1KpWs00000014kAKAQ",
+    "MasterLabel": "DbSchema_SurveyEngagementContext",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014k9KAA"
+    },
+    "Id": "1KpWs00000014k9KAA",
+    "MasterLabel": "DbSchema_Survey",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014k8KAA"
+    },
+    "Id": "1KpWs00000014k8KAA",
+    "MasterLabel": "DbSchema_SubjectAssignment",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014k7KAA"
+    },
+    "Id": "1KpWs00000014k7KAA",
+    "MasterLabel": "DbSchema_Subject",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014k6KAA"
+    },
+    "Id": "1KpWs00000014k6KAA",
+    "MasterLabel": "DbSchema_Sprint",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014k5KAA"
+    },
+    "Id": "1KpWs00000014k5KAA",
+    "MasterLabel": "DbSchema_Report",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014k4KAA"
+    },
+    "Id": "1KpWs00000014k4KAA",
+    "MasterLabel": "DbSchema_RecordType",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014k3KAA"
+    },
+    "Id": "1KpWs00000014k3KAA",
+    "MasterLabel": "DbSchema_RecordAlert",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014k2KAA"
+    },
+    "Id": "1KpWs00000014k2KAA",
+    "MasterLabel": "DbSchema_PrvdVstSmplLmtTransaction",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014k1KAA"
+    },
+    "Id": "1KpWs00000014k1KAA",
+    "MasterLabel": "DbSchema_PrvdVstSmplLmtDiscrepancy",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014k0KAA"
+    },
+    "Id": "1KpWs00000014k0KAA",
+    "MasterLabel": "DbSchema_PrvdClsfnLayoutAttribute",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "CONFIGURATION",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jzKAA"
+    },
+    "Id": "1KpWs00000014jzKAA",
+    "MasterLabel": "DbSchema_PrvdClsfnAttrDefinition",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "CONFIGURATION",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jyKAA"
+    },
+    "Id": "1KpWs00000014jyKAA",
+    "MasterLabel": "DbSchema_PrvdClassificationLayout",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "CONFIGURATION",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jxKAA"
+    },
+    "Id": "1KpWs00000014jxKAA",
+    "MasterLabel": "DbSchema_PrvdActvtyGoalMeasureProdt",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jwKAA"
+    },
+    "Id": "1KpWs00000014jwKAA",
+    "MasterLabel": "DbSchema_PrvdAccountUserGroupInfo",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jvKAA"
+    },
+    "Id": "1KpWs00000014jvKAA",
+    "MasterLabel": "DbSchema_PrvdAccountTerritorySummary",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014juKAA"
+    },
+    "Id": "1KpWs00000014juKAA",
+    "MasterLabel": "DbSchema_ProviderVisitRqstSample",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jtKAA"
+    },
+    "Id": "1KpWs00000014jtKAA",
+    "MasterLabel": "DbSchema_ProviderVisitProdDiscussion",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jsKAA"
+    },
+    "Id": "1KpWs00000014jsKAA",
+    "MasterLabel": "DbSchema_ProviderVisitProdDetailing",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jrKAA"
+    },
+    "Id": "1KpWs00000014jrKAA",
+    "MasterLabel": "DbSchema_ProviderVisitMarketingItem",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jqKAA"
+    },
+    "Id": "1KpWs00000014jqKAA",
+    "MasterLabel": "DbSchema_ProviderVisitDtlProductMsg",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jpKAA"
+    },
+    "Id": "1KpWs00000014jpKAA",
+    "MasterLabel": "DbSchema_ProviderVisit",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014joKAA"
+    },
+    "Id": "1KpWs00000014joKAA",
+    "MasterLabel": "DbSchema_ProviderSmplLmtTmplAssignment",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jnKAA"
+    },
+    "Id": "1KpWs00000014jnKAA",
+    "MasterLabel": "DbSchema_ProviderSampleLimitTemplate",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "CONFIGURATION",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jmKAA"
+    },
+    "Id": "1KpWs00000014jmKAA",
+    "MasterLabel": "DbSchema_ProviderSampleLimit",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jlKAA"
+    },
+    "Id": "1KpWs00000014jlKAA",
+    "MasterLabel": "DbSchema_ProviderAffiliationProduct",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jkKAA"
+    },
+    "Id": "1KpWs00000014jkKAA",
+    "MasterLabel": "DbSchema_ProviderAffiliation",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jjKAA"
+    },
+    "Id": "1KpWs00000014jjKAA",
+    "MasterLabel": "DbSchema_ProviderActvtyPlanAdjusment",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jiKAA"
+    },
+    "Id": "1KpWs00000014jiKAA",
+    "MasterLabel": "DbSchema_ProviderActivityMeasureType",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "CONFIGURATION",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jhKAA"
+    },
+    "Id": "1KpWs00000014jhKAA",
+    "MasterLabel": "DbSchema_ProviderActivityGoalMeasure",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jgKAA"
+    },
+    "Id": "1KpWs00000014jgKAA",
+    "MasterLabel": "DbSchema_ProviderActivityGoal",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jfKAA"
+    },
+    "Id": "1KpWs00000014jfKAA",
+    "MasterLabel": "DbSchema_ProviderAcctTerritoryInfo",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jeKAA"
+    },
+    "Id": "1KpWs00000014jeKAA",
+    "MasterLabel": "DbSchema_ProviderAcctProductInfo",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jdKAA"
+    },
+    "Id": "1KpWs00000014jdKAA",
+    "MasterLabel": "DbSchema_ProductionBatch",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jcKAA"
+    },
+    "Id": "1KpWs00000014jcKAA",
+    "MasterLabel": "DbSchema_ProductTerritoryAvailability",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jbKAA"
+    },
+    "Id": "1KpWs00000014jbKAA",
+    "MasterLabel": "DbSchema_ProductTerrDtlAvailability",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jaKAA"
+    },
+    "Id": "1KpWs00000014jaKAA",
+    "MasterLabel": "DbSchema_ProductItem",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jZKAQ"
+    },
+    "Id": "1KpWs00000014jZKAQ",
+    "MasterLabel": "DbSchema_ProductGuidance",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jYKAQ"
+    },
+    "Id": "1KpWs00000014jYKAQ",
+    "MasterLabel": "DbSchema_ProductDisbursement",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jXKAQ"
+    },
+    "Id": "1KpWs00000014jXKAQ",
+    "MasterLabel": "DbSchema_ProductBatchItem",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jWKAQ"
+    },
+    "Id": "1KpWs00000014jWKAQ",
+    "MasterLabel": "DbSchema_Product2",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jVKAQ"
+    },
+    "Id": "1KpWs00000014jVKAQ",
+    "MasterLabel": "DbSchema_PresentationPartyAccess",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jUKAQ"
+    },
+    "Id": "1KpWs00000014jUKAQ",
+    "MasterLabel": "DbSchema_PresentationPageProduct",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jTKAQ"
+    },
+    "Id": "1KpWs00000014jTKAQ",
+    "MasterLabel": "DbSchema_PresentationPage",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jSKAQ"
+    },
+    "Id": "1KpWs00000014jSKAQ",
+    "MasterLabel": "DbSchema_PresentationLinkedPage",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jRKAQ"
+    },
+    "Id": "1KpWs00000014jRKAQ",
+    "MasterLabel": "DbSchema_PresentationForum",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jQKAQ"
+    },
+    "Id": "1KpWs00000014jQKAQ",
+    "MasterLabel": "DbSchema_PresentationClickStrmEntry",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jPKAQ"
+    },
+    "Id": "1KpWs00000014jPKAQ",
+    "MasterLabel": "DbSchema_Presentation",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jOKAQ"
+    },
+    "Id": "1KpWs00000014jOKAQ",
+    "MasterLabel": "DbSchema_ObjectTerritory2Association",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jNKAQ"
+    },
+    "Id": "1KpWs00000014jNKAQ",
+    "MasterLabel": "DbSchema_Location",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jMKAQ"
+    },
+    "Id": "1KpWs00000014jMKAQ",
+    "MasterLabel": "DbSchema_LifeScienceEmail",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jLKAQ"
+    },
+    "Id": "1KpWs00000014jLKAQ",
+    "MasterLabel": "DbSchema_LifeScienceCustomScript",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jKKAQ"
+    },
+    "Id": "1KpWs00000014jKKAQ",
+    "MasterLabel": "DbSchema_LifeScienceAccountListObject",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jJKAQ"
+    },
+    "Id": "1KpWs00000014jJKAQ",
+    "MasterLabel": "DbSchema_LifeScienceAccountList",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jIKAQ"
+    },
+    "Id": "1KpWs00000014jIKAQ",
+    "MasterLabel": "DbSchema_LifeSciStageValue",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jHKAQ"
+    },
+    "Id": "1KpWs00000014jHKAQ",
+    "MasterLabel": "DbSchema_LifeSciStagePath",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jGKAQ"
+    },
+    "Id": "1KpWs00000014jGKAQ",
+    "MasterLabel": "DbSchema_LifeSciStageOperationCondn",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jFKAQ"
+    },
+    "Id": "1KpWs00000014jFKAQ",
+    "MasterLabel": "DbSchema_LifeSciStageOperationAction",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jEKAQ"
+    },
+    "Id": "1KpWs00000014jEKAQ",
+    "MasterLabel": "DbSchema_LifeSciStageOperation",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jDKAQ"
+    },
+    "Id": "1KpWs00000014jDKAQ",
+    "MasterLabel": "DbSchema_LifeSciStageObject",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jCKAQ"
+    },
+    "Id": "1KpWs00000014jCKAQ",
+    "MasterLabel": "DbSchema_LifeSciStageAction",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jBKAQ"
+    },
+    "Id": "1KpWs00000014jBKAQ",
+    "MasterLabel": "DbSchema_LifeSciProductAcctRstrc",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014jAKAQ"
+    },
+    "Id": "1KpWs00000014jAKAQ",
+    "MasterLabel": "DbSchema_LifeSciMarketableProduct",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014j9KAA"
+    },
+    "Id": "1KpWs00000014j9KAA",
+    "MasterLabel": "DbSchema_LifeSciEmailTmplSnapshot",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014j8KAA"
+    },
+    "Id": "1KpWs00000014j8KAA",
+    "MasterLabel": "DbSchema_LifeSciEmailTmplRelaFrgmt",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014j7KAA"
+    },
+    "Id": "1KpWs00000014j7KAA",
+    "MasterLabel": "DbSchema_LifeSciEmailTmplFragment",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014j6KAA"
+    },
+    "Id": "1KpWs00000014j6KAA",
+    "MasterLabel": "DbSchema_LifeSciEmailTemplate",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014j5KAA"
+    },
+    "Id": "1KpWs00000014j5KAA",
+    "MasterLabel": "DbSchema_LifeSciDataChgPersonaDef",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "CONFIGURATION",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014j4KAA"
+    },
+    "Id": "1KpWs00000014j4KAA",
+    "MasterLabel": "DbSchema_LifeSciDataChgDefRecType",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "CONFIGURATION",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014j3KAA"
+    },
+    "Id": "1KpWs00000014j3KAA",
+    "MasterLabel": "DbSchema_LifeSciDataChgDefMngFld",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014j2KAA"
+    },
+    "Id": "1KpWs00000014j2KAA",
+    "MasterLabel": "DbSchema_LifeSciDataChangeRequest",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014j1KAA"
+    },
+    "Id": "1KpWs00000014j1KAA",
+    "MasterLabel": "DbSchema_LifeSciDataChangeDef",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014j0KAA"
+    },
+    "Id": "1KpWs00000014j0KAA",
+    "MasterLabel": "DbSchema_LifeSciAcctListFilterCrit",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014izKAA"
+    },
+    "Id": "1KpWs00000014izKAA",
+    "MasterLabel": "DbSchema_LifeSciAccountListMember",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014iyKAA"
+    },
+    "Id": "1KpWs00000014iyKAA",
+    "MasterLabel": "DbSchema_LifeSciAccountListColumn",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014ixKAA"
+    },
+    "Id": "1KpWs00000014ixKAA",
+    "MasterLabel": "DbSchema_InventoryOperation",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014iwKAA"
+    },
+    "Id": "1KpWs00000014iwKAA",
+    "MasterLabel": "DbSchema_InventoryCntProdtBatchItem",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": false
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014ivKAA"
+    },
+    "Id": "1KpWs00000014ivKAA",
+    "MasterLabel": "DbSchema_InquiryQuestionAnswer",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014iuKAA"
+    },
+    "Id": "1KpWs00000014iuKAA",
+    "MasterLabel": "DbSchema_InquiryQuestion",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014itKAA"
+    },
+    "Id": "1KpWs00000014itKAA",
+    "MasterLabel": "DbSchema_Inquiry",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014isKAA"
+    },
+    "Id": "1KpWs00000014isKAA",
+    "MasterLabel": "DbSchema_Holiday",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014irKAA"
+    },
+    "Id": "1KpWs00000014irKAA",
+    "MasterLabel": "DbSchema_HealthcareProviderSpecialty",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014iqKAA"
+    },
+    "Id": "1KpWs00000014iqKAA",
+    "MasterLabel": "DbSchema_HealthcareProviderNpi",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014ipKAA"
+    },
+    "Id": "1KpWs00000014ipKAA",
+    "MasterLabel": "DbSchema_HealthcareProvider",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014ioKAA"
+    },
+    "Id": "1KpWs00000014ioKAA",
+    "MasterLabel": "DbSchema_HealthcareFacility",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014inKAA"
+    },
+    "Id": "1KpWs00000014inKAA",
+    "MasterLabel": "DbSchema_GroupMember",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014imKAA"
+    },
+    "Id": "1KpWs00000014imKAA",
+    "MasterLabel": "DbSchema_Group",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014ilKAA"
+    },
+    "Id": "1KpWs00000014ilKAA",
+    "MasterLabel": "DbSchema_GoalDefinitionProduct",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014ikKAA"
+    },
+    "Id": "1KpWs00000014ikKAA",
+    "MasterLabel": "DbSchema_GoalDefinition",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014ijKAA"
+    },
+    "Id": "1KpWs00000014ijKAA",
+    "MasterLabel": "DbSchema_GoalAssignment",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014iiKAA"
+    },
+    "Id": "1KpWs00000014iiKAA",
+    "MasterLabel": "DbSchema_Folder",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014ihKAA"
+    },
+    "Id": "1KpWs00000014ihKAA",
+    "MasterLabel": "DbSchema_ExpenseType",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014igKAA"
+    },
+    "Id": "1KpWs00000014igKAA",
+    "MasterLabel": "DbSchema_ExpenseParticipant",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014ifKAA"
+    },
+    "Id": "1KpWs00000014ifKAA",
+    "MasterLabel": "DbSchema_Expense",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014ieKAA"
+    },
+    "Id": "1KpWs00000014ieKAA",
+    "MasterLabel": "DbSchema_EventRelation",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014idKAA"
+    },
+    "Id": "1KpWs00000014idKAA",
+    "MasterLabel": "DbSchema_Event",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014icKAA"
+    },
+    "Id": "1KpWs00000014icKAA",
+    "MasterLabel": "DbSchema_EngagementChannelType",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014ibKAA"
+    },
+    "Id": "1KpWs00000014ibKAA",
+    "MasterLabel": "DbSchema_DigitalSignature",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014iaKAA"
+    },
+    "Id": "1KpWs00000014iaKAA",
+    "MasterLabel": "DbSchema_DeviceSyncTransactionRecord",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014iZKAQ"
+    },
+    "Id": "1KpWs00000014iZKAQ",
+    "MasterLabel": "DbSchema_DataUsePurpose",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014iYKAQ"
+    },
+    "Id": "1KpWs00000014iYKAQ",
+    "MasterLabel": "DbSchema_Dashboard",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014iXKAQ"
+    },
+    "Id": "1KpWs00000014iXKAQ",
+    "MasterLabel": "DbSchema_ContentVersion",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014iWKAQ"
+    },
+    "Id": "1KpWs00000014iWKAQ",
+    "MasterLabel": "DbSchema_ContentDocumentLink",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014iVKAQ"
+    },
+    "Id": "1KpWs00000014iVKAQ",
+    "MasterLabel": "DbSchema_ContentDocument",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014iUKAQ"
+    },
+    "Id": "1KpWs00000014iUKAQ",
+    "MasterLabel": "DbSchema_ContactPointSocial",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014iTKAQ"
+    },
+    "Id": "1KpWs00000014iTKAQ",
+    "MasterLabel": "DbSchema_ContactPointPhone",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014iSKAQ"
+    },
+    "Id": "1KpWs00000014iSKAQ",
+    "MasterLabel": "DbSchema_ContactPointEmail",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014iRKAQ"
+    },
+    "Id": "1KpWs00000014iRKAQ",
+    "MasterLabel": "DbSchema_ContactPointBestContactTime",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014iQKAQ"
+    },
+    "Id": "1KpWs00000014iQKAQ",
+    "MasterLabel": "DbSchema_ContactPointAddress",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014iPKAQ"
+    },
+    "Id": "1KpWs00000014iPKAQ",
+    "MasterLabel": "DbSchema_Contact",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014iOKAQ"
+    },
+    "Id": "1KpWs00000014iOKAQ",
+    "MasterLabel": "DbSchema_ComplianceStatementDef",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014iNKAQ"
+    },
+    "Id": "1KpWs00000014iNKAQ",
+    "MasterLabel": "DbSchema_CommSubscriptionConsent",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014iMKAQ"
+    },
+    "Id": "1KpWs00000014iMKAQ",
+    "MasterLabel": "DbSchema_CommSubscriptionChannelType",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014iLKAQ"
+    },
+    "Id": "1KpWs00000014iLKAQ",
+    "MasterLabel": "DbSchema_CommSubscription",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014iKKAQ"
+    },
+    "Id": "1KpWs00000014iKKAQ",
+    "MasterLabel": "DbSchema_CommSubConsentCmplSnpsht",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014iJKAQ"
+    },
+    "Id": "1KpWs00000014iJKAQ",
+    "MasterLabel": "DbSchema_CodeSetBundle",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014iIKAQ"
+    },
+    "Id": "1KpWs00000014iIKAQ",
+    "MasterLabel": "DbSchema_Case",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014iHKAQ"
+    },
+    "Id": "1KpWs00000014iHKAQ",
+    "MasterLabel": "DbSchema_CareSpecialty",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014iGKAQ"
+    },
+    "Id": "1KpWs00000014iGKAQ",
+    "MasterLabel": "DbSchema_BusinessLicenseProduct",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014iFKAQ"
+    },
+    "Id": "1KpWs00000014iFKAQ",
+    "MasterLabel": "DbSchema_BusinessLicense",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014iEKAQ"
+    },
+    "Id": "1KpWs00000014iEKAQ",
+    "MasterLabel": "DbSchema_AppAlertUserResponse",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014iDKAQ"
+    },
+    "Id": "1KpWs00000014iDKAQ",
+    "MasterLabel": "DbSchema_AppAlertTerritory",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014iCKAQ"
+    },
+    "Id": "1KpWs00000014iCKAQ",
+    "MasterLabel": "DbSchema_AppAlert",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014iBKAQ"
+    },
+    "Id": "1KpWs00000014iBKAQ",
+    "MasterLabel": "DbSchema_Address",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014iAKAQ"
+    },
+    "Id": "1KpWs00000014iAKAQ",
+    "MasterLabel": "DbSchema_ActivityPlanTerritory",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014i9KAA"
+    },
+    "Id": "1KpWs00000014i9KAA",
+    "MasterLabel": "DbSchema_ActivityPlan",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014i8KAA"
+    },
+    "Id": "1KpWs00000014i8KAA",
+    "MasterLabel": "DbSchema_ActionPlanTemplateItem",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014i7KAA"
+    },
+    "Id": "1KpWs00000014i7KAA",
+    "MasterLabel": "DbSchema_ActionPlanTemplateAssignment",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014i6KAA"
+    },
+    "Id": "1KpWs00000014i6KAA",
+    "MasterLabel": "DbSchema_ActionPlanTemplate",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014i5KAA"
+    },
+    "Id": "1KpWs00000014i5KAA",
+    "MasterLabel": "DbSchema_ActionPlanItem",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014i4KAA"
+    },
+    "Id": "1KpWs00000014i4KAA",
+    "MasterLabel": "DbSchema_ActionPlan",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014i3KAA"
+    },
+    "Id": "1KpWs00000014i3KAA",
+    "MasterLabel": "DbSchema_AcctPlanPtcpStakeholder",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014i2KAA"
+    },
+    "Id": "1KpWs00000014i2KAA",
+    "MasterLabel": "DbSchema_AccountPlanStkhldrProduct",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014i1KAA"
+    },
+    "Id": "1KpWs00000014i1KAA",
+    "MasterLabel": "DbSchema_AccountPlanStkhldrAction",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014i0KAA"
+    },
+    "Id": "1KpWs00000014i0KAA",
+    "MasterLabel": "DbSchema_AccountPlanStakeholder",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014hzKAA"
+    },
+    "Id": "1KpWs00000014hzKAA",
+    "MasterLabel": "DbSchema_AccountPlanRelationship",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014hyKAA"
+    },
+    "Id": "1KpWs00000014hyKAA",
+    "MasterLabel": "DbSchema_AccountPlanRelaObjAnalysis",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014hxKAA"
+    },
+    "Id": "1KpWs00000014hxKAA",
+    "MasterLabel": "DbSchema_AccountPlanProduct",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014hwKAA"
+    },
+    "Id": "1KpWs00000014hwKAA",
+    "MasterLabel": "DbSchema_AccountPlanParticipant",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014hvKAA"
+    },
+    "Id": "1KpWs00000014hvKAA",
+    "MasterLabel": "DbSchema_AccountPlanObjective",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014huKAA"
+    },
+    "Id": "1KpWs00000014huKAA",
+    "MasterLabel": "DbSchema_AccountPlan",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000014htKAA"
+    },
+    "Id": "1KpWs00000014htKAA",
+    "MasterLabel": "DbSchema_Account",
+    "LastModifiedDate": "2025-11-01T15:05:27.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": true
+  },
+  {
+    "attributes": {
+      "type": "LifeSciConfigRecord",
+      "url": "/services/data/v65.0/tooling/sobjects/LifeSciConfigRecord/1KpWs00000016eTKAQ"
+    },
+    "Id": "1KpWs00000016eTKAQ",
+    "MasterLabel": "DbSchema_InventoryOperationr",
+    "LastModifiedDate": "2025-11-01T07:33:18.000+0000",
+    "LifeSciConfigCategoryId": "1MmWs0000000fcuKAA",
+    "ParentConfigRecordId": null,
+    "Type": "DATA",
+    "IsOrgLevel": false,
+    "IsActive": false
+  }
+]

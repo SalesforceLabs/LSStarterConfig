@@ -1554,6 +1554,27 @@
         "PhoneValue": null,
         "PicklistValue":null,
         "UrlValue": null
+    },
+    {
+            "attributes": {
+            "type": "LifeSciMetadataFieldValue",
+            "referenceId": "SampleLimitSettingsFieldRef1"
+            },
+        "FieldName":"TargetedSampleLimitsSourceField",
+        "DataType":"PICKLIST",
+        "DateTimeValue": null,
+        "DateValue": null,
+        "FieldValueApiName": "SampleLimitSettings_SampleLimitSettings_OrgLevel_TargetedSampleLimitsSourceField",
+        "HasBooleanValue":false,
+        "IntegerValue":null,
+        "LifeScienceMetadataRecordId": "@SampleLimitSettingsRecordRef1",
+        "TextValue":null,
+        "LongTextValue":null,
+        "Name":"TargetedSampleLimitsSourceField",
+        "NumberValue": null,
+        "PhoneValue": null,
+        "PicklistValue":null,
+        "UrlValue": null
     }
     ]
 }

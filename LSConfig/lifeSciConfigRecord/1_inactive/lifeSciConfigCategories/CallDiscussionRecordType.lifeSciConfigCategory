@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LifeSciConfigCategory xmlns="http://soap.sforce.com/2006/04/metadata">
-    <category>SyncTransactionConfig</category>
-    <masterLabel>Sync Transaction Config</masterLabel>
-    <type>Hierarchical</type>
+    <category>CallDiscussionRecordType</category>
+    <masterLabel>Call Discussion Record Type</masterLabel>
+    <type>List</type>
 </LifeSciConfigCategory>

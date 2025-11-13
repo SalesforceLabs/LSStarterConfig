@@ -61,5 +61,40 @@
         <searchResultsAdditionalFields>VisitPriority</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Visitor</searchResultsAdditionalFields>
     </searchLayouts>
+    <fieldSets>
+        <fullName>Visit_Timeline</fullName>
+        <description>For timeline visit activity additional info</description>
+        <displayedFields>
+            <field>Channel</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>PlaceId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>Status</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>VisitorId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>Visit Timeline</label>
+    </fieldSets>
     <sharingModel>Private</sharingModel>
+    <recordTypes>
+        <fullName>Call_Report</fullName>
+        <active>true</active>
+        <label>Call Report</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Lunch_and_Learn</fullName>
+        <active>true</active>
+        <label>Lunch and Learn</label>
+    </recordTypes>
 </CustomObject>
