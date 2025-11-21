@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LifeSciConfigRecord xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldValues>
+        <dataType>PICKLIST</dataType>
+        <fieldName>VideoVisitChannel</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <picklistValue>Remote</picklistValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>PICKLIST</dataType>
+        <fieldName>ServiceProvider</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <picklistValue>Twilio</picklistValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>URL</dataType>
+        <fieldName>VideoCallInvitationUrl</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <urlValue>www.testinvitation.com</urlValue>
+    </fieldValues>
+    <lifeSciConfigCategory>VideoCallSettings</lifeSciConfigCategory>
+    <masterLabel>VideoCallSettings Twilio</masterLabel>
+</LifeSciConfigRecord>

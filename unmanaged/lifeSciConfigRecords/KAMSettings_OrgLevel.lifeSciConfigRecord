@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LifeSciConfigRecord xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldValues>
+        <dataType>PICKLIST</dataType>
+        <fieldName>NotStartedStatusValueForAP</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <picklistValue>Not Started</picklistValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>PICKLIST</dataType>
+        <fieldName>CompletionStatusValueForAP</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <picklistValue>Completed</picklistValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>PICKLIST</dataType>
+        <fieldName>CompletionStatusValueForGA</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <picklistValue>Completed</picklistValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>PICKLIST</dataType>
+        <fieldName>CompletionStatusValueForTBP</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <picklistValue>Completed</picklistValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>PICKLIST</dataType>
+        <fieldName>StatusValueForAPO</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <picklistValue>Completed</picklistValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>PICKLIST</dataType>
+        <fieldName>StatusValueForAP</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <picklistValue>Completed</picklistValue>
+    </fieldValues>
+    <isActive>false</isActive>
+    <isOrgLevel>true</isOrgLevel>
+    <lifeSciConfigCategory>KAMSettings</lifeSciConfigCategory>
+    <masterLabel>KAMSettings_OrgLevel</masterLabel>
+</LifeSciConfigRecord>

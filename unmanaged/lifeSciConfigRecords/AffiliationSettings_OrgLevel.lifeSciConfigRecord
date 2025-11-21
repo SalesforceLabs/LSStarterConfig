@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LifeSciConfigRecord xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldValues>
+        <dataType>BOOLEAN</dataType>
+        <fieldName>DisableReciprocal</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>INTEGER</dataType>
+        <fieldName>NumberOfRecordsToDisplay</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <integerValue>3</integerValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>TEXT</dataType>
+        <fieldName>OrderByColumnsSequence</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <textValue>Name DESC</textValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>BOOLEAN</dataType>
+        <fieldName>SetAffiliationType</fieldName>
+        <hasBooleanValue>true</hasBooleanValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>BOOLEAN</dataType>
+        <fieldName>EnableNetworkView</fieldName>
+        <hasBooleanValue>true</hasBooleanValue>
+    </fieldValues>
+    <isActive>false</isActive>
+    <isOrgLevel>true</isOrgLevel>
+    <lifeSciConfigCategory>AffiliationSettings</lifeSciConfigCategory>
+    <masterLabel>AffiliationSettings_OrgLevel</masterLabel>
+</LifeSciConfigRecord>

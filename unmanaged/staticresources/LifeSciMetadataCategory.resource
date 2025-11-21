@@ -1,0 +1,104 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "LifeSciMetadataCategory",
+                "referenceId": "AccountDynamicListConfigurationRef1"
+            },
+            "Name": "AccountDynamicListConfiguration",
+            "CategoryLabel": "Account Dynamic List Configuration",
+            "Category": "AccountDynamicListConfiguration",
+            "Type": "Hierarchical"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataCategory",
+                "referenceId": "AccountFilterConfigRef1"
+            },
+            "Name": "AccountFilterConfig",
+            "CategoryLabel": "Account Filter Config",
+            "Category": "AccountFilterConfig",
+            "Type": "List"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataCategory",
+                "referenceId": "AccountListActionsRef1"
+            },
+            "Name": "AccountListActions",
+            "CategoryLabel": "Account List Actions",
+            "Category": "AccountListActions",
+            "Type": "Hierarchical"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataCategory",
+                "referenceId": "ProviderVisitSettingsRef1"
+            },
+            "Name": "ProviderVisitSettings",
+            "CategoryLabel": "Provider Visit Settings",
+            "Category": "ProviderVisitSettings",
+            "Type": "Hierarchical"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataCategory",
+                "referenceId": "AccountSearchPreferencesRef1"
+            },
+            "Name": "AccountSearchPreferences",
+            "CategoryLabel": "Account Search Preferences",
+            "Category": "AccountSearchPreferences",
+            "Type": "Hierarchical"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataCategory",
+                "referenceId": "PresentationSettingsRef1"
+            },
+            "Name": "PresentationSettings",
+            "CategoryLabel": "Presentation Settings",
+            "Category": "PresentationSettings",
+            "Type": "Hierarchical"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataCategory",
+                "referenceId": "EmailSettingsRef1"
+            },
+            "Name": "EmailSettings",
+            "CategoryLabel": "Email Settings",
+            "Category": "EmailSettings",
+            "Type": "Hierarchical"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataCategory",
+                "referenceId": "InventoryManagementProfileSettingsRef1"
+            },
+            "Name": "InventoryManagementProfileSettings",
+            "CategoryLabel": "Inventory Management Profile Settings",
+            "Category": "InventoryManagementProfileSettings",
+            "Type": "Hierarchical"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataCategory",
+                "referenceId": "ExternalSearchSettingsRef1"
+            },
+            "Name": "ExternalSearchSettings",
+            "CategoryLabel": "External Search Settings",
+            "Category": "ExternalSearchSettings",
+            "Type": "Hierarchical"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataCategory",
+                "referenceId": "SampleLimitSettingsRef1"
+            },
+            "Name": "SampleLimitSettings",
+            "CategoryLabel": "Sample Limit Settings",
+            "Category": "SampleLimitSettings",
+            "Type": "Hierarchical"
+        }       
+    ]
+}

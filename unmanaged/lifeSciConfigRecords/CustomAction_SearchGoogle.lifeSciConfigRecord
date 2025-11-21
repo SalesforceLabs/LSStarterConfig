@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LifeSciConfigRecord xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldValues>
+        <dataType>TEXT</dataType>
+        <fieldName>ActionTarget</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <textValue>https://www.google.com/search</textValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>PICKLIST</dataType>
+        <fieldName>ActionType</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <picklistValue>URL</picklistValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>TEXT</dataType>
+        <fieldName>EntityName</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <textValue />
+    </fieldValues>
+    <fieldValues>
+        <dataType>PICKLIST</dataType>
+        <fieldName>EntityType</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <picklistValue>StagePath</picklistValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>TEXT</dataType>
+        <fieldName>Color</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <textValue />
+    </fieldValues>
+    <fieldValues>
+        <dataType>TEXT</dataType>
+        <fieldName>Icon</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <textValue />
+    </fieldValues>
+    <fieldValues>
+        <dataType>TEXT</dataType>
+        <fieldName>QuickAction</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <textValue />
+    </fieldValues>
+    <fieldValues>
+        <dataType>PICKLIST</dataType>
+        <fieldName>StandardAction</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <picklistValue />
+    </fieldValues>
+    <fieldValues>
+        <dataType>LONGTEXT</dataType>
+        <fieldName>TargetParametersSource</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <longTextValue />
+    </fieldValues>
+    <fieldValues>
+        <dataType>TEXT</dataType>
+        <fieldName>TargetParameters</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <textValue>q=$record.Name</textValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>PICKLIST</dataType>
+        <fieldName>TargetType</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <picklistValue>External</picklistValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>BOOLEAN</dataType>
+        <fieldName>HideViewInBrowserAction</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+    </fieldValues>
+    <isActive>false</isActive>
+    <isOrgLevel>false</isOrgLevel>
+    <lifeSciConfigCategory>CustomAction</lifeSciConfigCategory>
+    <masterLabel>CustomAction_SearchGoogle</masterLabel>
+</LifeSciConfigRecord>

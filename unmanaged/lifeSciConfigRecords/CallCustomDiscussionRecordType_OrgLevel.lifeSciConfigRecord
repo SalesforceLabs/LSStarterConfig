@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LifeSciConfigRecord xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldValues>
+        <dataType>BOOLEAN</dataType>
+        <fieldName>IsDefault</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>BOOLEAN</dataType>
+        <fieldName>IsRequired</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>BOOLEAN</dataType>
+        <fieldName>IsSingleSelection</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>TEXT</dataType>
+        <fieldName>RecordTypeId</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>TEXT</dataType>
+        <fieldName>SObjectType</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+    </fieldValues>
+    <isActive>false</isActive>
+    <isOrgLevel>true</isOrgLevel>
+    <lifeSciConfigCategory>CallCustomDiscussionRecordType</lifeSciConfigCategory>
+    <masterLabel>CallCustomDiscussionRecordType_OrgLevel</masterLabel>
+</LifeSciConfigRecord>
