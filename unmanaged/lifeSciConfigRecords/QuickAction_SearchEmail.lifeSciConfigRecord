@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<LifeSciConfigRecord xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldValues>
+        <dataType>PICKLIST</dataType>
+        <fieldName>ActionName</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <picklistValue>Email</picklistValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>TEXT</dataType>
+        <fieldName>Color</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <textValue />
+    </fieldValues>
+    <fieldValues>
+        <dataType>TEXT</dataType>
+        <fieldName>Icon</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <textValue />
+    </fieldValues>
+    <fieldValues>
+        <dataType>PICKLIST</dataType>
+        <fieldName>Location</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <picklistValue>Search</picklistValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>BOOLEAN</dataType>
+        <fieldName>IsMobileOnly</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>PICKLIST</dataType>
+        <fieldName>SObject</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <picklistValue>Account</picklistValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>INTEGER</dataType>
+        <fieldName>SortOrder</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <integerValue>120</integerValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>TEXT</dataType>
+        <fieldName>PermissionSets</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <textValue />
+    </fieldValues>
+    <fieldValues>
+        <dataType>TEXT</dataType>
+        <fieldName>Profiles</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <textValue />
+    </fieldValues>
+    <fieldValues>
+        <dataType>LONGTEXT</dataType>
+        <fieldName>RecordTypes</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <longTextValue />
+    </fieldValues>
+    <isActive>false</isActive>
+    <isOrgLevel>false</isOrgLevel>
+    <lifeSciConfigCategory>QuickAction</lifeSciConfigCategory>
+    <masterLabel>QuickAction_SearchEmail</masterLabel>
+</LifeSciConfigRecord>

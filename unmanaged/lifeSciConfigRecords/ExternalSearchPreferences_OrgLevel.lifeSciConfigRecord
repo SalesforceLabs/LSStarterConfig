@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LifeSciConfigRecord xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldValues>
+        <dataType>INTEGER</dataType>
+        <fieldName>OutOfContractDownloadLimitForOrg</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>TEXT</dataType>
+        <fieldName>IntegrationDefinitionDeveloperName</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>PICKLIST</dataType>
+        <fieldName>ActiveExternalSystem</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <picklistValue>Onekey</picklistValue>
+    </fieldValues>
+    <isActive>false</isActive>
+    <isOrgLevel>true</isOrgLevel>
+    <lifeSciConfigCategory>ExternalSearchPreferences</lifeSciConfigCategory>
+    <masterLabel>ExternalSearchPreferences_OrgLevel</masterLabel>
+</LifeSciConfigRecord>

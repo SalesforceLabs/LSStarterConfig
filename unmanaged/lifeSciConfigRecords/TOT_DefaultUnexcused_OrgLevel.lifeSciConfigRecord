@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LifeSciConfigRecord xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldValues>
+        <dataType>PICKLIST</dataType>
+        <fieldName>NonBusinessHours</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>PICKLIST</dataType>
+        <fieldName>TOT</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>PICKLIST</dataType>
+        <fieldName>Visit</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <picklistValue>Not Allowed</picklistValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>PICKLIST</dataType>
+        <fieldName>GeneralEvent</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>PICKLIST</dataType>
+        <fieldName>Holiday</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>PICKLIST</dataType>
+        <fieldName>Meeting</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <picklistValue>Not Allowed</picklistValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>BOOLEAN</dataType>
+        <fieldName>IsParent</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>TEXT</dataType>
+        <fieldName>TimeOffTerritoryType</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <textValue>Holiday</textValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>TEXT</dataType>
+        <fieldName>RuleSet</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <textValue>Default</textValue>
+    </fieldValues>
+    <isActive>false</isActive>
+    <isOrgLevel>true</isOrgLevel>
+    <lifeSciConfigCategory>TimeOffTerritoryRule</lifeSciConfigCategory>
+    <masterLabel>TOT_DefaultUnexcused_OrgLevel</masterLabel>
+</LifeSciConfigRecord>

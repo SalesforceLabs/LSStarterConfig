@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LifeSciConfigRecord xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldValues>
+        <dataType>LONGTEXT</dataType>
+        <fieldName>Criteria</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <longTextValue>Status = &apos;Success&apos;</longTextValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>NUMBER</dataType>
+        <fieldName>Order</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <numberValue>2</numberValue>
+    </fieldValues>
+    <lifeSciConfigCategory>SyncTransactionAdminView</lifeSciConfigCategory>
+    <masterLabel>Success</masterLabel>
+</LifeSciConfigRecord>
