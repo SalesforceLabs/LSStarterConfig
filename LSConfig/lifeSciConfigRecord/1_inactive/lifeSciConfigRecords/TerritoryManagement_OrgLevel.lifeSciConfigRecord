@@ -8,12 +8,10 @@
         <dataType>TEXT</dataType>
         <fieldName>MirrorTerritoryField</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <textValue>MirrorTerritory__c</textValue>
     </fieldValues>
     <fieldValues>
         <dataType>TEXT</dataType>
         <fieldName>UserNameForMirrorTerritoryField</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <textValue>UserNameOfMirrorTerritory__c</textValue>
     </fieldValues>
 </LifeSciConfigRecord>
