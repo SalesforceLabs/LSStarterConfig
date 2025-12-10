@@ -11,6 +11,7 @@
         <hasBooleanValue>true</hasBooleanValue>
     </fieldValues>
     <isActive>false</isActive>
+    <isOrgLevel>true</isOrgLevel>
     <lifeSciConfigCategory>SearchBeforeCreate</lifeSciConfigCategory>
     <masterLabel>SearchBeforeCreate_OrgLevel</masterLabel>
 </LifeSciConfigRecord>

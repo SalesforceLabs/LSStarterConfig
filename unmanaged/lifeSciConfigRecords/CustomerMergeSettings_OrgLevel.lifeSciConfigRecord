@@ -5,7 +5,7 @@
         <fieldName>DoNotMoveInactiveAccountAddresses</fieldName>
         <hasBooleanValue>true</hasBooleanValue>
     </fieldValues>
-    <isActive>false</isActive>
+    <isOrgLevel>true</isOrgLevel>
     <lifeSciConfigCategory>CustomerMergeSettings</lifeSciConfigCategory>
     <masterLabel>CustomerMergeSettings_OrgLevel</masterLabel>
 </LifeSciConfigRecord>

@@ -58,8 +58,7 @@
         <hasBooleanValue>false</hasBooleanValue>
         <picklistValue>Asc</picklistValue>
     </fieldValues>
-    <isActive>false</isActive>
-    <isOrgLevel>false</isOrgLevel>
+    <isOrgLevel>true</isOrgLevel>
     <lifeSciConfigCategory>DTVObjectConfig</lifeSciConfigCategory>
     <masterLabel>DTVObjectConfig_Contact</masterLabel>
 </LifeSciConfigRecord> 

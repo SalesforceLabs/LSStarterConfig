@@ -54,6 +54,7 @@
         <hasBooleanValue>false</hasBooleanValue>
         <textValue>DayOff</textValue>
     </fieldValues>
+    <isOrgLevel>true</isOrgLevel>
     <lifeSciConfigCategory>WorkingDaysConfig</lifeSciConfigCategory>
     <masterLabel>HolidayWDConfig_OrgLevel</masterLabel>
 </LifeSciConfigRecord>

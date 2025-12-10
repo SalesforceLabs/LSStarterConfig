@@ -12,6 +12,7 @@
         <hasBooleanValue>false</hasBooleanValue>
         <picklistValue>ERROR</picklistValue>
     </fieldValues>
+    <isOrgLevel>true</isOrgLevel>
     <lifeSciConfigCategory>LogSettings</lifeSciConfigCategory>
     <masterLabel>LogSettings_OrgLevel</masterLabel>
 </LifeSciConfigRecord>

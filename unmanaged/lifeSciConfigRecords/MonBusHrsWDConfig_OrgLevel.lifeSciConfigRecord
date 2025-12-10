@@ -18,6 +18,7 @@
         <hasBooleanValue>false</hasBooleanValue>
         <textValue>BusinessHours</textValue>
     </fieldValues>
+    <isOrgLevel>true</isOrgLevel>
     <lifeSciConfigCategory>WorkingDaysConfig</lifeSciConfigCategory>
     <masterLabel>MonBusHrsWDConfig_OrgLevel</masterLabel>
 </LifeSciConfigRecord>

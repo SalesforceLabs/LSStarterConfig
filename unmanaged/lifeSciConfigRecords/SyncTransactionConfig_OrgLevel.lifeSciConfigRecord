@@ -45,6 +45,7 @@
         <hasBooleanValue>false</hasBooleanValue>
         <integerValue>5</integerValue>
     </fieldValues>
+    <isOrgLevel>true</isOrgLevel>
     <lifeSciConfigCategory>SyncTransactionConfig</lifeSciConfigCategory>
     <masterLabel>SyncTransactionConfig_OrgLevel</masterLabel>
 </LifeSciConfigRecord>

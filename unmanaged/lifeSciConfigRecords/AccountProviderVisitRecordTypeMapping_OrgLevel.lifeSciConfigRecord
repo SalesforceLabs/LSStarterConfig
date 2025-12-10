@@ -25,6 +25,7 @@
         <fieldName>SortOrder</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
     </fieldValues>
+    <isOrgLevel>true</isOrgLevel>
     <lifeSciConfigCategory>AccountProviderVisitRecordTypeMapping</lifeSciConfigCategory>
     <masterLabel>AccountProviderVisitRecordTypeMapping_OrgLevel</masterLabel>
 </LifeSciConfigRecord>
