@@ -5,6 +5,7 @@
         <fieldName>NumberOfRetryAttempts</fieldName>
         <integerValue>3</integerValue>
     </fieldValues>
+    <isOrgLevel>true</isOrgLevel>
     <lifeSciConfigCategory>SyncProcessorConfiguration</lifeSciConfigCategory>
     <masterLabel>SyncProcessorConfiguration_OrgLevel</masterLabel>
 </LifeSciConfigRecord>

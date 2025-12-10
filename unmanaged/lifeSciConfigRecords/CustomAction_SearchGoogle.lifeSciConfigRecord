@@ -71,8 +71,7 @@
         <fieldName>HideViewInBrowserAction</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
     </fieldValues>
-    <isActive>false</isActive>
-    <isOrgLevel>false</isOrgLevel>
+    <isOrgLevel>true</isOrgLevel>
     <lifeSciConfigCategory>CustomAction</lifeSciConfigCategory>
     <masterLabel>CustomAction_SearchGoogle</masterLabel>
 </LifeSciConfigRecord>

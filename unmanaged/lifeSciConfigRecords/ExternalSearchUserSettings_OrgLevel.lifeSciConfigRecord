@@ -6,7 +6,7 @@
         <hasBooleanValue>false</hasBooleanValue>
         <integerValue>10</integerValue>
     </fieldValues>
-    <isActive>false</isActive>
+    <isOrgLevel>true</isOrgLevel>
     <lifeSciConfigCategory>ExternalSearchUserSettings</lifeSciConfigCategory>
     <masterLabel>ExternalSearchUserSettings_OrgLevel</masterLabel>
 </LifeSciConfigRecord>
