@@ -14,7 +14,6 @@
         <dataType>TEXT</dataType>
         <fieldName>RatingField</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <textValue>Account</textValue>
     </fieldValues>
     <fieldValues>
         <dataType>TEXT</dataType>

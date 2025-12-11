@@ -12,6 +12,7 @@
         <hasBooleanValue>false</hasBooleanValue>
         <numberValue>1</numberValue>
     </fieldValues>
+    <isOrgLevel>true</isOrgLevel>
     <lifeSciConfigCategory>SyncTransactionAdminView</lifeSciConfigCategory>
     <masterLabel>Failed</masterLabel>
 </LifeSciConfigRecord>

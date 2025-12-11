@@ -2,4 +2,5 @@
 <LifeSciConfigCategory xmlns="http://soap.sforce.com/2006/04/metadata">
     <category>CustomAction</category>
     <masterLabel>CustomAction</masterLabel>
+    <type>List</type>
 </LifeSciConfigCategory>

@@ -42,6 +42,7 @@
         <hasBooleanValue>false</hasBooleanValue>
         <textValue>DowntimeType</textValue>
     </fieldValues>
+    <isOrgLevel>true</isOrgLevel>
     <lifeSciConfigCategory>WorkingDaysConfig</lifeSciConfigCategory>
     <masterLabel>TOTWDConfig_OrgLevel</masterLabel>
 </LifeSciConfigRecord>
