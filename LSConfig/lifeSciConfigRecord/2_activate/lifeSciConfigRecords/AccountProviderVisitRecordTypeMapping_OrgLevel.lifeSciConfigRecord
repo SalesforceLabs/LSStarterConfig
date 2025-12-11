@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LifeSciConfigRecord xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isOrgLevel>true</isOrgLevel>
+    <isActive>true</isActive>
+    <lifeSciConfigCategory>AccountProviderVisitRecordTypeMapping</lifeSciConfigCategory>
+    <masterLabel>AccountProviderVisitRecordTypeMapping_OrgLevel</masterLabel>
+</LifeSciConfigRecord>

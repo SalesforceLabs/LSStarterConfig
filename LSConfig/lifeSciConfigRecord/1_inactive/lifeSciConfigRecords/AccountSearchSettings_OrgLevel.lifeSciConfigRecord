@@ -18,6 +18,7 @@
         <hasBooleanValue>false</hasBooleanValue>
         <picklistValue>lsc4ce__SearchableFields</picklistValue>
     </fieldValues>
+    <isOrgLevel>true</isOrgLevel>
     <lifeSciConfigCategory>AccountSearchSettings</lifeSciConfigCategory>
     <masterLabel>AccountSearchSettings_OrgLevel</masterLabel>
 </LifeSciConfigRecord>

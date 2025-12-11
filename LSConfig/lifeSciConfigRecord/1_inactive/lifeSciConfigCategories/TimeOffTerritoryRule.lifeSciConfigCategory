@@ -2,4 +2,5 @@
 <LifeSciConfigCategory xmlns="http://soap.sforce.com/2006/04/metadata">
     <category>TimeOffTerritoryRule</category>
     <masterLabel>TimeOffTerritoryRule</masterLabel>
+    <type>List</type>
 </LifeSciConfigCategory>

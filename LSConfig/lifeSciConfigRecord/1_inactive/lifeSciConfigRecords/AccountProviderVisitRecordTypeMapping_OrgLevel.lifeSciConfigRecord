@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LifeSciConfigRecord xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldValues>
+        <dataType>TEXT</dataType>
+        <fieldName>AccountRecordTypeName</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>TEXT</dataType>
+        <fieldName>ProviderVisitRecordTypeName</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>TEXT</dataType>
+        <fieldName>AccountRecordTypeId</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>TEXT</dataType>
+        <fieldName>ProviderVisitRecordTypeId</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>INTEGER</dataType>
+        <fieldName>SortOrder</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+    </fieldValues>
+    <isOrgLevel>true</isOrgLevel>
+    <lifeSciConfigCategory>AccountProviderVisitRecordTypeMapping</lifeSciConfigCategory>
+    <masterLabel>AccountProviderVisitRecordTypeMapping_OrgLevel</masterLabel>
+</LifeSciConfigRecord>

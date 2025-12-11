@@ -12,6 +12,7 @@
         <hasBooleanValue>false</hasBooleanValue>
         <numberValue>2</numberValue>
     </fieldValues>
+    <isOrgLevel>true</isOrgLevel>
     <lifeSciConfigCategory>SyncTransactionAdminView</lifeSciConfigCategory>
     <masterLabel>Success</masterLabel>
 </LifeSciConfigRecord>

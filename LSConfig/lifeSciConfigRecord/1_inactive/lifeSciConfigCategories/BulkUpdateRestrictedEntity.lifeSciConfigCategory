@@ -2,4 +2,5 @@
 <LifeSciConfigCategory xmlns="http://soap.sforce.com/2006/04/metadata">
     <category>BulkUpdateRestrictedEntity</category>
     <masterLabel>BulkUpdateRestrictedEntity</masterLabel>
+    <type>List</type>
 </LifeSciConfigCategory>

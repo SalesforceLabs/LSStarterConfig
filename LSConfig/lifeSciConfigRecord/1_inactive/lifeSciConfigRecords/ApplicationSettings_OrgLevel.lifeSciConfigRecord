@@ -79,6 +79,7 @@
         <fieldName>DefaultAdvancedSearchForLookups</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
     </fieldValues>
+    <isOrgLevel>true</isOrgLevel>
     <lifeSciConfigCategory>ApplicationSettings</lifeSciConfigCategory>
     <masterLabel>ApplicationSettings_OrgLevel</masterLabel>
 </LifeSciConfigRecord>

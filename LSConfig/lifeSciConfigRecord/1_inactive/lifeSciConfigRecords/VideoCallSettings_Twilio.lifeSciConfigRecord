@@ -18,6 +18,7 @@
         <hasBooleanValue>false</hasBooleanValue>
         <urlValue>www.testinvitation.com</urlValue>
     </fieldValues>
+    <isOrgLevel>true</isOrgLevel>
     <lifeSciConfigCategory>VideoCallSettings</lifeSciConfigCategory>
     <masterLabel>VideoCallSettings Twilio</masterLabel>
 </LifeSciConfigRecord>

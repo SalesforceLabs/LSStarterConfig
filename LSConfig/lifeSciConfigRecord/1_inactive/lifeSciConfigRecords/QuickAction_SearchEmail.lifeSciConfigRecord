@@ -60,7 +60,7 @@
         <longTextValue />
     </fieldValues>
     <isActive>false</isActive>
-    <isOrgLevel>false</isOrgLevel>
+    <isOrgLevel>true</isOrgLevel>
     <lifeSciConfigCategory>QuickAction</lifeSciConfigCategory>
     <masterLabel>QuickAction_SearchEmail</masterLabel>
 </LifeSciConfigRecord>

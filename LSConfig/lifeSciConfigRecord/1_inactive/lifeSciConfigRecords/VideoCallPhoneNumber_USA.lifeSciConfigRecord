@@ -12,6 +12,7 @@
         <hasBooleanValue>false</hasBooleanValue>
         <textValue>USA</textValue>
     </fieldValues>
+    <isOrgLevel>true</isOrgLevel>
     <lifeSciConfigCategory>VideoCallPhoneNumber</lifeSciConfigCategory>
     <masterLabel>USA Test Phone Number</masterLabel>
 </LifeSciConfigRecord>

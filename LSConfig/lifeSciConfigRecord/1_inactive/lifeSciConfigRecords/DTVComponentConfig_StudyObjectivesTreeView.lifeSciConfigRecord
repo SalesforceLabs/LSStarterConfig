@@ -58,7 +58,7 @@
         <textValue>DTVObjectConfig_Contact</textValue>
     </fieldValues>
     <isActive>false</isActive>
-    <isOrgLevel>false</isOrgLevel>
+    <isOrgLevel>true</isOrgLevel>
     <lifeSciConfigCategory>DTVComponentConfig</lifeSciConfigCategory>
     <masterLabel>DTVComponentConfig_StudyObjectivesTreeView</masterLabel>
 </LifeSciConfigRecord> 

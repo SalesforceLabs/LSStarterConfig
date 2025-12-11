@@ -11,6 +11,7 @@
         <hasBooleanValue>false</hasBooleanValue>
         <numberValue>0</numberValue>
     </fieldValues>
+    <isOrgLevel>true</isOrgLevel>
     <lifeSciConfigCategory>SyncTransactionAdminView</lifeSciConfigCategory>
     <masterLabel>All</masterLabel>
 </LifeSciConfigRecord>

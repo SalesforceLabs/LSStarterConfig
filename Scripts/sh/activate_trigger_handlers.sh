@@ -14,6 +14,8 @@ set -euo pipefail
 #   ./activate_trigger_handlers.sh --org myAlias  # parses DeveloperName from TriggerHanlders.ts
 
 API_VERSION=${API_VERSION:-65.0}
+# Controls per-handler logging; set VERBOSE=true to see detailed output
+VERBOSE=${VERBOSE:-false}
 
 print_usage() {
   cat <<EOF
@@ -277,10 +279,14 @@ declare -i failed_count=0
 
 for name in "${DEVELOPER_NAMES[@]}"; do
   [[ -z "$name" ]] && continue
-  echo "Processing DeveloperName: $name"
+  if [[ "$VERBOSE" == true ]]; then
+    echo "Processing DeveloperName: $name"
+  fi
   record_json=$(find_handler "$name")
   if [[ -z "$record_json" || "$record_json" == "null" ]]; then
-    echo "  Not found in org (standard and tooling)."
+    if [[ "$VERBOSE" == true ]]; then
+      echo "  Not found in org (standard and tooling)."
+    fi
     notfound_count+=1
     continue
   fi
@@ -290,30 +296,42 @@ for name in "${DEVELOPER_NAMES[@]}"; do
   result=$(activate_handler "$id" "$is_active")
   case "$result" in
     already-active)
-      echo "  Already active. Skipping."
+      if [[ "$VERBOSE" == true ]]; then
+        echo "  Already active. Skipping."
+      fi
       skipped_count+=1 ;;
     already-inactive)
-      echo "  Already inactive. Skipping."
+      if [[ "$VERBOSE" == true ]]; then
+        echo "  Already inactive. Skipping."
+      fi
       skipped_count+=1 ;;
     updated-standard)
-      if [[ "$DEACTIVATE" == true ]]; then
-        echo "  Deactivated via standard REST API."
-      else
-        echo "  Activated via standard REST API."
+      if [[ "$VERBOSE" == true ]]; then
+        if [[ "$DEACTIVATE" == true ]]; then
+          echo "  Deactivated via standard REST API."
+        else
+          echo "  Activated via standard REST API."
+        fi
       fi
       success_count+=1 ;;
     updated-tooling)
-      if [[ "$DEACTIVATE" == true ]]; then
-        echo "  Deactivated via Tooling API."
-      else
-        echo "  Activated via Tooling API."
+      if [[ "$VERBOSE" == true ]]; then
+        if [[ "$DEACTIVATE" == true ]]; then
+          echo "  Deactivated via Tooling API."
+        else
+          echo "  Activated via Tooling API."
+        fi
       fi
       success_count+=1 ;;
     failed)
-      echo "  Failed to activate (both standard and Tooling PATCH failed)."
+      if [[ "$VERBOSE" == true ]]; then
+        echo "  Failed to activate (both standard and Tooling PATCH failed)."
+      fi
       failed_count+=1 ;;
     *)
-      echo "  Unexpected result: $result"
+      if [[ "$VERBOSE" == true ]]; then
+        echo "  Unexpected result: $result"
+      fi
       failed_count+=1 ;;
   esac
 done

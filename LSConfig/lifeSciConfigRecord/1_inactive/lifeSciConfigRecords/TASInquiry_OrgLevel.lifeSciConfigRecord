@@ -4,30 +4,31 @@
         <dataType>TEXT</dataType>
         <fieldName>AliasLabelName</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <textValue>ActivityHistoryAccount_Activity</textValue>
+        <textValue>ActivityHistoryMIRF</textValue>
     </fieldValues>
     <fieldValues>
         <dataType>TEXT</dataType>
         <fieldName>ContactPointAddressFieldName</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
+        <textValue>ResponseContactPointRecId</textValue>
     </fieldValues>
     <fieldValues>
         <dataType>TEXT</dataType>
         <fieldName>Color</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <textValue>#204E59</textValue>
+        <textValue>#7dc37d</textValue>
     </fieldValues>
     <fieldValues>
         <dataType>TEXT</dataType>
         <fieldName>DateFieldName</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <textValue>LastModifiedDate</textValue>
+        <textValue>SubmittedDateTime</textValue>
     </fieldValues>
     <fieldValues>
         <dataType>TEXT</dataType>
         <fieldName>Activity</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <textValue>Account_Activity__c</textValue>
+        <textValue>Inquiry</textValue>
     </fieldValues>
     <fieldValues>
         <dataType>BOOLEAN</dataType>
@@ -43,6 +44,7 @@
         <dataType>TEXT</dataType>
         <fieldName>StatusFieldName</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
+        <textValue>Status</textValue>
     </fieldValues>
     <fieldValues>
         <dataType>TEXT</dataType>
@@ -58,26 +60,28 @@
         <dataType>TEXT</dataType>
         <fieldName>AccountFieldName</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
+        <textValue>AccountId</textValue>
     </fieldValues>
     <fieldValues>
         <dataType>TEXT</dataType>
         <fieldName>MobileIcon</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <textValue>0xE91A</textValue>
+        <textValue>0xE9CE</textValue>
     </fieldValues>
     <fieldValues>
         <dataType>TEXT</dataType>
         <fieldName>Icon</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <textValue>standard:custom_component_task</textValue>
+        <textValue>standard:workforce_engagement</textValue>
     </fieldValues>
     <fieldValues>
         <dataType>TEXT</dataType>
         <fieldName>TerritoryFieldName</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
+        <textValue>Territory2Id</textValue>
     </fieldValues>
     <isActive>false</isActive>
     <isOrgLevel>true</isOrgLevel>
     <lifeSciConfigCategory>TimelineActivitySetting</lifeSciConfigCategory>
-    <masterLabel>TASAccount_Activity_OrgLevel</masterLabel>
+    <masterLabel>TASInquiry_OrgLevel</masterLabel>
 </LifeSciConfigRecord>

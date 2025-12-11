@@ -51,8 +51,7 @@
         <hasBooleanValue>false</hasBooleanValue>
         <textValue>TimeOffTerritory</textValue>
     </fieldValues>
-    <isActive>false</isActive>
-    <isOrgLevel>false</isOrgLevel>
+    <isOrgLevel>true</isOrgLevel>
     <lifeSciConfigCategory>CalendarEvent</lifeSciConfigCategory>
     <masterLabel>CalendarEvent_TimeOffTerritory</masterLabel>
 </LifeSciConfigRecord>

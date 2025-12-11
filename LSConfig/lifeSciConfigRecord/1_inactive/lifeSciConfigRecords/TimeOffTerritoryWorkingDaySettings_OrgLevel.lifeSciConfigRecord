@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LifeSciConfigRecord xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldValues>
+        <dataType>INTEGER</dataType>
+        <fieldName>HoursInWorkDay</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>INTEGER</dataType>
+        <fieldName>PlanCyclesPerBatch</fieldName>
+        <hasBooleanValue>true</hasBooleanValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>TEXT</dataType>
+        <fieldName>Working</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+    </fieldValues>
+    <isActive>false</isActive>
+    <isOrgLevel>true</isOrgLevel>
+    <lifeSciConfigCategory>TimeOffTerritoryWorkingDaySettings</lifeSciConfigCategory>
+    <masterLabel>TimeOffTerritoryWorkingDaySettings_OrgLevel</masterLabel>
+</LifeSciConfigRecord>

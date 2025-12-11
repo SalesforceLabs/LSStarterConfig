@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LifeSciConfigCategory xmlns="http://soap.sforce.com/2006/04/metadata">
-    <category>FieldSetMapping</category>
-    <categoryLabel>Field Set Mapping</categoryLabel>
-    <masterLabel>Field Set Mapping</masterLabel>
+    <category>CallCustomDiscussionRecordType</category>
+    <masterLabel>Call Custom Discussion Record Type</masterLabel>
     <type>List</type>
 </LifeSciConfigCategory>

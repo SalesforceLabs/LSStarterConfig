@@ -89,6 +89,16 @@
             "CategoryLabel": "External Search Settings",
             "Category": "ExternalSearchSettings",
             "Type": "Hierarchical"
+        },
+        {
+            "attributes": {
+                "type": "LifeSciMetadataCategory",
+                "referenceId": "SampleLimitSettingsRef1"
+            },
+            "Name": "SampleLimitSettings",
+            "CategoryLabel": "Sample Limit Settings",
+            "Category": "SampleLimitSettings",
+            "Type": "Hierarchical"
         }       
     ]
 }
