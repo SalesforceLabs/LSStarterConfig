@@ -113,9 +113,11 @@ if [[ -z "$ACCESS_TOKEN" || -z "$INSTANCE_URL" ]]; then
   exit 1
 fi
 
-echo "Using org: $ORG_ALIAS"
-echo "Instance URL: $INSTANCE_URL"
-echo "API Version: $API_VERSION"
+if [[ "$VERBOSE" == true ]]; then 
+  echo "Using org: $ORG_ALIAS"
+  echo "Instance URL: $INSTANCE_URL"
+  echo "API Version: $API_VERSION"
+fi
 
 read_names_from_file() {
   local file_path="$1"
@@ -336,17 +338,17 @@ for name in "${DEVELOPER_NAMES[@]}"; do
   esac
 done
 
-echo
-echo "Done. Summary:"
-echo "  $SUMMARY_SUCCESS_LABEL: $success_count"
-echo "  $SUMMARY_SKIPPED_LABEL: $skipped_count"
-echo "  Not found: $notfound_count"
-echo "  Failed: $failed_count"
+  if [[ "$VERBOSE" == true ]]; then
+    echo
+    echo "Done. Summary:"
+    echo "  $SUMMARY_SUCCESS_LABEL: $success_count"
+    echo "  $SUMMARY_SKIPPED_LABEL: $skipped_count"
+    echo "  Not found: $notfound_count"
+    echo "  Failed: $failed_count"
+  fi
 
 if (( failed_count > 0 )); then
   exit 1
 fi
 
 exit 0
-
-
