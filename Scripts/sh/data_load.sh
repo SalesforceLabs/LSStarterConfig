@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-echo "Loading configurations..."
+echo "Deploying configurations..."
 
 # Check if jq is installed
  if ! command -v jq &> /dev/null; then
@@ -9,14 +9,8 @@ echo "Loading configurations..."
    exit 1
  fi
 
-#deploy LSConfig entries
-#import platform BPO entries
-#echo "Starting - sf data import tree --plan LSConfig/lifeSciMetadataRecord/LifeSciMetadataCategory-plan.json"
+sf project deploy start -d "PackageComponents/profiles/LSC Custom Profile.profile-meta.xml" --json 1>/dev/null 2>/dev/null
 sf data import tree --plan LSConfig/lifeSciMetadataRecord/LifeSciMetadataCategory-plan.json --json 1>/dev/null 2>/dev/null
-#deploy setup BPO entries, only works with Salesforce CLI version 2.80.4 or higher
-#echo "Starting - sf project deploy start -d LSConfig/lifeSciConfigRecord/1_inactive"
 sf project deploy start -d LSConfig/lifeSciConfigRecord/1_inactive --json 1>/dev/null 2>/dev/null
-#echo "Starting - sf project deploy start -d LSConfig/lifeSciConfigRecord/2_activate"
 sf project deploy start -d LSConfig/lifeSciConfigRecord/2_activate --json 1>/dev/null 2>/dev/null
-#echo "Starting - bash Scripts/sh/activate_trigger_handlers.sh --file TriggerHandlers/TriggerHandlers.ts"
 bash Scripts/sh/activate_trigger_handlers.sh --file TriggerHandlers/TriggerHandlers.ts

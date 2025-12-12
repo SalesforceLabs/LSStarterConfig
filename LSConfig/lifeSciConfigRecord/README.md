@@ -5,7 +5,7 @@ LifeSciConfigCategory and LifeSciConfigRecord files are in two folders:
 
 ## Instructions to deploy to a target org
 1. Zip package.xml, lifeSciConfigCategories and lifeSciConfigRecords folders under 1_inactive folder and deploy to the org using metadata api. (Do not include 1_inactive folder in the zip, select package.xml, lifeSciConfigCategories and lifeSciConfigRecords folders and zip only those)
-    1. Note that assignments in LifeSciConfigRecord files use Medical Sales Representative profile. If a different profile is needed, update the files accordingly before creating the zip.
+    1. Note that assignments in LifeSciConfigRecord files use "LSC Custom Profile" profile. If a different profile is needed, update the files accordingly before creating the zip.
 2. Zip package.xml and lifeSciConfigRecords folders under 2_activate folder and deploy to the org using metadata api.(Do not include 2_activate folder in the zip, select package.xml and lifeSciConfigRecords folders and zip only those)
 
 Zip contents should be as follows, e.g.
@@ -37,13 +37,13 @@ If deployment fails, check the deployment error. Deployment error can also be fo
 #### No package.xml found
 Make sure package.xml is in the zip and it is zipped along with the folder(s) that include the xml files. Do not include the parent folder 1_inactive or 2_activate in the zip.
 #### Enter an assignment level and an assignment ID.
-This indicates that the profile that is referenced in the assignments does not exist on the org. The assignments in LifeSciConfigRecord files use Medical Sales Representative profile. Either create a profile with this same name on the org, or if a different profile is needed, update the files accordingly before creating the zip. Make sure the referenced profile exists on the org.
+This indicates that the profile that is referenced in the assignments does not exist on the org. The assignments in LifeSciConfigRecord files use "LSC Custom Profile" profile. Either create a profile with this same name on the org, or if a different profile is needed, update the files accordingly before creating the zip. Make sure the referenced profile exists on the org.
 #### Unable to find an enum or id that matches the value provided for: ObjectValue
 If there is a field that reference an entity and the entity is not accessible on the org, this error will happen. DbSchema records are such. Check the API Name (file name) of the DbSchema record that failed and find the entity name in the xml file (check ObjectValue node). The record name usually includes the entity name, too. E.g. File DbSchema_AccountPlan likely references AccountPlan entity.
 
 ## Instructions to make changes in the repository
 * To add a new record, create a new file under 1_inactive/lifeSciConfigRecords and a new file under 2_activate/lifeSciConfigRecords. The file under 1_inactive should include field values and assignments, if any. The file under 2_activate should only include lifeSciConfigRecord properties; i.e. omit field values and assignments.
   * When naming records, prepend with the category name; e.g. DbSchema_Account where DbSchema is the category name
-  * Assignments in LifeSciConfigRecord files use Medical Sales Representative profile. If different profile(s) is needed, update the files accordingly.
+  * Assignments in LifeSciConfigRecord files use "LSC Custom Profile" profile. If different profile(s) is needed, update the files accordingly.
 * To make a change to record fields or assignments, update the corresponding file under 1_inactive/lifeSciConfigRecords
 * To make a change to record isActive or isOrgLevel fields, update the corresponding file under 2_activate/lifeSciConfigRecords
