@@ -948,6 +948,132 @@
     {
             "attributes": {
             "type": "LifeSciMetadataFieldValue",
+            "referenceId": "PresentationSettingsFieldRef23"
+            },
+        "FieldName":"ContentSearchEnabled",
+        "DataType":"BOOLEAN",
+        "DateTimeValue": null,
+        "DateValue": null,
+        "FieldValueApiName": "PresentationSettings_PresentationSettings_OrgLevel_ContentSearchEnabled",
+        "HasBooleanValue":false,
+        "IntegerValue":null,
+        "LifeScienceMetadataRecordId": "@PresentationSettingsRecordRef1",
+        "TextValue":null,
+        "LongTextValue":null,
+        "Name":"ContentSearchEnabled",
+        "NumberValue": null,
+        "PhoneValue": null,
+        "PicklistValue":null,
+        "UrlValue": null
+    },
+    {
+            "attributes": {
+            "type": "LifeSciMetadataFieldValue",
+            "referenceId": "PresentationSettingsFieldRef24"
+            },
+        "FieldName":"ContentSearchIndexApiName",
+        "DataType":"TEXT",
+        "DateTimeValue": null,
+        "DateValue": null,
+        "FieldValueApiName": "PresentationSettings_PresentationSettings_OrgLevel_ContentSearchEnabled",
+        "HasBooleanValue":false,
+        "IntegerValue":null,
+        "LifeScienceMetadataRecordId": "@PresentationSettingsRecordRef1",
+        "TextValue":null,
+        "LongTextValue":null,
+        "Name":"ContentSearchIndexApiName",
+        "NumberValue": null,
+        "PhoneValue": null,
+        "PicklistValue":null,
+        "UrlValue": null
+    },
+    {
+            "attributes": {
+            "type": "LifeSciMetadataFieldValue",
+            "referenceId": "PresentationSettingsFieldRef25"
+            },
+        "FieldName":"ContentSearchIndexedFileTypes",
+        "DataType":"MULTIPICKLIST",
+        "DateTimeValue": null,
+        "DateValue": null,
+        "FieldValueApiName": "PresentationSettings_PresentationSettings_OrgLevel_ContentSearchIndexedFileTypes",
+        "HasBooleanValue":false,
+        "IntegerValue":null,
+        "LifeScienceMetadataRecordId": "@PresentationSettingsRecordRef1",
+        "TextValue":null,
+        "LongTextValue":null,
+        "Name":"ContentSearchIndexedFileTypes",
+        "NumberValue": null,
+        "PhoneValue": null,
+        "PicklistValue":null,
+        "UrlValue": null
+    },
+    {
+            "attributes": {
+            "type": "LifeSciMetadataFieldValue",
+            "referenceId": "PresentationSettingsFieldRef26"
+            },
+        "FieldName":"EnableSendingByEmailLinks",
+        "DataType":"BOOLEAN",
+        "DateTimeValue": null,
+        "DateValue": null,
+        "FieldValueApiName": "PresentationSettings_PresentationSettings_OrgLevel_EnableSendingByEmailLinks",
+        "HasBooleanValue":false,
+        "IntegerValue":null,
+        "LifeScienceMetadataRecordId": "@PresentationSettingsRecordRef1",
+        "TextValue":null,
+        "LongTextValue":null,
+        "Name":"EnableSendingByEmailLinks",
+        "NumberValue": null,
+        "PhoneValue": null,
+        "PicklistValue":null,
+        "UrlValue": null
+    },
+    {
+            "attributes": {
+            "type": "LifeSciMetadataFieldValue",
+            "referenceId": "PresentationSettingsFieldRef27"
+            },
+        "FieldName":"PresentationLinkExpirationDays",
+        "DataType":"INTEGER",
+        "DateTimeValue": null,
+        "DateValue": null,
+        "FieldValueApiName": "PresentationSettings_PresentationSettings_OrgLevel_PresentationLinkExpirationDays",
+        "HasBooleanValue":false,
+        "IntegerValue":null,
+        "LifeScienceMetadataRecordId": "@PresentationSettingsRecordRef1",
+        "TextValue":null,
+        "LongTextValue":null,
+        "Name":"PresentationLinkExpirationDays",
+        "NumberValue": null,
+        "PhoneValue": null,
+        "PicklistValue":null,
+        "UrlValue": null
+    },
+    {
+            "attributes": {
+            "type": "LifeSciMetadataFieldValue",
+            "referenceId": "PresentationSettingsFieldRef28"
+            },
+        "FieldName":"PresentationLinkURL",
+        "DataType":"URL",
+        "DateTimeValue": null,
+        "DateValue": null,
+        "FieldValueApiName": "PresentationSettings_PresentationSettings_OrgLevel_PresentationLinkURL",
+        "HasBooleanValue":false,
+        "IntegerValue":null,
+        "LifeScienceMetadataRecordId": "@PresentationSettingsRecordRef1",
+        "TextValue":null,
+        "LongTextValue":null,
+        "Name":"PresentationLinkURL",
+        "NumberValue": null,
+        "PhoneValue": null,
+        "PicklistValue":null,
+        "UrlValue": null
+    },
+    {
+            "attributes": {
+            "type": "LifeSciMetadataFieldValue",
             "referenceId": "EmailSettingsFieldRef1"
             },
         "FieldName":"AccountLanguageFilter",
