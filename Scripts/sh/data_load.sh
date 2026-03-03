@@ -11,6 +11,5 @@ echo "Deploying configurations..."
 
 sf project deploy start -d "PackageComponents/profiles/LSC Custom Profile.profile-meta.xml" --json 1>/dev/null 2>/dev/null
 sf data import tree --plan LSConfig/lifeSciMetadataRecord/LifeSciMetadataCategory-plan.json --json 1>/dev/null 2>/dev/null
-sf project deploy start -d LSConfig/lifeSciConfigRecord/1_inactive --json 1>/dev/null 2>/dev/null
-sf project deploy start -d LSConfig/lifeSciConfigRecord/2_activate --json 1>/dev/null 2>/dev/null
+sf project deploy start -d LSConfig/lifeSciConfigRecord --json 1>/dev/null 2>/dev/null
 bash Scripts/sh/activate_trigger_handlers.sh --file TriggerHandlers/TriggerHandlers.ts
