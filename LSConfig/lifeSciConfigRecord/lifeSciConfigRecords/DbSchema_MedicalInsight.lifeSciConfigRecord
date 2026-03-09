@@ -57,7 +57,6 @@
         <dataType>LONGTEXT</dataType>
         <fieldName>WhereSoql</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
-        <longTextValue>Id in (select MedicalInsightId from MedicalInsightAccount where AccountId in ({ACCOUNT.IDS}))</longTextValue>
     </fieldValues>
     <fieldValues>
         <dataType>LONGTEXT</dataType>
