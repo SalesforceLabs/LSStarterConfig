@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LifeSciConfigCategory xmlns="http://soap.sforce.com/2006/04/metadata">
+    <category>InventoryManagementSettings</category>
+    <categoryLabel>Inventory Management Settings</categoryLabel>
+    <masterLabel>Inventory Management Settings</masterLabel>
+    <type>Hierarchical</type>
+</LifeSciConfigCategory>
