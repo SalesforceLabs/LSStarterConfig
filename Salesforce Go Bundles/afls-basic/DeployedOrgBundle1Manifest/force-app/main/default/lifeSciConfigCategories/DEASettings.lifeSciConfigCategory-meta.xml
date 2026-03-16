@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LifeSciConfigCategory xmlns="http://soap.sforce.com/2006/04/metadata">
+    <category>DEASettings</category>
+    <categoryLabel>Drug Enforcement Administration Settings</categoryLabel>
+    <masterLabel>Drug Enforcement Administration Settings</masterLabel>
+    <type>Hierarchical</type>
+</LifeSciConfigCategory>

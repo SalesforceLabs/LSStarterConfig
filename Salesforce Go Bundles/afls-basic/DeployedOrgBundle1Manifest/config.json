@@ -1,0 +1,262 @@
+{
+    "objectsList": {
+      "LifeSciMetadataCategory": {
+        "fields": [
+          {
+            "name": "Id",
+            "type": "id"
+          },
+          {
+            "name": "Name",
+            "type": "string"
+          },
+          {
+            "name": "Category",
+            "type": "picklist",
+            "unique": "false",
+            "picklistValues": [
+              {
+                "label": "PresentationSettings",
+                "value": "PresentationSettings"
+              },
+              {
+                "label": "SampleLimitSettings",
+                "value": "SampleLimitSettings"
+              },
+              {
+                "label": "EmailSettings",
+                "value": "EmailSettings"
+              },
+              {
+                "label": "AccountSearchPreferences",
+                "value": "AccountSearchPreferences"
+              },
+              {
+                "label": "AccountListActions",
+                "value": "AccountListActions"
+              },
+              {
+                "label": "ExternalSearchSettings",
+                "value": "ExternalSearchSettings"
+              },
+              {
+                "label": "AccountDynamicListConfiguration",
+                "value": "AccountDynamicListConfiguration"
+              },
+              {
+                "label": "AccountFilterConfig",
+                "value": "AccountFilterConfig"
+              },
+              {
+                "label": "ProviderVisitSettings",
+                "value": "ProviderVisitSettings"
+              },
+              {
+                "label": "ActivityPlanJob",
+                "value": "ActivityPlanJob"
+              },
+              {
+                "label": "InventoryManagementProfileSettings",
+                "value": "InventoryManagementProfileSettings"
+              }
+            ]
+          },
+          {
+            "name": "CategoryLabel",
+            "type": "string"
+          },
+          {
+            "name": "Type",
+            "type": "picklist",
+            "unique": "false",
+            "picklistValues": [
+              {
+                "label": "Hierarchical",
+                "value": "Hierarchical"
+              },
+              {
+                "label": "List",
+                "value": "List"
+              }
+            ]
+          }
+        ],
+        "relatedObjects": [],
+        "duplicateCheck": [],
+        "recordIds": [],
+        "formats": [],
+        "filters": []
+      },
+      "LifeSciMetadataRecord": {
+        "fields": [
+          {
+            "name": "Id",
+            "type": "id"
+          },
+          {
+            "name": "Name",
+            "type": "string"
+          },
+          {
+            "name": "RecordApiName",
+            "type": "string"
+          },
+          {
+            "name": "Type",
+            "type": "string"
+          },
+          {
+            "name": "IsOrgLevel",
+            "type": "boolean"
+          },
+          {
+            "name": "IsActive",
+            "type": "boolean"
+          },
+          {
+            "name": "LifeScienceMetadataCategoryId",
+            "type": "id"
+          }
+        ],
+        "relatedObjects": [
+          {
+            "name": "LifeSciMetadataCategory",
+            "referenceField": "LifeScienceMetadataCategoryId"
+          }
+        ],
+        "duplicateCheck": [],
+        "recordIds": [],
+        "formats": [],
+        "filters": []
+      },
+      "LifeSciMetadataFieldValue": {
+        "fields": [
+          {
+            "name": "Id",
+            "type": "id"
+          },
+          {
+            "name": "Name",
+            "type": "string"
+          },
+          {
+            "name": "FieldName",
+            "type": "string"
+          },
+          {
+            "name": "TextValue",
+            "type": "string"
+          },
+          {
+            "name": "HasBooleanValue",
+            "type": "boolean"
+          },
+          {
+            "name": "IntegerValue",
+            "type": "int"
+          },
+          {
+            "name": "NumberValue",
+            "type": "double"
+          },  
+          {
+            "name": "LongTextValue",
+            "type": "textarea"
+          },
+          {
+            "name": "DateValue",
+            "type": "date"
+          },
+          {
+            "name": "DateTimeValue",
+            "type": "datetime"
+          },
+          {
+            "name": "PicklistValue",
+            "type": "string"
+          },
+          {
+            "name": "UrlValue",
+            "type": "url"
+          },
+          {
+            "name": "PhoneValue",
+            "type": "phone"
+          },
+          {
+            "name": "DataType",
+            "type": "picklist",
+            "unique": "false",
+            "picklistValues": [
+              {
+                "label": "TEXT",
+                "value": "TEXT"
+              },
+              {
+                "label": "NUMBER",
+                "value": "NUMBER"
+              },
+              {
+                "label": "BOOLEAN",
+                "value": "BOOLEAN"
+              },
+              {
+                "label": "INTEGER",
+                "value": "INTEGER"
+              },
+              {
+                "label": "LONGTEXT",
+                "value": "LONGTEXT"
+              },
+              {
+                "label": "DATE",
+                "value": "DATE"
+              },
+              {
+                "label": "DATETIME",
+                "value": "DATETIME"
+              },
+              {
+                "label": "PHONE",
+                "value": "PHONE"
+              },
+              {
+                "label": "PICKLIST",
+                "value": "PICKLIST"
+              },
+              {
+                "label": "URL",
+                "value": "URL"
+              },
+              {
+                "label": "RECORDREFERENCE",
+                "value": "RECORDREFERENCE"
+              },
+              {
+                "label": "MULTIPICKLIST",
+                "value": "MULTIPICKLIST"
+              }
+            ]
+          },
+          {
+            "name": "FieldValueApiName",
+            "type": "string"
+          },
+          {
+            "name": "LifeScienceMetadataRecordId",
+            "type": "id"
+          }
+        ],
+        "relatedObjects": [
+          {
+            "name": "LifeSciMetadataRecord",
+            "referenceField": "LifeScienceMetadataRecordId"
+          }
+        ],
+        "duplicateCheck": [],
+        "recordIds": [],
+        "formats": [],
+        "filters": []
+    }
+    }
+}
