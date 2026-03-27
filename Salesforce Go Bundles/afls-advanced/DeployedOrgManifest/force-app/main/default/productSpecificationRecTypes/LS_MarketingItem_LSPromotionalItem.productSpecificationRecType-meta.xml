@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProductSpecificationRecType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <isCommercial>true</isCommercial>
+    <masterLabel>LS Marketing Item-LSPromotionalItem</masterLabel>
+    <productSpecificationType>LSPromotionalItem</productSpecificationType>
+    <recordType>Product2.LSC_Marketing_Item</recordType>
+</ProductSpecificationRecType>

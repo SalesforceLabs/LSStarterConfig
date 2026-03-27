@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Case.LSC Case Support Process</members>
+        <name>BusinessProcess</name>
+    </types>
+    <types>
+        <members>API_isoa</members>
+        <members>Axtria</members>
+        <members>Freepik</members>
+        <members>Immunexis</members>
+        <members>SFDC_Digital</members>
+        <members>ThumbsDreamline</members>
+        <name>CspTrustedSite</name>
+    </types>
+    <types>
+        <members>lsc4ce__lifeSciencesCommercial</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Account</members>
+        <members>BusinessLicense</members>
+        <members>Case</members>
+        <members>HealthcareProvider</members>
+        <members>HealthcareProviderSpecialty</members>
+        <members>Inquiry</members>
+        <members>InquiryQuestion</members>
+        <members>InquiryQuestionAnswer</members>
+        <members>PersonAccount</members>
+        <members>Product2</members>
+        <members>ProviderAcctTerritoryInfo</members>
+        <members>ProviderVisitProdDiscussion</members>
+        <members>User</members>
+        <members>Visit</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Account_Plan3</members>
+        <members>Account_Plan_Objective_Record_Page3</members>
+        <members>CPVisitLandingPage</members>
+        <members>Contact_Point_Address_Record_Page</members>
+        <members>Goal_Definition1</members>
+        <members>Home_Page_LSC_Default</members>
+        <members>LSCAccountHCP</members>
+        <members>LSC_Inquiry</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Account-HCO Account Layout</members>
+        <members>Case-LSC Case Layout</members>
+        <members>Inquiry-LSC Inquiry Layout</members>
+        <members>InquiryQuestion-LSC Inquiry Question Layout</members>
+        <members>InquiryQuestionAnswer-LSC Inquiry Question Answer Layout</members>
+        <members>PersonAccount-Person Account HCP Layout</members>
+        <members>ProviderVisit-LSC Provider Visit Layout</members>
+        <members>ProviderVisitProdDiscussion-Product Feedback</members>
+        <members>Visit-LSC Visit Layout</members>
+        <members>ActivityPlanTerritory-Activity Plan Territory Layout</members>
+        <members>CommSubscription-Communication Subscription Layout</members>
+        <members>CommSubscriptionChannelType-Communication Subscription Channel Type Layout</members>
+        <members>CommSubscriptionConsent-Communication Subscription Consent Layout</members>
+        <members>HealthcareProvider-Healthcare Provider Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>LSC_Sample_LSSampleProduct</members>
+        <members>LS_MarketingItem_LSPromotionalItem</members>
+        <name>ProductSpecificationRecType</name>
+    </types>
+    <types>
+        <members>LSPromotionalItem</members>
+        <members>LSSampleProduct</members>
+        <name>ProductSpecificationType</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <members>LSC Custom Profile</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Account.LogAVisit</members>
+        <members>Visit.Inquiry</members>
+        <name>QuickAction</name>
+    </types>
+    <types>
+        <members>AccountRating</members>
+        <members>CaseStatus</members>
+        <members>CareSpecialtySpecialtyType</members>
+        <members>HealthcareProviderStatus</members>
+        <members>HProviderProviderType</members>
+        <members>HProviderProviderClass</members>
+        <members>CasePriority</members>
+        <members>InquiryTypeEnum</members>
+        <members>PAAffiliationRole</members>
+        <members>CPSSocialPlatformProvider</members>
+        <name>StandardValueSet</name>
+    </types>
+    <types>
+        <members>LSCTerritoryModel.DMNewJersey20B06</members>
+        <members>LSCTerritoryModel.DMSanFrancisco20D02</members>
+        <members>LSCTerritoryModel.RDNortheast20B</members>
+        <members>LSCTerritoryModel.RDWest20D</members>
+        <members>LSCTerritoryModel.TMSPCEastOrange20B06T10</members>
+        <members>LSCTerritoryModel.TMSPCSanFranciscoNorth20D02T11</members>
+        <name>Territory2</name>
+    </types>
+    <types>
+        <members>LSCTerritoryModel</members>
+        <name>Territory2Model</name>
+    </types>
+    <types>
+        <members>Geographical</members>
+        <name>Territory2Type</name>
+    </types>
+    <version>65.0</version>
+</Package>
