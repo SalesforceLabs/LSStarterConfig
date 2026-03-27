@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>IPA</fullName>
+        <default>false</default>
+        <label>IPA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Medical Group</fullName>
+        <default>false</default>
+        <label>Medical Group</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Solo Practitioner</fullName>
+        <default>false</default>
+        <label>Solo Practitioner</label>
+    </standardValue>
+</StandardValueSet>
