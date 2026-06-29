@@ -8,6 +8,7 @@
         <dataType>PICKLIST</dataType>
         <fieldName>AttachmentsSupport</fieldName>
         <hasBooleanValue>false</hasBooleanValue>
+        <picklistValue>Cache</picklistValue>
     </fieldValues>
     <fieldValues>
         <dataType>PICKLIST</dataType>
