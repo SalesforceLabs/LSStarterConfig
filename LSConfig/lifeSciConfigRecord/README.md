@@ -23,6 +23,13 @@ Each LifeSciConfigRecord file includes:
 - Field values and assignments
 - `isActive` and `isOrgLevel` properties set to their final values
 
+For custom profiles on Summer '26 and later orgs, the "Custom-" prefix is required for the profile name in the lifeSciConfigRecord assignment
+Example is as below.
+ <assignments>
+   <assignedTo>Custom-LSC Custom Profile</assignedTo>
+   <assignmentLevel>Profile</assignmentLevel>
+ </assignments>
+
 ## Instructions to deploy to a target org
 
 ### Using Salesforce CLI
