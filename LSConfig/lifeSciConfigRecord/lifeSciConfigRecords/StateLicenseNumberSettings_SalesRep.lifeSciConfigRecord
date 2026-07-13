@@ -9,7 +9,7 @@
     <isActive>true</isActive>
     <isOrgLevel>false</isOrgLevel>
     <assignments>
-        <assignedTo>LSC Custom Profile</assignedTo>
+        <assignedTo>Custom-LSC Custom Profile</assignedTo>
         <assignmentLevel>Profile</assignmentLevel>
     </assignments>
     <lifeSciConfigCategory>StateLicenseNumberSettings</lifeSciConfigCategory>
