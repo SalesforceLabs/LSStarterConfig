@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Hospital</fullName>
+        <default>false</default>
+        <label>Hospital</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Ambulatory Care</fullName>
+        <default>false</default>
+        <label>Ambulatory Care</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Laboratory</fullName>
+        <default>false</default>
+        <label>Laboratory</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pharmacy</fullName>
+        <default>false</default>
+        <label>Pharmacy</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dentist</fullName>
+        <default>false</default>
+        <label>Dentist</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pharmacist</fullName>
+        <default>false</default>
+        <label>Pharmacist</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Medical Doctor</fullName>
+        <default>false</default>
+        <label>Medical Doctor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Research Study Investigator</fullName>
+        <default>false</default>
+        <label>Research Study Investigator</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Research Study Sub-Investigator</fullName>
+        <default>false</default>
+        <label>Research Study Sub-Investigator</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Research Study Coordinator</fullName>
+        <default>false</default>
+        <label>Research Study Coordinator</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Research Study Nurse</fullName>
+        <default>false</default>
+        <label>Research Study Nurse</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Site Management Organization Coordinator</fullName>
+        <default>false</default>
+        <label>Site Management Organization Coordinator</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Research Study Operations Manager</fullName>
+        <default>false</default>
+        <label>Research Study Operations Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Research Study Feasibility Manager</fullName>
+        <default>false</default>
+        <label>Research Study Feasibility Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Research Study Director</fullName>
+        <default>false</default>
+        <label>Research Study Director</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Medical Director</fullName>
+        <default>false</default>
+        <label>Medical Director</label>
+    </standardValue>
+</StandardValueSet>

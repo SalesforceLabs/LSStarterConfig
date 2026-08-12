@@ -1,0 +1,67 @@
+AccountId,Id,Rank,SnoozeUntilDate,TerritoryId,TotalScore,ScoreExplainabilityInfo
+001fic00000mSy6AAE,8fdfic000001XWbAAM,2,,0MIfic000001GNiGAM,40,"{
+""scores"": {
+""Last Visit"": 25,
+""Message Engagement"": 20,
+""Immunexis TRx Growth"": 18,
+""Immunexis NRx Trend"": 15,
+""Open Opportunities"": 12,
+""Market Share Growth"": 10,
+""High Value Patients"": 10,
+""Patient Initiations"": 8,
+""Event Attendance"": 5,
+""Formulary Access"": 5,
+""Competitive Activity"": 3,
+""customPicklist-Account.Segmentation__c"": 2
+},
+""metrics"": {
+""Last Visit"": ""Visited on 07/22"",
+""Message Engagement"": ""Discussed Immunexis on 08/05"",
+""Immunexis TRx Growth"": ""+12% last quarter"",
+""Immunexis NRx Trend"": ""+8% month over month"",
+""Open Opportunities"": ""2 in pipeline"",
+""Market Share Growth"": ""+5% YoY"",
+""High Value Patients"": ""12 eligible patients identified"",
+""Patient Initiations"": ""+5 new starts in August"",
+""Event Attendance"": ""Joined Immunexis webinar on 09/05"",
+""Formulary Access"": ""Tier 2 preferred on major regional payer"",
+""Competitive Activity"": ""2 recent mentions of competitor therapy"",
+""customPicklist-Account.Segmentation__c"": ""Tier A High Priority Doctor""
+},
+""customLabels"": {
+""customPicklist-Account.Segmentation__c"": ""Segmentation""
+}
+}"
+001fic00000mSy5AAE,8fdfic000001XWdAAM,1,,0MIfic000001GNiGAM,100,"{
+""scores"": {
+""Last Visit"": 25,
+""Message Engagement"": 20,
+""Immunexis TRx Growth"": 18,
+""Immunexis NRx Trend"": 15,
+""Open Opportunities"": 12,
+""Market Share Growth"": 10,
+""High Value Patients"": 10,
+""Patient Initiations"": 8,
+""Event Attendance"": 5,
+""Formulary Access"": 5,
+""Competitive Activity"": 3,
+""customPicklist-Account.Segmentation__c"": 2
+},
+""metrics"": {
+""Last Visit"": ""Visited on 07/22"",
+""Message Engagement"": ""Discussed Immunexis on 08/05"",
+""Immunexis TRx Growth"": ""+12% last quarter"",
+""Immunexis NRx Trend"": ""+8% month over month"",
+""Open Opportunities"": ""2 in pipeline"",
+""Market Share Growth"": ""+5% YoY"",
+""High Value Patients"": ""12 eligible patients identified"",
+""Patient Initiations"": ""+5 new starts in August"",
+""Event Attendance"": ""Joined Immunexis webinar on 09/05"",
+""Formulary Access"": ""Tier 2 preferred on major regional payer"",
+""Competitive Activity"": ""2 recent mentions of competitor therapy"",
+""customPicklist-Account.Segmentation__c"": ""Tier A High Priority Doctor""
+},
+""customLabels"": {
+""customPicklist-Account.Segmentation__c"": ""Segmentation""
+}
+}"

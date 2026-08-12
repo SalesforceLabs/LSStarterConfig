@@ -1,0 +1,6 @@
+Id,IsSuggestedActivity,OverallGoal,ProviderActivityGoalId,ProviderActivityMeasureTypeId,TotalActualActivityValue,TotalScheduledActivityValue,Type
+1IMfic0000006obGAA,False,25,1IOfic0000007cbGAA,1ILfic000000255GAA,12,84,Goal
+1IMfic0000006ocGAA,False,25,1IOfic0000007cbGAA,1ILfic000000254GAA,0,5,Goal
+1IMfic0000006odGAA,False,20,1IOfic0000007ccGAA,1ILfic000000255GAA,,,Goal
+1IMfic0000006oeGAA,False,25,1IOfic0000007ccGAA,1ILfic000000254GAA,,,Goal
+1IMfic0000006ofGAA,True,,1IOfic0000007ccGAA,1ILfic000000253GAA,,,Goal

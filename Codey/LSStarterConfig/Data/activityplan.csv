@@ -1,0 +1,3 @@
+ActivityChgRvwThresholdPct,AssigneeDueDate,Id,IsActive,IsCalculationEnabled,Name,ReviewerDueDate,Status,TimePeriodId,TotalAcctChgThresholdPct,TotalActvtyChgThresholdPct,Type,UsageType
+,,1INfic0000005PVGAY,True,True,SF North H2 2025-H1 2026,,InProgress,9TPfic0000008P0GAI,,,AccountGoal,ProviderPlanCycle
+50,2025-11-30,1INfic0000005PWGAY,False,False,SF North H1 2026,2025-12-31,EmployeeReview,9TPfic0000008OzGAI,50,50,AccountGoal,ProviderPlanCycle

@@ -1,0 +1,6 @@
+Id,FieldValue,LifeSciStagePathId,Name,SourceSystemIdentifier
+1Hyfic000000CArCAM,Draft,1Hxfic000000BJdCAM,Draft,LifeSciStageValueRef1
+1Hyfic000000CAsCAM,Signed,1Hxfic000000BJdCAM,Signed,LifeSciStageValueRef2
+1Hyfic000000CAtCAM,Submitted,1Hxfic000000BJdCAM,Submitted,LifeSciStageValueRef3
+1Hyfic000000CAuCAM,Assigned,1Hxfic000000BJdCAM,Assigned,LifeSciStageValueRef4
+1Hyfic000000CAvCAM,Responded,1Hxfic000000BJdCAM,Responded,LifeSciStageValueRef5

@@ -1,0 +1,26 @@
+[
+    {
+        "sobject": "LifeSciMetadataCategory",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "LifeSciMetadataCategory.json"
+        ]
+    },
+    {
+        "sobject": "LifeSciMetadataRecord",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "LifeSciMetadataRecord.json"
+        ]
+    },
+    {
+        "sobject": "LifeSciMetadataFieldValue",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "LifeSciMetadataFieldValue.json"
+        ]
+    }
+]

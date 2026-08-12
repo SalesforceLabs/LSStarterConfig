@@ -1,0 +1,5 @@
+ContactPointType,Id,IsActive,Name
+Email,0eFfic000000BTJEA2,True,Email
+MailingAddress,0eFfic000000BTKEA2,True,Direct Mail
+Phone,0eFfic000000BTLEA2,True,Mobile - SMS
+Social,0eFfic000000BTMEA2,True,WhatsApp

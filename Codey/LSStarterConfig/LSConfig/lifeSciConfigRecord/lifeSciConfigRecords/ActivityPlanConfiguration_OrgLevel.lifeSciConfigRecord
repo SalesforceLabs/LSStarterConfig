@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LifeSciConfigRecord xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldValues>
+        <dataType>INTEGER</dataType>
+        <fieldName>BatchSize</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+        <integerValue>1000</integerValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>BOOLEAN</dataType>
+        <fieldName>NonProductCumulative</fieldName>
+        <hasBooleanValue>true</hasBooleanValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>BOOLEAN</dataType>
+        <fieldName>ProductCumulative</fieldName>
+        <hasBooleanValue>true</hasBooleanValue>
+    </fieldValues>
+    <fieldValues>
+        <dataType>BOOLEAN</dataType>
+        <fieldName>EnableWorkingDaysCalculations</fieldName>
+        <hasBooleanValue>false</hasBooleanValue>
+    </fieldValues>
+    <isActive>true</isActive>
+    <isOrgLevel>true</isOrgLevel>
+    <lifeSciConfigCategory>ActivityPlanConfiguration</lifeSciConfigCategory>
+    <masterLabel>ActivityPlanConfiguration_OrgLevel</masterLabel>
+</LifeSciConfigRecord>

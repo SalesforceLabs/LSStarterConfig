@@ -1,0 +1,9 @@
+{
+  "packageDirectories": [
+    {
+      "path": "LSConfig/lifeSciConfigRecord",
+      "default": true
+    }
+  ],
+  "sourceApiVersion": "65.0"
+}

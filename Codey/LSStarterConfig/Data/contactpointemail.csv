@@ -1,0 +1,9 @@
+ActiveFromDate,EmailAddress,Id,IsPrimary,ParentId,PreferenceRank,UsageType
+2025-05-01,aaron.morita@cumuluspharma.com,9Vlfic00000nhyHCAQ,False,001fic00000mSy5AAE,1,Work
+2026-01-01,aaron.morita@salesforce.com,9Vlfic00000nhyICAQ,True,001fic00000mSy5AAE,,Work
+2025-05-13,aaronmorita@cumuluspharma.com,9Vlfic00000nhyJCAQ,False,001fic00000mSy5AAE,,Work
+2025-05-01,maria.ignacia@cumuluspharma.com,9Vlfic00000nhyKCAQ,True,001fic00000mSy6AAE,1,Work
+2025-05-13,mariaignacia@cumuluspharma.com,9Vlfic00000nhyLCAQ,False,001fic00000mSy6AAE,,Work
+2025-05-01,reimbursements@partnershealthcare.com,9Vlfic00000nhyMCAQ,False,001fic00000mSwTAAU,1,Work
+2025-05-01,events@partnershealthcare.com,9Vlfic00000nhyNCAQ,False,001fic00000mSwTAAU,1,Work
+2025-05-01,pharmacy@partnershealthcare.com,9Vlfic00000nhyOCAQ,False,001fic00000mSwTAAU,1,Work

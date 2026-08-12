@@ -1,0 +1,3 @@
+Id,IsBusinessPhone,IsFaxCapable,IsPrimary,ParentId,TelephoneNumber,UsageType
+0Owfic00000nZO1CAM,False,False,True,001fic00000mSy5AAE,(415) 981-9150,Work
+0Owfic00000nZO2CAM,True,True,True,001fic00000mSwTAAU,(415) 981-9150,Work

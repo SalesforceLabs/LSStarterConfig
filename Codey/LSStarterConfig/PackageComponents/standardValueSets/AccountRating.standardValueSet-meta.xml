@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Hot</fullName>
+        <default>false</default>
+        <label>Hot</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Warm</fullName>
+        <default>false</default>
+        <label>Warm</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cold</fullName>
+        <default>false</default>
+        <label>Cold</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tier 1</fullName>
+        <default>false</default>
+        <label>Tier 1</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tier 2</fullName>
+        <default>false</default>
+        <label>Tier 2</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tier 3</fullName>
+        <default>false</default>
+        <label>Tier 3</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tier 4</fullName>
+        <default>false</default>
+        <label>Tier 4</label>
+    </standardValue>
+</StandardValueSet>

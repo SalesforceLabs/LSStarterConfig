@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LifeSciConfigCategory xmlns="http://soap.sforce.com/2006/04/metadata">
+    <category>AccountProviderVisitRecordTypeMapping</category>
+    <masterLabel>Account - Provider Visit Record Type Mapping</masterLabel>
+    <type>List</type>
+</LifeSciConfigCategory>

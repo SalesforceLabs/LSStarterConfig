@@ -1,0 +1,6 @@
+AlignmentType,Id,ProductId,Purpose,Status,TerritoryId,UsageType
+Territory Inclusion,1Kwfic00000DLzWCAW,1Kefic000000mzBCAQ,Visit,Queued,0MIfic000001GNiGAM,LifeSciences
+Territory Inclusion,1Kwfic00000DLzXCAW,1Kefic000000mzCCAQ,Visit,Queued,0MIfic000001GNiGAM,LifeSciences
+Territory Inclusion,1Kwfic00000DLzYCAW,1Kefic000000n0kCAA,Visit,Queued,0MIfic000001GNiGAM,LifeSciences
+Territory Inclusion,,1Kefic000000mzDCAQ,Visit,Queued,0MIfic000001GNiGAM,LifeSciences
+Territory Inclusion,,1Kefic000000mzECAQ,Visit,Queued,0MIfic000001GNiGAM,LifeSciences

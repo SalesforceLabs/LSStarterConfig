@@ -1,0 +1,3 @@
+AccountId,ActivityPlanId,ActlNonProdtActvtyCapVal,ActualNonProdtActvtyValue,ActualProdtActvtyCapValue,ActualProductActivityValue,Id,NonProductGoal,OverallGoal,ProductLevelGoal,SchdNonProdtActvtyCapVal,SchdProdtActvtyCappedValue,ScheduledNonProdtActvtyVal,TotalActlActvtyWeightedVal,TotalActualActivityValue,TotalSchdActvtyWeightedVal,TotalSchdProdtActvtyValue,TotalScheduledActivityValue
+001fic00000mSy5AAE,1INfic0000005PVGAY,12,12,0,0,1IOfic0000007cbGAA,50,50,0,30,0,89,0,12,0,0,89
+001fic00000mSy5AAE,1INfic0000005PWGAY,,,,,1IOfic0000007ccGAA,,,,,,,,,,,

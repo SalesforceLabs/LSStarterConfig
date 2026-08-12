@@ -1,0 +1,4 @@
+Id,ActivityAccountField,ActivityObject,ActivityTerritoryField,ActivityTypeDtTmField,ActivityTypeField,ActivityTypeFieldValue,ActivityTypeStatusField,ActivityTypeStatusList,ActivityTypSchdStatusList,DeveloperName,DisplayOrder,IsActive,Language,MasterLabel
+1ILfic000000253GAA,AccountId,Visit,TerritoryId,PlannedVisitStartTime,Channel,Phone,Status,Completed,Planned;InProgress,Phone_Visit,1,True,en_US,Phone Visit
+1ILfic000000254GAA,AccountId,Visit,TerritoryId,PlannedVisitStartTime,Channel,Remote,Status,Completed,Planned;InProgress,Remote_Visit,2,True,en_US,Remote Visit
+1ILfic000000255GAA,AccountId,Visit,TerritoryId,PlannedVisitStartTime,Channel,In-Person,Status,Completed,InProgress;Planned,In_Person_Visit,0,True,en_US,In Person Visit

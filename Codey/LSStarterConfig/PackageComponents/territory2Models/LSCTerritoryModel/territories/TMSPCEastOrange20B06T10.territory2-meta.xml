@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Territory2 xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accountAccessLevel>Read</accountAccessLevel>
+    <caseAccessLevel>None</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <name>TM - SPC - East Orange 20B06T10</name>
+    <opportunityAccessLevel>None</opportunityAccessLevel>
+    <parentTerritory>DMNewJersey20B06</parentTerritory>
+    <territory2Type>Geographical</territory2Type>
+</Territory2>
