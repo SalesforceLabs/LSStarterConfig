@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Primary Care</fullName>
+        <default>false</default>
+        <label>Primary Care</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Surgery</fullName>
+        <default>false</default>
+        <label>Surgery</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Specialist</fullName>
+        <default>false</default>
+        <label>Specialist</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Medical Therapist</fullName>
+        <default>false</default>
+        <label>Medical Therapist</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Natural Therapy Professional</fullName>
+        <default>false</default>
+        <label>Natural Therapy Professional</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Mental Health</fullName>
+        <default>false</default>
+        <label>Mental Health</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Immunology</fullName>
+        <default>false</default>
+        <label>Immunology</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Internal Medicine</fullName>
+        <default>false</default>
+        <label>Internal Medicine</label>
+    </standardValue>
+</StandardValueSet>

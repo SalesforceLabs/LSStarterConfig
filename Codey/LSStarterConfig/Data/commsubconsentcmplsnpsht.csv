@@ -1,0 +1,35 @@
+AccountRestrictedProdtList,AccountTerrRstrcProdtList,ConsentGiverId,Id,ReceiptRequestStatus,TermsAndConditionsText
+[],"{""0MIfic000001GNiGAM"":[""""]}",001fic00000mSy5AAE,1SJfic000000BZlGAM,NotRequested,"<!DOCTYPE html>
+<html>
+  <head>
+    <title>Terms and Conditions</title>
+  </head>
+  <body>
+    <style>
+    p {
+        font-family: Verdana;
+        font-size: 20px;
+        color: black;
+        }
+        </style>
+    <p><b>By consenting to receive communications from Makana Pharma</b>, the healthcare professional agrees to the following terms and conditions:</p>
+    &nbsp;
+    <p style=text-indent:40px;>1. The healthcare professional acknowledges that the information provided by Makana Pharma is for educational and informational purposes only and should not be considered medical advice.</p>
+	  &nbsp;
+    <p style=text-indent:40px;>2. The healthcare professional agrees to use the information provided by Makana Pharma in a responsible and ethical manner, taking into account the best interests of their patients.</p>
+	  &nbsp;
+    <p style=text-indent:40px;>3. The healthcare professional understands that any recommendations or suggestions made by Makana Pharma are based on the available scientific evidence at the time of publication and may be subject to change.</p>
+	  &nbsp;
+    <p style=text-indent:40px;>4. The healthcare professional agrees to comply with all relevant laws, regulations, and industry guidelines when using or sharing information provided by Makana Pharma.</p>
+	  &nbsp;
+    <p style=text-indent:40px;>5. The healthcare professional acknowledges that Makana Pharma may collect and use their personal information for the purpose of communicating with them and providing relevant information.</p>
+	  &nbsp;
+    <p style=text-indent:40px;>6. The healthcare professional agrees to keep their login credentials and any other access information provided by Makana Pharma confidential and not share them with unauthorized individuals.</p>
+	  &nbsp;
+    <p style=text-indent:40px;>7. The healthcare professional understands that they have the right to unsubscribe from communications from Makana Pharma at any time by following the instructions provided in the communication.</p>
+	  &nbsp;
+    <p><b>Data Privacy</b> - Makana policies concerning the use of your personal information are set forth in the Online Privacy Statement and incorporated by reference herein. By using the services provided by our sales reps, you agree to waive and release Makana from any claim or liability in connection with the collection, use, or disclosure of information consistent with Makana Data Privacy Statement.
+    &nbsp;
+    <p><b>By acknowledging these terms and conditions, the healthcare professional consents to receive communications from Makana Pharma and agrees to abide by the terms outlined above.</b></p>
+  </body>
+</html><br/>"

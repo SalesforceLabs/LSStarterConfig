@@ -1,0 +1,5 @@
+Id,CaseId,Comment,InquiryId,ProductReferenceRecordId,Question,ResponseStatus
+1Lxfic000000veDCAQ,500fic000004I1ZAAU,Looking for a quick response,1Lwfic000001iJxCAI,1Kefic000000mzDCAQ,"Can you provide me with the head-to-head trial data comparing your new drug to the current standard of care? I am looking for specific, measurable differences in efficacy and safety to help me make an educated choice for my patients",NotResponded
+1Lxfic000000veECAQ,500fic000004I1aAAE,,1Lwfic000001iJyCAI,,General Question,
+1Lxfic000000veFCAQ,500fic000004I1bAAE,,1Lwfic000001iJzCAI,1Kefic000000mzDCAQ,Question 1,NotResponded
+1Lxfic000000veGCAQ,500fic000004I1bAAE,,1Lwfic000001iJzCAI,1Kefic000000mzDCAQ,Question 2,NotResponded

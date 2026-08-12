@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Health_Care_Organization</fullName>
+    <active>true</active>
+    <label>Health Care Organization</label>
+    <picklistValues>
+        <picklist>ProviderClass</picklist>
+        <values>
+            <fullName>IPA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medical Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solo Practitioner</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ProviderType</picklist>
+        <values>
+            <fullName>Ambulatory Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dentist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospital</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Laboratory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medical Director</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medical Doctor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pharmacist</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pharmacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research Study Coordinator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research Study Director</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research Study Feasibility Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research Study Investigator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research Study Nurse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research Study Operations Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Research Study Sub-Investigator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Site Management Organization Coordinator</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

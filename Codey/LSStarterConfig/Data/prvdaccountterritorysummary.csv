@@ -1,0 +1,51 @@
+Id,AccountId,KeyInformationSummary,KeyInformationHash,KeyInfoSummaryDateTime,Territory2Id,UserId
+1Tsfic0000009cnCAA,001fic00000mSy5AAE,"{
+  ""keyInfo"": [
+    {
+      ""sectionName"": ""Key Activities & Engagement"",
+      ""sectionData"": [
+        {
+          ""data"": ""A total of 122 visits or calls were recorded for the provider, spanning from October 7 to October 17, 2025.""
+        },
+        {
+          ""data"": ""High engagement with Immunexis, discussed in 14 recorded interactions, followed by Cordim with 8 mentions.""
+        },
+        {
+          ""data"": ""Recently, the provider inquired about the long-term safety data of Immunexis in elderly patients, indicating clinical interest.""
+        }
+      ]
+    },
+    {
+      ""sectionName"": ""Discussion Points"",
+      ""sectionData"": [
+        {
+          ""data"": ""Follow up on their recent clinical question about the long-term safety of Immunexis in elderly patients.""
+        },
+        {
+          ""data"": ""Discuss their engagement with Immunexis and Cordim, and explore potential areas for further collaboration.""
+        }
+      ]
+    }
+  ],
+  ""changeInfo"": [
+    {
+      ""sectionName"": ""Affiliation Updates"",
+      ""sectionData"": [
+        {
+          ""data"": ""The provider recently affiliated with Partners HealthCare on October 14, 2025.""
+        }
+      ]
+    },
+    {
+      ""sectionName"": ""Recent Publications & Accreditations"",
+      ""sectionData"": [
+        {
+          ""data"": ""The provider published 'Climate change and global issues in allergy and immunology' in the Journal of Allergy and Clinical Immunology on October 12, 2025.""
+        },
+        {
+          ""data"": ""The provider received accreditation from the American Association of Immunologists on October 15, 2025.""
+        }
+      ]
+    }
+  ]
+}",33D3A1E7E3A796BEB5E44B1CD0FA8BD41852838777,2026-03-17T06:30:25.000+0000,0MIfic000001GNiGAM,005fic0000017NdAAI

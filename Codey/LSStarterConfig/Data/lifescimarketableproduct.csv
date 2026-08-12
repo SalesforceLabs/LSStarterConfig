@@ -1,0 +1,7 @@
+DistributionMethod,EndDate,Id,IsActive,IsAvlForSamplingAllocation,Manufacturer,Name,ParentBrandProductId,ParentProductId,ProductId,SignatureRequirementLevel,SortOrder,StartDate,Type
+,,1Kefic000000mzBCAQ,True,False,,Rheumatology,,1Kefic000000mzCCAQ,,,13,2025-01-01,TherapeuticArea
+,,1Kefic000000mzCCAQ,True,False,,Autoimmune Disorders,,,,,1,2025-01-01,Market
+,,1Kefic000000mzDCAQ,True,False,,Immunexis,,1Kefic000000mzCCAQ,,NotRequired,10,2025-01-01,Brand
+,2030-12-31,1Kefic000000mzECAQ,True,False,,Cordim,,1Kefic000000mzCCAQ,,NotRequired,11,2025-01-01,Brand
+Drop,,1Kefic000000n0jCAA,True,True,Makana Health,Immunexis 5mg,1Kefic000000mzDCAQ,1Kefic000000mzDCAQ,01tfic000000SNhAAM,Mandatory,100,2025-01-01,Product
+DropAndShip,,1Kefic000000n0kCAA,True,True,Makana Health,Cordim 10mg,1Kefic000000mzECAQ,1Kefic000000mzECAQ,01tfic000000SNiAAM,Mandatory,110,2025-01-01,Product

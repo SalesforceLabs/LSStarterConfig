@@ -1,0 +1,6 @@
+AccountId,AffiliationStrengthType,AffiliationType,CareSpecialtyId,EffectiveEndDate,EffectiveStartDate,Id,InfluenceType,IsActive,IsInstitutionDoctorAffl,IsPrimary,RelatedAccountId,Role
+001fic00000mSy5AAE,High,Soft,0bcfic000000LNqAAM,,,1N1fic00006GPqHCAW,Unidirectional,True,False,True,001fic00000mSy6AAE,Affiliated Practice-Doctor-AAR
+001fic00000mSwTAAU,High,Hard,,2027-12-31,2025-01-01,1N1fic00006GPqICAW,Bidirectional,True,False,False,001fic00000mSy5AAE,Affiliated Practice-Doctor-AAR
+001fic00000mSy5AAE,High,Hard,,,2025-01-01,1N1fic00006GPqJCAW,Unidirectional,True,False,False,001fic00000mSwUAAU,Affiliated Practice-Doctor-AAR
+001fic00000mSy5AAE,High,Hard,,,2025-01-01,1N1fic00006GPqKCAW,Unidirectional,True,False,False,001fic00000mSwTAAU,Affiliated Practice-Doctor-AAR
+001fic00000mSy5AAE,High,Hard,0bcfic000000LNqAAM,,,1N1fic00006GPrpCAG,Bidirectional,False,True,True,001fic00000mSwVAAU,Affiliated Practice-Doctor-AAR

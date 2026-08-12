@@ -1,0 +1,3 @@
+Id,IsControlledByStagePath,Name,ObjectName,ParentObjRelaFieldName,SourceSystemIdentifier
+1Hwfic000000BxxCAE,True,LifeSciStageObjectRef1,Inquiry,,LifeSciStageObjectRef1
+1Hwfic000000BxyCAE,True,InquiryQuestion_InquiryId,InquiryQuestion,InquiryId,InquiryQuestion_InquiryId_1760039283301
