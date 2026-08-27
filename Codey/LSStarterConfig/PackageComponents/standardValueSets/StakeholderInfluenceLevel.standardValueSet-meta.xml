@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>District</fullName>
+        <default>false</default>
+        <label>District</label>
+    </standardValue>
+    <standardValue>
+        <fullName>National</fullName>
+        <default>false</default>
+        <label>National</label>
+    </standardValue>
+    <standardValue>
+        <fullName>International</fullName>
+        <default>false</default>
+        <label>International</label>
+    </standardValue>
+</StandardValueSet>
