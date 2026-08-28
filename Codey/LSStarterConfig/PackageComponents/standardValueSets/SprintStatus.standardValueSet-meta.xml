@@ -12,9 +12,9 @@
         <label>In Progress</label>
     </standardValue>
     <standardValue>
-        <fullName>Closed</fullName>
+        <fullName>Completed</fullName>
         <default>false</default>
-        <label>Closed</label>
+        <label>Completed</label>
     </standardValue>
     <standardValue>
         <fullName>Deferred</fullName>
