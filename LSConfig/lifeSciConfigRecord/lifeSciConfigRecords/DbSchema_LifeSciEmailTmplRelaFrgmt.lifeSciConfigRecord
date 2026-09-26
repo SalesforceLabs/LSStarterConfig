@@ -50,7 +50,7 @@
     <fieldValues>
         <dataType>FIELD</dataType>
         <fieldName>DeltaDateField</fieldName>
-        <fieldValue>LastModifiedDate</fieldValue>
+        <fieldValue>SystemModstamp</fieldValue>
         <hasBooleanValue>false</hasBooleanValue>
     </fieldValues>
     <fieldValues>
