@@ -1,11 +1,14 @@
 import { createElement } from '@lwc/engine-dom';
 import LscMobileInline_SimpleWidget from 'c/lscMobileInline_SimpleWidget';
 
-// Mock the lightning/barcodeScanner module
-jest.mock('lightning/barcodeScanner', () => {
+// Mock the lightning/mobileCapabilities module (the component imports getBarcodeScanner from it)
+jest.mock('lightning/mobileCapabilities', () => {
     return {
-        scan: jest.fn().mockImplementation(() => Promise.resolve({ value: '12345' })),
-        BarcodeScanner: jest.fn()
+        getBarcodeScanner: jest.fn().mockImplementation(() => ({
+            isAvailable: jest.fn().mockReturnValue(false),
+            beginCapture: jest.fn().mockImplementation(() => Promise.resolve({ value: '12345' })),
+            endCapture: jest.fn()
+        }))
     };
 }, { virtual: true });
 
